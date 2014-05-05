@@ -146,7 +146,7 @@ $(function () {
         $('body').click()
         ok($("#qunit-fixture .open").length === 0, 'open class removed')
 
-        $("#qunit-fixture").html("")
+        $("#qunit-fixture").php("")
       })
 
       test("should fire show and hide event", function () {

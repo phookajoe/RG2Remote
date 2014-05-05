@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost/RG2Remote/updates/update1/css/style01.css */
+
 .darkblue{
 color:#003366;
 }
@@ -891,25 +894,34 @@ font-size:14px;
 font-weight:bold;
 }
 .nav2 > li.active > a{
+color: #ea9a16;
 }
 
 .navlight > li > a{
-color:#fff;
+color: #3f7086 !important;
+	background-color: #ffffff;
 }
 .navlight > li.active> a{
-color:#fff;
+color: #ea9a16;
 }
 .navdark > li > a{
-color:#666!important;
+color: #3f7086 !important;
+	background-color: #ffffff;
 }
+
+
+
 .navdark > li.active > a{
-color:#006599;
+color: #ea9a16;
 }
 
 
-img.logo2 {width:108px; margin-top:-13px;}
+img.logo2 {width:220px; margin-top:-13px;}
 @media (min-width: 992px) {
-img.logo2 {width:108px; margin-top:-43px;}
+img.logo2 {width:293px; margin-top:-43px;
+	padding: 20px;
+	
+}
 }
 
 
@@ -952,8 +964,7 @@ position:relative;
 left:0;
 right:0; 
 max-width:550px; 
-margin:  auto; 
-margin-top:160px;
+margin: 260px auto auto;
 }
 
 .tsdow{

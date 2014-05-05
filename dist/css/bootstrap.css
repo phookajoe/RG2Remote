@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost/RG2Remote/dist/css/bootstrap.css */
+
 /*!
  * Bootstrap v3.0.0
  *
@@ -2076,6 +2079,7 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
   background-image: none;
+  
 }
 
 .btn-default.disabled,
@@ -3832,6 +3836,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 10px 3px 10px 7px;
+	margin-top: 0;
+	margin-bottom: 10px;
 }
 
 
@@ -3973,8 +3979,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #ffffff;
-  background-color: #428bca;
+color: #417287;  
+background-color: #428bca;
 }
 
 .nav-stacked > li {
@@ -4229,11 +4235,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-right: 0;
   }
 }
-
+/* edit nav head distances here RS */
 .container > .navbar-header,
 .container > .navbar-collapse {
   margin-right: -15px;
-  margin-left: -15px;
+	margin-left: -15px;
+	padding-top: 10px;
 }
 
 @media (min-width: 992px) {
@@ -4508,7 +4515,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #006699;
+color: #417287;
   background-color: #fff;
 }
 
@@ -4574,7 +4581,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #555555;
+color: #417287;
     background-color: #e7e7e7;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -4693,7 +4700,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
+color: #417287;
     background-color: #080808;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,

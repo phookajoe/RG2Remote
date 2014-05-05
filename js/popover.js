@@ -1,6 +1,6 @@
 /* ========================================================================
  * Bootstrap: popover.js v3.0.0
- * http://twbs.github.com/bootstrap/javascript.html#popovers
+ * http://twbs.github.com/bootstrap/javascript.php#popovers
  * ========================================================================
  * Copyright 2012 Twitter, Inc.
  *
@@ -53,14 +53,14 @@
     var title   = this.getTitle()
     var content = this.getContent()
 
-    $tip.find('.popover-title')[this.options.html ? 'html' : 'text'](title)
-    $tip.find('.popover-content')[this.options.html ? 'html' : 'text'](content)
+    $tip.find('.popover-title')[this.options.php ? 'html' : 'text'](title)
+    $tip.find('.popover-content')[this.options.php ? 'html' : 'text'](content)
 
     $tip.removeClass('fade top bottom left right in')
 
     // IE8 doesn't accept hiding via the `:empty` pseudo selector, we have to do
     // this manually by checking the contents.
-    if (!$tip.find('.popover-title').html()) $tip.find('.popover-title').hide()
+    if (!$tip.find('.popover-title').php()) $tip.find('.popover-title').hide()
   }
 
   Popover.prototype.hasContent = function () {

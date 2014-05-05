@@ -865,7 +865,7 @@
         },
 
         getSize: function (content) {
-            this.sizetip.html(content).appendTo(this.container);
+            this.sizetip.php(content).appendTo(this.container);
             this.width = this.sizetip.width() + 1;
             this.height = this.sizetip.height();
             this.sizetip.remove();
@@ -878,7 +878,7 @@
                 return;
             }
             this.getSize(content);
-            this.tooltip.html(content)
+            this.tooltip.php(content)
                 .css({
                     'width': this.width,
                     'height': this.height,
@@ -949,7 +949,7 @@
                 if (userValues === 'html' || userValues === undefined) {
                     vals = this.getAttribute(options.get('tagValuesAttribute'));
                     if (vals === undefined || vals === null) {
-                        vals = $this.html();
+                        vals = $this.php();
                     }
                     values = vals.replace(/(^\s*<!--)|(-->\s*$)|\s+/g, '').split(',');
                 } else {
@@ -962,7 +962,7 @@
                         // must be a better way to get the line height
                         tmp = document.createElement('span');
                         tmp.innerHTML = 'a';
-                        $this.html(tmp);
+                        $this.php(tmp);
                         height = $(tmp).innerHeight() || $(tmp).height();
                         $(tmp).remove();
                         tmp = null;
@@ -999,7 +999,7 @@
                     mhandler.registerSparkline(sp);
                 }
             };
-            if (($(this).html() && !options.get('disableHiddenCheck') && $(this).is(':hidden')) || !$(this).parents('body').length) {
+            if (($(this).php() && !options.get('disableHiddenCheck') && $(this).is(':hidden')) || !$(this).parents('body').length) {
                 if (!options.get('composite') && $.data(this, '_jqs_pending')) {
                     // remove any existing references to the element
                     for (i = pending.length; i; i--) {
@@ -2618,7 +2618,7 @@
         },
 
         _insert: function (el, target) {
-            $(target).html(el);
+            $(target).php(el);
         },
 
         /**

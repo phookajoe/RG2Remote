@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost/RG2Remote/updates/update1/css/masonry.css */
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -103,16 +106,17 @@ color:#666;
 
 
 .navbar-toggle .icon-bar{
-background:#ccc;
 }
 
 
 .navbar-collapse, .in  {	background:white;	}
-.navbar-collapse ul.nav2 li a{color:#666;}
+.navbar-collapse ul.nav2 li a{color: #316e83;}
 @media (min-width: 992px) {
 .navbar-collapse, .in {	background:transparent;	}
-.navbar-collapse ul.nav2 li a{color:#fff;}
-.navbar-collapse ul.dropdown-menu li a{color:#666;}
+.navbar-collapse ul.nav2 li a{color: #316e83;}
+.navbar-collapse ul.nav2 li.dropdown.active a{color: #316e83;
+}
+.navbar-collapse ul.dropdown-menu li a{color:#316e83;}
 }
 
 

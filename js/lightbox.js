@@ -113,14 +113,14 @@ License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
       }
     },
     showLoading: function() {
-      return this.modal_body.html('<div class="modal-loading">Loading..</div>');
+      return this.modal_body.php('<div class="modal-loading">Loading..</div>');
     },
     showYoutubeVideo: function(id) {
       this.resize(560, 315);
-      return this.modal_body.html('<iframe width="560" height="315" src="//www.youtube.com/embed/' + id + '?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+      return this.modal_body.php('<iframe width="560" height="315" src="//www.youtube.com/embed/' + id + '?autoplay=1" frameborder="0" allowfullscreen></iframe>');
     },
     error: function(message) {
-      return this.modal_body.html(message);
+      return this.modal_body.php(message);
     },
     preloadImage: function(src, onLoadShowImage) {
       var img,
@@ -130,7 +130,7 @@ License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
         img.onload = function() {
           var i, width;
           _this.checkImageDimensions(img);
-          _this.modal_body.html(img);
+          _this.modal_body.php(img);
           i = _this.modal_body.find('img').first();
           width = i && i.width() > 0 ? i.width() : img.width;
           return _this.resize(width, i.height());

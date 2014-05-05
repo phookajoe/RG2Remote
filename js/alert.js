@@ -1,6 +1,6 @@
 /* ========================================================================
  * Bootstrap: alert.js v3.0.0
- * http://twbs.github.com/bootstrap/javascript.html#alerts
+ * http://twbs.github.com/bootstrap/javascript.php#alerts
  * ========================================================================
  * Copyright 2013 Twitter, Inc.
  *
