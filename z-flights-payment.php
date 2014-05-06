@@ -7,10 +7,11 @@
 	
     <!-- Bootstrap -->
     <link href="dist/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="assets/css/custom.css" rel="stylesheet" media="screen">
-	
-    <!-- Updates -->
+    <link href="assets/css/custom.css" rel="stylesheet" media="screen">    
+<!-- Updates -->
     <link href="updates/update1/css/style01.css" rel="stylesheet" media="screen">
+	
+
 
 
 	<link href="examples/carousel/carousel.css" rel="stylesheet">

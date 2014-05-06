@@ -59,7 +59,7 @@ ul.droplist li:hover.inactive{background:#fff; }
 .mtslide{position:relative; top:50px;}
 .mtslide2{position:relative; top:0px;}
 @media (min-width: 992px) {
-.navbar-wrapper2{min-height:110px; background:white; border-bottom:0px solid #cccccc; box-shadow: 0 0 5px rgba(0, 0, 0, 0.13); padding-bottom:0px;}
+.navbar-wrapper2{min-height:144px; background:white; border-bottom:0px solid #cccccc; box-shadow: 0 0 5px rgba(0, 0, 0, 0.13); padding-bottom:0px;}
 .mtnav{position:relative; top:30px;}
 .mtslide{position:relative; top:90px;}
 }

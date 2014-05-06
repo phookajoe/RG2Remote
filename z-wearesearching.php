@@ -6,11 +6,12 @@
 	<title>Travel Agency - HTML5 Booking template</title>
 	
 	<!-- Bootstrap -->
-	<link href="dist/css/bootstrap.css" rel="stylesheet" media="screen">
-	<link href="assets/css/custom.css" rel="stylesheet" media="screen">
-
-    <!-- Updates -->
-    <link href="updates/update1/css/style01.css" rel="stylesheet" media="screen">	
+    <link href="dist/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="assets/css/custom.css" rel="stylesheet" media="screen">    
+<!-- Updates -->
+    <link href="updates/update1/css/style01.css" rel="stylesheet" media="screen">
+	
+	
 	
 	<!-- Animo css-->
 	<link href="plugins/animo/animate+animo.css" rel="stylesheet" media="screen">
