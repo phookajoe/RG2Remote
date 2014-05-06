@@ -4248,7 +4248,7 @@ background-color: #428bca;
   .container > .navbar-header,
   .container > .navbar-collapse {
     margin-right: 0;
-    margin-left: 0;
+  	margin-left: 0;
   }
 }
 
