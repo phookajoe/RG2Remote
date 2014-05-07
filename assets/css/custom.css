@@ -1652,7 +1652,7 @@ background:url('../../images/slider/couple.png') no-repeat;
 
 .breadcrub{margin-top:70px; color:#ccc;}
 @media (min-width: 992px) {
-.breadcrub{margin-top:160px; color:#ccc;}
+.breadcrub{margin-top:190px; color:#ccc;}
 }
 .brlines{height:8px; width:100%; margin-top:10px; background:url('../../images/breadcrumb.png');}
 
