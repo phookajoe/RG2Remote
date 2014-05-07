@@ -877,7 +877,7 @@ text-indent:-4px;
 
 #dajy{
 height:100%!important;
-margin-top:-85px;
+margin-top:-48px;
 }
 
 /*if you change the margin-top you must change it also in js-new-homepage.js*/
@@ -919,8 +919,8 @@ color: #ea9a16;
 
 img.logo2 {width:220px; margin-top:-13px;}
 @media (min-width: 992px) {
-img.logo2 {width:293px; margin-top:-43px;
-	padding: 20px;
+img.logo2 {width:243px; margin-top:-33px;
+	/*padding: 20px;*/
 	
 }
 }
