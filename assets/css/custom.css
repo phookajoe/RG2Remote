@@ -2808,4 +2808,13 @@ padding-top:3px;
 	color:#15262f;
 	border-radius:0px;
 }
+.rightHelperNav{
+	margin-top:15px;
+}
+.rightHelperNav li{
+	list-style:none;
+	display:inline-block;
+	margin-left:13px;
+	color:#EEEEEE;
+}
 
