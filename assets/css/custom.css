@@ -2796,7 +2796,7 @@ padding-top:3px;
 	background-size: cover;
 }
 .top.container{
-	margin-top: -20px;
+	/*margin-top: -20px;*/
 }
 .dropdowns{
 	position:relative;
@@ -2820,6 +2820,27 @@ padding-top:3px;
 	margin-left:13px;
 	color:#EEEEEE;
 }
+<<<<<<< HEAD
 /* Rick's Additions */
 /* would like to implement sass and sassify all these rules, theme colors, and other commonly used objects*/
+=======
+a > span.facebook-icn{
+	height:38px;
+	width:38px;
+	display:inline-block;
+	background:url(../../images/icon-facebook.png);
+	margin:0px;
+	padding:0px;
+
+}
+a > span.search-icn{
+	height:38px;
+	width:38px;
+	display:inline-block;
+	background:url(../../images/icon-search.png);
+	margin:0px;
+	padding:0px;
+}
+
+>>>>>>> FETCH_HEAD
 
