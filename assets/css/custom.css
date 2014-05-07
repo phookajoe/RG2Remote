@@ -855,9 +855,9 @@ cursor:not-allowed;
 
 
 .iosbtn {
-border:2px solid #353535;
+border: 1px dotted #ecebeb;
 background:transparent;
-color:#353535;
+color: #ececec;
 -webkit-border-radius: 0px;
 -moz-border-radius: 0px;
 border-radius: 0px;
