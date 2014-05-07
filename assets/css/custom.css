@@ -246,7 +246,7 @@ height:30px;
 }
 
 
-.ctitle{width:100%; height:63px;padding:18px;background:#15262f; position:relative; font-family:Lato;font-size:20px;color:#fff;text-transform:uppercase;}
+.ctitle{width:100%; height:63px;padding:18px;/*background:#15262f;*/ position:relative; font-family:Lato;font-size:20px;color:#fff;text-transform:uppercase;}
 .ctitle span {float:right; color:#72bf66; font-size:18px;}
 .ctitle a {float:right; padding:4px 0px 0px 20px;}
 .ctitle a img {width:14px;height:18px; display:block; background:url('../../images/sprite.png')  0px -36px}
@@ -1086,7 +1086,9 @@ overflow:hidden;
 opacity:0;
 margin-top:100px;
 }
-.lcfix{background: url(../../images/barsRandom/Mountaindrop.jpg) #fff !important;}
+.lcfix{background: url(../../images/barsRandom/Mountaindrop.jpg) #fff 0 -150px !important;
+	background-size: cover!important;
+}
 .bgfix{background:#f2f2f2!important;}
 
 @media (min-width: 992px) {
@@ -2782,4 +2784,28 @@ padding-top:3px;
 .cpwidth3{width:290px;}
 .line6{background:#e8e8e8; height:1px;  margin:30px 0 30px 0; padding:0; display:block;}
 
+
+/* Joe's Additions */
+/* would like to implement sass and sassify all these rules, theme colors, and other commonly used objects*/
+.helpnav{
+	height:60px;
+	background:url(../../images/barsRandom/Stars.jpg);
+	background-size: cover;
+}
+.top.container{
+	margin-top: -20px;
+}
+.dropdowns{
+	position:relative;
+	padding-top:30px;
+}
+.masonry.home{
+	margin-top:300px;
+}
+.yellow-btn{
+	background:#fdcd62;
+	margin-top:-10px;
+	color:#15262f;
+	border-radius:0px;
+}
 

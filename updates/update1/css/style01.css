@@ -877,6 +877,7 @@ text-indent:-4px;
 
 #dajy{
 height:100%!important;
+margin-top:-85px;
 }
 
 /*if you change the margin-top you must change it also in js-new-homepage.js*/
@@ -899,7 +900,7 @@ color: #ea9a16;
 
 .navlight > li > a{
 color: #3f7086 !important;
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 }
 .navlight > li.active> a{
 color: #ea9a16;

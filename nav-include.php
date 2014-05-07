@@ -1,4 +1,5 @@
 <!-- Navigation-->
+<div class="top container">
 			  <div class="navbar-header">
 				<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
 				  <span class="icon-bar"></span>
@@ -126,4 +127,5 @@
 				  </li>	-->	
 				</ul>
 			  </div>
+			</div>
 			  <!-- /Navigation-->
