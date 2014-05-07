@@ -98,7 +98,10 @@ img.logo {width:120px;}
 .center{margin:0 auto; text-align:center;}
 .textleft{text-align:left;}
 .textright{text-align:right;}
-.textcenter{text-align:center;}
+.textcenter{text-align:center;
+	background-color: rgba(32, 62, 76, 0.49);
+	padding: 80px 30px 30px;
+}
 .caps{text-transform:uppercase;}
 .relative{position:relative;}
 .absolute{position:absolute;}
@@ -2817,5 +2820,6 @@ padding-top:3px;
 	margin-left:13px;
 	color:#EEEEEE;
 }
-
+/* Rick's Additions */
+/* would like to implement sass and sassify all these rules, theme colors, and other commonly used objects*/
 
