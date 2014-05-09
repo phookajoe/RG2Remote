@@ -133,7 +133,7 @@ a.rd-more:hover {
 }
 
 /* Images */
-/* line 139, ../../sass/_park-landing.scss */
+/* line 140, ../../sass/_park-landing.scss */
 .parkPnlThumb {
   width: 256px;
   height: 120px;
@@ -143,34 +143,34 @@ a.rd-more:hover {
 }
 
 /* Left Tabs */
-/* line 149, ../../sass/_park-landing.scss */
+/* line 150, ../../sass/_park-landing.scss */
 .park-tab-content {
   width: 113%;
-  height: auto;
+  min-height: 432px;
   margin-left: 4%;
   background: #ffffff;
   padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 156, ../../sass/_park-landing.scss */
+/* line 157, ../../sass/_park-landing.scss */
 ul.parkUlNav {
   margin-left: 4%;
   width: 150px;
-  height: 500px;
+  height: auto;
 }
 
-/* line 163, ../../sass/_park-landing.scss */
+/* line 164, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs {
   border-bottom: 0;
 }
 
-/* line 167, ../../sass/_park-landing.scss */
+/* line 168, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li {
   float: none;
 }
 
-/* line 171, ../../sass/_park-landing.scss */
+/* line 172, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li > a {
   min-width: 100px;
   height: 70px;
@@ -182,25 +182,25 @@ ul.parkUlNav {
   background: #f7f7f7;
 }
 
-/* line 182, ../../sass/_park-landing.scss */
+/* line 183, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs {
   float: left;
   margin-right: 19px;
   border-right: 1px solid #ddd;
 }
 
-/* line 188, ../../sass/_park-landing.scss */
+/* line 189, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li > a {
   margin-right: -1px;
 }
 
-/* line 193, ../../sass/_park-landing.scss */
+/* line 194, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li > a:hover,
 .tabs-left > .nav-tabs > li > a:focus {
   border-left: 8px solid #ff6633;
 }
 
-/* line 199, ../../sass/_park-landing.scss */
+/* line 200, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs .active > a,
 .tabs-left > .nav-tabs .active > a:hover,
 .tabs-left > .nav-tabs .active > a:focus {
