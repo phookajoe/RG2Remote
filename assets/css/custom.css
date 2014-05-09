@@ -1506,6 +1506,7 @@ a.social4b {margin:0 5px;}
 .customSelect {
 /* This is the default class that is used */
 /* Put whatever custom styles you want here */
+margin: 5% 0;
 background:url('../../images/select.png') #fff no-repeat right;
 border:2px solid #ebebeb;
 }

@@ -1,3 +1,4 @@
+/*Colors*/
 /*Park Landing Page*/
 /* line 4, ../../sass/_park-landing.scss */
 h1.interiorTitle {
@@ -16,7 +17,18 @@ h1.interiorTitle {
   z-index: 10;
 }
 
-/* line 26, ../../sass/_park-landing.scss */
+/* line 25, ../../sass/_park-landing.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+/* line 29, ../../sass/_park-landing.scss */
+h3 {
+  font-size: 24px;
+}
+
+/* line 39, ../../sass/_park-landing.scss */
 div.tab-content-2-3 {
   float: left;
   height: 324px;
@@ -27,7 +39,7 @@ div.tab-content-2-3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 34, ../../sass/_park-landing.scss */
+/* line 47, ../../sass/_park-landing.scss */
 div.tab-content-1-3 {
   height: 324px;
   width: 25%;
@@ -38,8 +50,15 @@ div.tab-content-1-3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* line 55, ../../sass/_park-landing.scss */
+div.tab-content-3-3 {
+  width: 90%;
+  float: left;
+  margin-left: 4%;
+}
+
 /* Buttons for Park Landing page */
-/* line 44, ../../sass/_park-landing.scss */
+/* line 63, ../../sass/_park-landing.scss */
 .btn-search-park {
   /*color: #333333;
   background-color: #ffffff;
@@ -74,7 +93,7 @@ div.tab-content-1-3 {
   transition: .3s;
 }
 
-/* line 78, ../../sass/_park-landing.scss */
+/* line 97, ../../sass/_park-landing.scss */
 .btn-search:hover {
   /*color:#be3507;*/
   color: #ffffff;
@@ -86,4 +105,107 @@ div.tab-content-1-3 {
   background: -moz-linear-gradient(top, #e35121, #ff6633);
   background: -ms-linear-gradient(top, #e35121, #ff6633);
   background: -o-linear-gradient(top, #e35121, #ff6633);
+}
+
+/* Span */
+/* line 115, ../../sass/_park-landing.scss */
+span.blk {
+  display: block;
+}
+
+/* Links */
+/* line 121, ../../sass/_park-landing.scss */
+a.rd-more {
+  font-size: 0.875em;
+  color: #ff6633;
+  text-decoration: none;
+}
+
+/* line 126, ../../sass/_park-landing.scss */
+a.rd-more:hover {
+  text-decoration: underline;
+}
+
+/* Misc Div styles */
+/* line 133, ../../sass/_park-landing.scss */
+.rt-vrtDiv {
+  border-right: 1px solid #d7d7d7;
+}
+
+/* Images */
+/* line 139, ../../sass/_park-landing.scss */
+.parkPnlThumb {
+  width: 256px;
+  height: 120px;
+  border: 1px solid #d7d7d7;
+  background: url("/images/fall-highlights.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* Left Tabs */
+/* line 149, ../../sass/_park-landing.scss */
+.park-tab-content {
+  width: 113%;
+  height: auto;
+  margin-left: 4%;
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 156, ../../sass/_park-landing.scss */
+ul.parkUlNav {
+  margin-left: 4%;
+  width: 150px;
+  height: 500px;
+}
+
+/* line 163, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+/* line 167, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs > li {
+  float: none;
+}
+
+/* line 171, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs > li > a {
+  min-width: 100px;
+  height: 70px;
+  margin-right: 0;
+  margin-bottom: 3px;
+  text-align: center;
+  vertical-align: middle;
+  color: #000000;
+  background: #f7f7f7;
+}
+
+/* line 182, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+/* line 188, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+}
+
+/* line 193, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-left: 8px solid #ff6633;
+}
+
+/* line 199, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  background: #ffffff;
+  border-color: #ddd transparent #ddd #ddd;
+  border-left: 8px solid #ff6633;
+  *border-right-color: #ffffff;
 }
