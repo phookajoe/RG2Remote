@@ -49,6 +49,74 @@
   background: -o-linear-gradient(top, #e35121, #ff6633);
 }
 
+/* line 1, ../../sass/_icons.scss */
+span.parkTab {
+  width: 75px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 9, ../../sass/_images.scss */
+.mountain-biking {
+  background: url("/images/park/mountain-biking.jpg") center center;
+  display: block;
+  width: 291px;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+
+/* line 13, ../../sass/_images.scss */
+.zipline {
+  background: url("/images/park/zipline.jpg") center center;
+  display: block;
+  width: 291px;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+
+/* line 17, ../../sass/_images.scss */
+.rafting {
+  background: url("/images/park/rafting.jpg") center center;
+  display: block;
+  width: 291px;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+
+/* line 21, ../../sass/_images.scss */
+.hiking {
+  background: url("/images/park/hiking.jpg") center center;
+  display: block;
+  width: 291px;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+
+/* line 25, ../../sass/_images.scss */
+.night-tour {
+  background: url("/images/park/night-tour.jpg") center bottom;
+  display: block;
+  width: 291px;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+
+/* line 29, ../../sass/_images.scss */
+.rock-climbing {
+  background: url("/images/park/rock-climbing.jpg") left top;
+  display: block;
+  width: 291px;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+
 /*Park Landing Page*/
 /* line 3, ../../sass/_park-landing.scss */
 .el-center {
@@ -84,7 +152,7 @@ h3 {
   font-size: 24px;
 }
 
-/* line 53, ../../sass/_park-landing.scss */
+/* line 52, ../../sass/_park-landing.scss */
 div.tab-content-2-3 {
   float: left;
   height: 324px;
@@ -95,7 +163,7 @@ div.tab-content-2-3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 61, ../../sass/_park-landing.scss */
+/* line 60, ../../sass/_park-landing.scss */
 div.tab-content-1-3 {
   height: 324px;
   width: 25%;
@@ -106,8 +174,9 @@ div.tab-content-1-3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 69, ../../sass/_park-landing.scss */
+/* line 68, ../../sass/_park-landing.scss */
 div.tab-content-3-3 {
+  height: 100%;
   width: 90%;
   float: left;
   margin-left: 4%;
@@ -138,8 +207,13 @@ a.rd-more:hover {
   border-right: 1px solid #d7d7d7;
 }
 
+/* line 98, ../../sass/_park-landing.scss */
+.contMrgBtm {
+  margin-bottom: 80px;
+}
+
 /* Images */
-/* line 100, ../../sass/_park-landing.scss */
+/* line 104, ../../sass/_park-landing.scss */
 .parkPnlThumb {
   width: 256px;
   height: 120px;
@@ -149,7 +223,7 @@ a.rd-more:hover {
 }
 
 /* Left Tabs */
-/* line 110, ../../sass/_park-landing.scss */
+/* line 114, ../../sass/_park-landing.scss */
 .park-tab-content {
   width: 113%;
   min-height: 600px;
@@ -159,24 +233,23 @@ a.rd-more:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 117, ../../sass/_park-landing.scss */
+/* line 121, ../../sass/_park-landing.scss */
 ul.parkUlNav {
-  margin-left: 4%;
   width: 150px;
   height: auto;
 }
 
-/* line 123, ../../sass/_park-landing.scss */
+/* line 126, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs {
   border-bottom: 0;
 }
 
-/* line 127, ../../sass/_park-landing.scss */
+/* line 130, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li {
   float: none;
 }
 
-/* line 131, ../../sass/_park-landing.scss */
+/* line 134, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li > a {
   min-width: 100px;
   height: 70px;
@@ -188,24 +261,24 @@ ul.parkUlNav {
   background: #f7f7f7;
 }
 
-/* line 142, ../../sass/_park-landing.scss */
+/* line 145, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs {
   float: left;
   margin-right: 19px;
 }
 
-/* line 147, ../../sass/_park-landing.scss */
+/* line 150, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li > a {
   margin-right: -1px;
 }
 
-/* line 152, ../../sass/_park-landing.scss */
+/* line 155, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li > a:hover,
 .tabs-left > .nav-tabs > li > a:focus {
   border-left: 8px solid #ff6633;
 }
 
-/* line 158, ../../sass/_park-landing.scss */
+/* line 161, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs .active > a,
 .tabs-left > .nav-tabs .active > a:hover,
 .tabs-left > .nav-tabs .active > a:focus {
@@ -215,35 +288,31 @@ ul.parkUlNav {
   *border-right-color: #ffffff;
 }
 
-/* Tab a Content */
-/* line 167, ../../sass/_park-landing.scss */
-.checklist-park {
-  margin-left: 10px;
+/* Tab One Content */
+/* line 170, ../../sass/_park-landing.scss */
+div.checklist {
+  min-height: 110px;
 }
 
-/* line 171, ../../sass/_park-landing.scss */
+/* line 174, ../../sass/_park-landing.scss */
 .trip-activity {
+  margin: 5% 0;
+  position: relative;
   height: 330px;
   background: #ffffff;
   padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 0;
 }
-/* line 175, ../../sass/_park-landing.scss */
-.trip-activity a.trip-thumb {
-  position: relative;
-  width: 240px;
-  height: 150px;
-}
-/* line 179, ../../sass/_park-landing.scss */
-.trip-activity a.trip-thumb img {
-  width: 100%;
-}
-/* line 182, ../../sass/_park-landing.scss */
-.trip-activity a.trip-thumb i.share {
-  top: 0px;
-  right: 30px;
+/* line 180, ../../sass/_park-landing.scss */
+.trip-activity div.trip-thumb {
   position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 184, ../../sass/_park-landing.scss */
+.trip-activity div.trip-thumb a {
+  float: right;
   width: 30px;
   height: 30px;
   margin: 0;
@@ -251,47 +320,35 @@ ul.parkUlNav {
   background: #f7f7f7;
   border: 1px solid #f7f7f7;
 }
-/* line 187, ../../sass/_park-landing.scss */
-.trip-activity a.trip-thumb i.like {
-  top: 0px;
-  right: 0px;
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  margin: 0;
-  padding: 0;
-  background: #f7f7f7;
-  border: 1px solid #f7f7f7;
-}
-/* line 193, ../../sass/_park-landing.scss */
+/* line 189, ../../sass/_park-landing.scss */
 .trip-activity h4 {
   padding: 10px 0;
   font-weight: bold;
 }
-/* line 197, ../../sass/_park-landing.scss */
+/* line 193, ../../sass/_park-landing.scss */
 .trip-activity p {
   padding: 10px 0;
 }
 
 /* Wrapper Fix */
-/* line 204, ../../sass/_park-landing.scss */
+/* line 200, ../../sass/_park-landing.scss */
 .cstyle03-park {
   background: #fff;
   height: 100%;
-  margin-top: 800px;
+  margin-top: 600px;
   position: relative;
   z-index: 100;
   display: block;
 }
 
 /* Footer Fix */
-/* line 215, ../../sass/_park-landing.scss */
+/* line 211, ../../sass/_park-landing.scss */
 .sfix3-park {
   position: absolute;
 }
 
 @media (min-width: 992px) {
-  /* line 217, ../../sass/_park-landing.scss */
+  /* line 213, ../../sass/_park-landing.scss */
   .sfix3-park {
     position: absolute;
   }
