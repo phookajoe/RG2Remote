@@ -2171,7 +2171,14 @@ ul.checklist2  {margin:0px;padding:0px;}
 .checklist2 li {list-style-image:url('../../images/check.png'); list-style-position:inside; padding:0px; margin-left:0px; color:#72bf66;}
 
 #map-canvas { width:100%; height: 648px; display:none; position:relative;}
-#map-canvas2 { width:100%; height: 80%; display:none; position:relative;}
+#map-canvas2 { width:100%; height: 100%; display:none;
+	position: relative;
+	top: 180px;
+}
+.cstyle11-2{background:#ccc; width: 100%; height:100%;
+	top: 0;
+	left: 0;
+}
 
 .gm-style-mtc:nth-child(1){margin-top:25px;}
 .gm-style-mtc:nth-child(2){margin-top:25px;}
@@ -2283,6 +2290,7 @@ margin-top:22px;
 .cstyle09{display: inline-block; width: 100%;  font-size:13px;}
 .cstyle10{background:#72bf66; height:40px; position:absolute; top:0px; width:100%}
 .cstyle11{background:#ccc; width:100%; height:100%;}
+
 
 
 /* MEDIA FIXES*/

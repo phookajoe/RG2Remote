@@ -879,6 +879,9 @@ text-indent:-4px;
 height:100%!important;
 margin-top:-48px;
 }
+#dajy-MapView{
+height:100%!important;
+}
 
 /*if you change the margin-top you must change it also in js-new-homepage.js*/
 .cst03{background:#fff; margin-top:900px; position:relative;  z-index:100; display:block;}
