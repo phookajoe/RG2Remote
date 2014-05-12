@@ -1554,6 +1554,7 @@ border-radius: 2px;
 .mySelectCalendar {
 background:url('../../images/calendar.png') #fff no-repeat right;
 background-position:98% 1px;
+	font-size: 10px;
 }
 .mySelectCalendar2 {
 background:url('../../images/calendar2.png') #fff no-repeat right;
