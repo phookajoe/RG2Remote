@@ -210,15 +210,15 @@ jQuery(window).scroll(function(){
 		/**/
 		if(jQuery(window).scrollTop() != 0){
 			jQuery('.mtnav2').stop().animate({top: '0px'}, 500);
-			jQuery('.logo2').stop().animate({width: '200px',marginTop: '-15px',marginBottom: '13px'}, 100);
+			jQuery('.logo2').stop().animate({width: '50px',marginTop: '-13px'}, 100);
 		}       
 		else {
 			 if ( jQueryiw < 992 ) {
-				jQuery('.logo2').stop().animate({width: '293px',marginTop: '-23px'}, 100);	
+				jQuery('.logo2').stop().animate({width: '108px',marginTop: '-13px'}, 100);	
 			  }
 			  else{
-			   jQuery('.mtnav2').stop().animate({top: '200px'}, 500);
-			   	jQuery('.logo2').stop().animate({width: '293px',marginTop: '-113px',padding: '15px'}, 100);	
+			   jQuery('.mtnav2').stop().animate({top: '30px'}, 500);
+			   	jQuery('.logo2').stop().animate({width: '108px',marginTop: '-43px'}, 100);	
 			  }
 			
 		}
@@ -232,7 +232,7 @@ jQuery(window).scroll(function(){
 			
 			//How long the first shrinked menu apears
 			if(jQuery(window).scrollTop() > jQueryih-400 ){
-				jQuery('.navbar-fixed-top2').stop().animate({top: '0px'}, 500);
+				jQuery('.navbar-fixed-top2').stop().animate({top: '-60px'}, 500);
 			}
 			if(jQuery(window).scrollTop() < jQueryih-400){
 				jQuery('.navbar-fixed-top2').stop().animate({top: '0px'}, 500);
