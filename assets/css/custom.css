@@ -2818,13 +2818,23 @@ padding-top:3px;
 	border-radius:0px;
 }
 .rightHelperNav{
-	margin-top:15px;
+	height:43px
 }
 .rightHelperNav li{
 	list-style:none;
 	display:inline-block;
-	margin-left:13px;
+	margin:-10px 0 0 13px;
 	color:#EEEEEE;
+}
+
+li> span.avatar{
+	display:block;
+	position:relative;
+	top:15px;
+	width:43px;
+	height:43px;
+	border:1px solid #14232c;
+	background:url(../../images/avatar.jpg);
 }
 
 a > span.facebook-icn{
@@ -2844,3 +2854,5 @@ a > span.search-icn{
 	margin:0px;
 	padding:0px;
 }
+
+
