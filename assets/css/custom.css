@@ -2867,9 +2867,8 @@ a > span.search-icn{
 	padding:0px;
 }
 
-<<<<<<< HEAD
-/* Mars Additions */
-@@ -0,0 +1,211 @@
+
+@@ -1,211 +0,0 @@
 /*Colors*/
 /*Park Landing Page*/
 /* line 4, ../../sass/_park-landing.scss */
@@ -3081,6 +3080,3 @@ ul.parkUlNav {
   border-left: 8px solid #ff6633;
   *border-right-color: #ffffff;
 }
-=======
->>>>>>> FETCH_HEAD
-
