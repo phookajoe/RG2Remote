@@ -1,6 +1,6 @@
 /* ========================================================================
  * Bootstrap: carousel.js v3.0.0
- * http://twbs.github.com/bootstrap/javascript.php#carousel
+ * http://twbs.github.com/bootstrap/javascript.html#carousel
  * ========================================================================
  * Copyright 2012 Twitter, Inc.
  *

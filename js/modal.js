@@ -1,6 +1,6 @@
 /* ========================================================================
  * Bootstrap: modal.js v3.0.0
- * http://twbs.github.com/bootstrap/javascript.php#modals
+ * http://twbs.github.com/bootstrap/javascript.html#modals
  * ========================================================================
  * Copyright 2012 Twitter, Inc.
  *

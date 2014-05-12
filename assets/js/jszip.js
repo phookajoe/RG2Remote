@@ -384,9 +384,9 @@ JSZip.prototype = (function () {
           dosDate;
 
       // date
-      // @see http://www.delorie.com/djgpp/doc/rbinter/it/52/13.php
-      // @see http://www.delorie.com/djgpp/doc/rbinter/it/65/16.php
-      // @see http://www.delorie.com/djgpp/doc/rbinter/it/66/16.php
+      // @see http://www.delorie.com/djgpp/doc/rbinter/it/52/13.html
+      // @see http://www.delorie.com/djgpp/doc/rbinter/it/65/16.html
+      // @see http://www.delorie.com/djgpp/doc/rbinter/it/66/16.html
 
       dosTime = o.date.getHours();
       dosTime = dosTime << 6;
@@ -848,7 +848,7 @@ JSZip.prototype = (function () {
 
 
       /**
-       * http://www.webtoolkit.info/javascript-utf8.php
+       * http://www.webtoolkit.info/javascript-utf8.html
        */
       utf8encode : function (string) {
          // TextEncoder + Uint8Array to binary string is faster than checking every bytes on long strings.
@@ -887,7 +887,7 @@ JSZip.prototype = (function () {
       },
 
       /**
-       * http://www.webtoolkit.info/javascript-utf8.php
+       * http://www.webtoolkit.info/javascript-utf8.html
        */
       utf8decode : function (input) {
          var result = [], resIndex = 0;
