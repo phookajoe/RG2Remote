@@ -1,3 +1,4 @@
+/*@import url('/assets/css/mars.css');*/
 /*Colors*/
 /* Buttons for Park Landing page */
 /* line 3, ../../sass/_buttons.scss */
@@ -49,6 +50,45 @@
   background: -o-linear-gradient(top, #e35121, #ff6633);
 }
 
+/* line 51, ../../sass/_buttons.scss */
+.permitBtnWrap {
+  width: 50%;
+  margin: 5% 0 10% 50%;
+  padding: 0;
+}
+
+/* line 57, ../../sass/_buttons.scss */
+.btnTitle {
+  height: auto;
+  padding: 10px 20px;
+  margin: 0;
+  position: relative;
+  font-family: Lato;
+  font-size: 1em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* line 69, ../../sass/_buttons.scss */
+.btnW25 {
+  width: 25%;
+}
+
+/* line 71, ../../sass/_buttons.scss */
+.btnW50 {
+  width: 50%;
+}
+
+/* line 73, ../../sass/_buttons.scss */
+.btnW75 {
+  width: 75%;
+}
+
+/* line 75, ../../sass/_buttons.scss */
+.btnW100 {
+  width: 100%;
+}
+
 /* line 1, ../../sass/_icons.scss */
 span.parkTab {
   width: 75px;
@@ -57,64 +97,390 @@ span.parkTab {
   margin: 0 auto;
 }
 
-/* line 9, ../../sass/_images.scss */
+/*Park Landing Page*/
+/* line 11, ../../sass/_images.scss */
 .mountain-biking {
   background: url("/images/park/mountain-biking.jpg") center center;
   display: block;
-  width: 291px;
+  width: 100%;
   height: 150px;
   background-repeat: no-repeat;
   backround-size: cover;
 }
 
-/* line 13, ../../sass/_images.scss */
+/* line 15, ../../sass/_images.scss */
 .zipline {
   background: url("/images/park/zipline.jpg") center center;
   display: block;
-  width: 291px;
+  width: 100%;
   height: 150px;
   background-repeat: no-repeat;
   backround-size: cover;
 }
 
-/* line 17, ../../sass/_images.scss */
+/* line 19, ../../sass/_images.scss */
 .rafting {
   background: url("/images/park/rafting.jpg") center center;
   display: block;
-  width: 291px;
+  width: 100%;
   height: 150px;
   background-repeat: no-repeat;
   backround-size: cover;
 }
 
-/* line 21, ../../sass/_images.scss */
+/* line 23, ../../sass/_images.scss */
 .hiking {
   background: url("/images/park/hiking.jpg") center center;
   display: block;
-  width: 291px;
+  width: 100%;
   height: 150px;
   background-repeat: no-repeat;
   backround-size: cover;
 }
 
-/* line 25, ../../sass/_images.scss */
+/* line 27, ../../sass/_images.scss */
 .night-tour {
   background: url("/images/park/night-tour.jpg") center bottom;
   display: block;
-  width: 291px;
+  width: 100%;
   height: 150px;
   background-repeat: no-repeat;
   backround-size: cover;
 }
 
-/* line 29, ../../sass/_images.scss */
+/* line 31, ../../sass/_images.scss */
 .rock-climbing {
   background: url("/images/park/rock-climbing.jpg") left top;
   display: block;
-  width: 291px;
+  width: 100%;
   height: 150px;
   background-repeat: no-repeat;
   backround-size: cover;
+}
+
+/*Booking Page*/
+/* line 38, ../../sass/_images.scss */
+.acrylic {
+  background: url("/images/booking/acrylic.jpg") left top;
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+
+/* line 43, ../../sass/_images.scss */
+.halfDome {
+  background: url("/images/booking/half-dome.jpg") center center;
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+
+/*Padding Top*/
+/* line 3, ../../sass/_pad.scss */
+.pT0 {
+  padding-top: 0;
+}
+
+/* line 6, ../../sass/_pad.scss */
+.pT1 {
+  padding-top: 1%;
+}
+
+/* line 9, ../../sass/_pad.scss */
+.pT2 {
+  padding-top: 2%;
+}
+
+/* line 12, ../../sass/_pad.scss */
+.pT3 {
+  padding-top: 3%;
+}
+
+/* line 15, ../../sass/_pad.scss */
+.pT5 {
+  padding-top: 5%;
+}
+
+/* line 18, ../../sass/_pad.scss */
+.pT10 {
+  padding-top: 10%;
+}
+
+/* line 21, ../../sass/_pad.scss */
+.pT15 {
+  padding-top: 15%;
+}
+
+/* line 24, ../../sass/_pad.scss */
+.pT20 {
+  padding-top: 20%;
+}
+
+/* line 27, ../../sass/_pad.scss */
+.pT30 {
+  padding-top: 30%;
+}
+
+/* line 30, ../../sass/_pad.scss */
+.pT40 {
+  padding-top: 40%;
+}
+
+/* line 33, ../../sass/_pad.scss */
+.pT50 {
+  padding-top: 50%;
+}
+
+/* line 36, ../../sass/_pad.scss */
+.pT60 {
+  padding-top: 60%;
+}
+
+/* line 39, ../../sass/_pad.scss */
+.pT70 {
+  padding-top: 70%;
+}
+
+/* line 42, ../../sass/_pad.scss */
+.pT80 {
+  padding-top: 80%;
+}
+
+/* line 45, ../../sass/_pad.scss */
+.pT90 {
+  padding-top: 90%;
+}
+
+/*Padding Bottom*/
+/* line 52, ../../sass/_pad.scss */
+.pB0 {
+  padding-bottom: 0;
+}
+
+/* line 55, ../../sass/_pad.scss */
+.pB1 {
+  padding-bottom: 1%;
+}
+
+/* line 58, ../../sass/_pad.scss */
+.pB2 {
+  padding-bottom: 2%;
+}
+
+/* line 61, ../../sass/_pad.scss */
+.pB3 {
+  padding-bottom: 3%;
+}
+
+/* line 64, ../../sass/_pad.scss */
+.pB5 {
+  padding-bottom: 5%;
+}
+
+/* line 67, ../../sass/_pad.scss */
+.pB10 {
+  padding-bottom: 10%;
+}
+
+/* line 70, ../../sass/_pad.scss */
+.pB15 {
+  padding-bottom: 15%;
+}
+
+/* line 73, ../../sass/_pad.scss */
+.pB20 {
+  padding-bottom: 20%;
+}
+
+/* line 76, ../../sass/_pad.scss */
+.pB30 {
+  padding-bottom: 30%;
+}
+
+/* line 79, ../../sass/_pad.scss */
+.pB40 {
+  padding-bottom: 40%;
+}
+
+/* line 82, ../../sass/_pad.scss */
+.pB50 {
+  padding-bottom: 50%;
+}
+
+/* line 85, ../../sass/_pad.scss */
+.pB60 {
+  padding-bottom: 60%;
+}
+
+/* line 88, ../../sass/_pad.scss */
+.pB70 {
+  padding-bottom: 70%;
+}
+
+/* line 91, ../../sass/_pad.scss */
+.pB80 {
+  padding-bottom: 80%;
+}
+
+/* line 94, ../../sass/_pad.scss */
+.pB90 {
+  padding-bottom: 90%;
+}
+
+/*margin Top*/
+/* line 100, ../../sass/_pad.scss */
+.mT0 {
+  margin-top: 0;
+}
+
+/* line 103, ../../sass/_pad.scss */
+.mT1 {
+  margin-top: 1%;
+}
+
+/* line 106, ../../sass/_pad.scss */
+.mT2 {
+  margin-top: 2%;
+}
+
+/* line 109, ../../sass/_pad.scss */
+.mT3 {
+  margin-top: 3%;
+}
+
+/* line 112, ../../sass/_pad.scss */
+.mT5 {
+  margin-top: 5%;
+}
+
+/* line 115, ../../sass/_pad.scss */
+.mT10 {
+  margin-top: 10%;
+}
+
+/* line 118, ../../sass/_pad.scss */
+.mT15 {
+  margin-top: 15%;
+}
+
+/* line 121, ../../sass/_pad.scss */
+.mT20 {
+  margin-top: 20%;
+}
+
+/* line 124, ../../sass/_pad.scss */
+.mT30 {
+  margin-top: 30%;
+}
+
+/* line 127, ../../sass/_pad.scss */
+.mT40 {
+  margin-top: 40%;
+}
+
+/* line 130, ../../sass/_pad.scss */
+.mT50 {
+  margin-top: 50%;
+}
+
+/* line 133, ../../sass/_pad.scss */
+.mT60 {
+  margin-top: 60%;
+}
+
+/* line 136, ../../sass/_pad.scss */
+.mT70 {
+  margin-top: 70%;
+}
+
+/* line 139, ../../sass/_pad.scss */
+.mT80 {
+  margin-top: 80%;
+}
+
+/* line 142, ../../sass/_pad.scss */
+.mT90 {
+  margin-top: 90%;
+}
+
+/*margin Bottom*/
+/* line 149, ../../sass/_pad.scss */
+.mB0 {
+  margin-bottom: 0;
+}
+
+/* line 152, ../../sass/_pad.scss */
+.mB1 {
+  margin-bottom: 1%;
+}
+
+/* line 155, ../../sass/_pad.scss */
+.mB2 {
+  margin-bottom: 2%;
+}
+
+/* line 158, ../../sass/_pad.scss */
+.mB3 {
+  margin-bottom: 3%;
+}
+
+/* line 161, ../../sass/_pad.scss */
+.mB5 {
+  margin-bottom: 5%;
+}
+
+/* line 164, ../../sass/_pad.scss */
+.mB10 {
+  margin-bottom: 10%;
+}
+
+/* line 167, ../../sass/_pad.scss */
+.mB15 {
+  margin-bottom: 15%;
+}
+
+/* line 170, ../../sass/_pad.scss */
+.mB20 {
+  margin-bottom: 20%;
+}
+
+/* line 173, ../../sass/_pad.scss */
+.mB30 {
+  margin-bottom: 30%;
+}
+
+/* line 176, ../../sass/_pad.scss */
+.mB40 {
+  margin-bottom: 40%;
+}
+
+/* line 179, ../../sass/_pad.scss */
+.mB50 {
+  margin-bottom: 50%;
+}
+
+/* line 182, ../../sass/_pad.scss */
+.mB60 {
+  margin-bottom: 60%;
+}
+
+/* line 185, ../../sass/_pad.scss */
+.mB70 {
+  margin-bottom: 70%;
+}
+
+/* line 188, ../../sass/_pad.scss */
+.mB80 {
+  margin-bottom: 80%;
+}
+
+/* line 191, ../../sass/_pad.scss */
+.mB90 {
+  margin-bottom: 90%;
 }
 
 /*Park Landing Page*/
@@ -337,12 +703,14 @@ div.checklist {
   font-weight: bold;
 }
 /* line 201, ../../sass/_park-landing.scss */
-.trip-activity p {
-  padding: 10px 0;
+.trip-activity p.trip {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
 }
 
 /* Wrapper Fix */
-/* line 208, ../../sass/_park-landing.scss */
+/* line 210, ../../sass/_park-landing.scss */
 .cstyle03-park {
   background: #fff;
   height: 100%;
@@ -353,13 +721,13 @@ div.checklist {
 }
 
 /* Footer Fix */
-/* line 219, ../../sass/_park-landing.scss */
+/* line 222, ../../sass/_park-landing.scss */
 .sfix3-park {
   position: absolute;
 }
 
 @media (min-width: 992px) {
-  /* line 221, ../../sass/_park-landing.scss */
+  /* line 224, ../../sass/_park-landing.scss */
   .sfix3-park {
     position: absolute;
   }
@@ -373,4 +741,69 @@ div.checklist {
   position: relative;
   z-index: 100;
   display: block;
+}
+
+/* line 1, ../../sass/_booking.scss */
+.cstyle03-booking {
+  background: #bada9c;
+  height: 100%;
+  margin-top: 179px;
+  position: relative;
+  z-index: 100;
+  display: block;
+}
+
+/* line 10, ../../sass/_booking.scss */
+.line4-booking {
+  background: #e8e8e8;
+  height: 1px;
+  display: block;
+}
+
+/* line 16, ../../sass/_booking.scss */
+.permitText {
+  width: 50%;
+  display: inline-block;
+}
+
+/* line 21, ../../sass/_booking.scss */
+.permitImg {
+  vertical-align: top;
+}
+
+/* line 25, ../../sass/_booking.scss */
+thead[attr="priceRow"] {
+  height: 80px;
+}
+
+/* line 29, ../../sass/_booking.scss */
+tr[attr="costRow"] {
+  height: 60px;
+}
+
+/* line 33, ../../sass/_booking.scss */
+td[attr="totalTitle"] {
+  width: 120px;
+}
+
+/* line 37, ../../sass/_booking.scss */
+td[attr="totalPrice"] {
+  width: 80px;
+}
+
+/* line 40, ../../sass/_booking.scss */
+td[attr="totalAmount"] {
+  width: 120px;
+}
+
+/* line 43, ../../sass/_booking.scss */
+td[attr="totalCost"] {
+  width: 80px;
+}
+
+/* line 49, ../../sass/_booking.scss */
+td[attr="button"] {
+  width: 120px;
+  height: 80px;
+  margin-top: 20px;
 }
