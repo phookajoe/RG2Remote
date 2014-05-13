@@ -2875,14 +2875,15 @@ a > span.search-icn{
 }
 
 
+/*###############################
+	 	Mars Addition
+#################################*/
+
+
 /*Colors*/
 /* Buttons for Park Landing page */
 /* line 3, ../../sass/_buttons.scss */
 .btn-orange {
-  /*color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
-  */
   text-transform: uppercase;
   margin-top: 12px;
   border: 1px solid #d75124;
@@ -2936,7 +2937,7 @@ span.parkTab {
 
 /* line 9, ../../sass/_images.scss */
 .mountain-biking {
-  background: url("/images/park/mountain-biking.jpg") center center;
+  background: url("../../images/park/mountain-biking.jpg") center center;
   display: block;
   width: 291px;
   height: 150px;
@@ -2946,7 +2947,7 @@ span.parkTab {
 
 /* line 13, ../../sass/_images.scss */
 .zipline {
-  background: url("/images/park/zipline.jpg") center center;
+  background: url("../../images/park/zipline.jpg") center center;
   display: block;
   width: 291px;
   height: 150px;
@@ -2956,7 +2957,7 @@ span.parkTab {
 
 /* line 17, ../../sass/_images.scss */
 .rafting {
-  background: url("/images/park/rafting.jpg") center center;
+  background: url("../../images/park/rafting.jpg") center center;
   display: block;
   width: 291px;
   height: 150px;
@@ -2966,7 +2967,7 @@ span.parkTab {
 
 /* line 21, ../../sass/_images.scss */
 .hiking {
-  background: url("/images/park/hiking.jpg") center center;
+  background: url("../../images/park/hiking.jpg") center center;
   display: block;
   width: 291px;
   height: 150px;
@@ -2976,7 +2977,7 @@ span.parkTab {
 
 /* line 25, ../../sass/_images.scss */
 .night-tour {
-  background: url("/images/park/night-tour.jpg") center bottom;
+  background: url("../../images/park/night-tour.jpg") center bottom;
   display: block;
   width: 291px;
   height: 150px;
@@ -2986,7 +2987,7 @@ span.parkTab {
 
 /* line 29, ../../sass/_images.scss */
 .rock-climbing {
-  background: url("/images/park/rock-climbing.jpg") left top;
+  background: url("../../images/park/rock-climbing.jpg") left top;
   display: block;
   width: 291px;
   height: 150px;
