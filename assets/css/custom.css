@@ -925,7 +925,7 @@ color:#fff;
 
 
 /*TABS customisations*/
-.tab-content{background:#ffffff; padding:30px; height:324px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+.tab-content{background:#ffffff; padding:30px; /*height:324px;*/ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
 .tab-content2{background:#ffffff; padding:30px 15px 30px 15px; height:324px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
 .tab-content3{background:#ffffff; padding:30px; height:324px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
 .tab-content4{background:#ffffff; padding:30px 0px 30px 0px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.0); color:#999;}
@@ -1097,6 +1097,10 @@ margin-top:100px;
 }
 .lcfix{background: url(../../images/barsRandom/Mountaindrop.jpg) #fff 0 -150px !important;
 	background-size: cover!important;
+}
+
+.lcfix.green{
+	background: url(../../images/barsRandom/Mountaindrop-green.jpg) #fff 0 -150px !important
 }
 .bgfix{background:#f2f2f2!important;}
 
@@ -2866,9 +2870,12 @@ a > span.search-icn{
 	margin:0px;
 	padding:0px;
 }
+.clearContent{
+	clear:both;
+}
 
 
-@@ -1,211 +0,0 @@
+/*Mars*/
 /*Colors*/
 /*Park Landing Page*/
 /* line 4, ../../sass/_park-landing.scss */
@@ -2902,7 +2909,7 @@ h3 {
 /* line 39, ../../sass/_park-landing.scss */
 div.tab-content-2-3 {
   float: left;
-  height: 324px;
+ /* height: 324px;*/ 
   width: 65%;
   margin-left: 3%;
   background: #ffffff;
