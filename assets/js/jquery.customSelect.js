@@ -4,8 +4,8 @@
  * 2013-05-13
  *
  * Copyright 2013 Adam Coulombe
- * @license http://www.opensource.org/licenses/mit-license.php MIT License
- * @license http://www.gnu.org/licenses/gpl.php GPL2 License 
+ * @license http://www.opensource.org/licenses/mit-license.html MIT License
+ * @license http://www.gnu.org/licenses/gpl.html GPL2 License 
  */
 
 (function ($) {
@@ -27,9 +27,9 @@
             changed = function ($select,customSelectSpan) {
                 var currentSelected = $select.find(':selected'),
                 customSelectSpanInner = customSelectSpan.children(':first'),
-                html = currentSelected.php() || '&nbsp;';
+                html = currentSelected.html() || '&nbsp;';
 
-                customSelectSpanInner.php(html);
+                customSelectSpanInner.html(html);
                 
                 if (currentSelected.attr('disabled')) {
                 	customSelectSpan.addClass(getClass('DisabledOption'));

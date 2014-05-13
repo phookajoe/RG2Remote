@@ -1,4 +1,4 @@
-@import url('/assets/css/mars.css');
+
 
 /* @override 
 	http://localhost/RG2Remote/assets/css/custom.css */
@@ -86,13 +86,17 @@ span.navsub {
 	color: #8f8d8d;
 }
 
-img.fullwidth{width:100%; height:261px;}
 
 
-img.logo {width:120px;}
 
+
+.glyphicon-remove-circle {
+	opacity: 0.36;
+}
 
 /*GLOBAL*/
+
+
 .none{display:none;}
 .block{display:block;}
 .left{float:left;}
@@ -921,7 +925,7 @@ color:#fff;
 
 
 /*TABS customisations*/
-.tab-content{background:#ffffff; padding:30px; height:324px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+.tab-content{background:#ffffff; padding:30px; /*height:324px;*/ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
 .tab-content2{background:#ffffff; padding:30px 15px 30px 15px; height:324px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
 .tab-content3{background:#ffffff; padding:30px; height:324px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
 .tab-content4{background:#ffffff; padding:30px 0px 30px 0px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.0); color:#999;}
@@ -1093,6 +1097,10 @@ margin-top:100px;
 }
 .lcfix{background: url(../../images/barsRandom/Mountaindrop.jpg) #fff 0 -150px !important;
 	background-size: cover!important;
+}
+
+.lcfix.green{
+	background: url(../../images/barsRandom/Mountaindrop-green.jpg) #fff 0 -150px !important
 }
 .bgfix{background:#f2f2f2!important;}
 
@@ -1554,6 +1562,7 @@ border-radius: 2px;
 .mySelectCalendar {
 background:url('../../images/calendar.png') #fff no-repeat right;
 background-position:98% 1px;
+	font-size: 10px;
 }
 .mySelectCalendar2 {
 background:url('../../images/calendar2.png') #fff no-repeat right;
@@ -2077,7 +2086,7 @@ CAROUFREDSEL DETAILS PAGE
 */
 #c-carousel {
 	height: 100%;
-	padding: 0;
+	padding: 0
 	margin: 0;
 }
 #c-carousel {
@@ -2166,7 +2175,14 @@ ul.checklist2  {margin:0px;padding:0px;}
 .checklist2 li {list-style-image:url('../../images/check.png'); list-style-position:inside; padding:0px; margin-left:0px; color:#72bf66;}
 
 #map-canvas { width:100%; height: 648px; display:none; position:relative;}
-#map-canvas2 { width:100%; height: 80%; display:none; position:relative;}
+#map-canvas2 { width:100%; height: 100%; display:none;
+	position: relative;
+	top: 180px;
+}
+.cstyle11-2{background:#ccc; width: 100%; height:100%;
+	top: 0;
+	left: 0;
+}
 
 .gm-style-mtc:nth-child(1){margin-top:25px;}
 .gm-style-mtc:nth-child(2){margin-top:25px;}
@@ -2268,7 +2284,9 @@ margin-top:22px;
 .cstyle01{display: inline-block; width: 100%;  font-size:13px}
 .cstyle02{position:absolute; background:#f7f7f7; width:100%; margin-left:-20px; padding:20px;}
 .cstyle03{background:#fff; margin-top:800px; position:relative; z-index:100; display:block;}
-.cstyle04{position:relative; top:-41px;}
+.cstyle04{position:relative; top:-41px;
+	background-color: #ffffff;
+}
 .cstyle05{display:block; background:white; width:100%; height:324px; overflow:hidden;}
 .cstyle06{min-height:640px;}
 .cstyle07{min-height:570px;}
@@ -2276,6 +2294,7 @@ margin-top:22px;
 .cstyle09{display: inline-block; width: 100%;  font-size:13px;}
 .cstyle10{background:#72bf66; height:40px; position:absolute; top:0px; width:100%}
 .cstyle11{background:#ccc; width:100%; height:100%;}
+
 
 
 /* MEDIA FIXES*/
@@ -2815,18 +2834,25 @@ padding-top:3px;
 	border-radius:0px;
 }
 .rightHelperNav{
-	margin-top:15px;
+	height:43px
 }
 .rightHelperNav li{
 	list-style:none;
 	display:inline-block;
-	margin-left:13px;
+	margin:-10px 0 0 13px;
 	color:#EEEEEE;
 }
-<<<<<<< HEAD
-/* Rick's Additions */
-/* would like to implement sass and sassify all these rules, theme colors, and other commonly used objects*/
-=======
+
+li> span.avatar{
+	display:block;
+	position:relative;
+	top:15px;
+	width:43px;
+	height:43px;
+	border:1px solid #14232c;
+	background:url(../../images/avatar.jpg);
+}
+
 a > span.facebook-icn{
 	height:38px;
 	width:38px;
@@ -2844,6 +2870,220 @@ a > span.search-icn{
 	margin:0px;
 	padding:0px;
 }
+.clearContent{
+	clear:both;
+}
 
->>>>>>> FETCH_HEAD
 
+/*Mars*/
+/*Colors*/
+/*Park Landing Page*/
+/* line 4, ../../sass/_park-landing.scss */
+h1.interiorTitle {
+  height: 40px;
+  width: auto;
+  padding: 0 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  line-height: 1.85em;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 2px 2px #000000;
+  z-index: 10;
+}
+
+/* line 25, ../../sass/_park-landing.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+/* line 29, ../../sass/_park-landing.scss */
+h3 {
+  font-size: 24px;
+}
+
+/* line 39, ../../sass/_park-landing.scss */
+div.tab-content-2-3 {
+  float: left;
+ /* height: 324px;*/ 
+  width: 65%;
+  margin-left: 3%;
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 47, ../../sass/_park-landing.scss */
+div.tab-content-1-3 {
+  height: 324px;
+  width: 25%;
+  float: right;
+  margin-right: 3%;
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 55, ../../sass/_park-landing.scss */
+div.tab-content-3-3 {
+  width: 90%;
+  float: left;
+  margin-left: 4%;
+}
+
+/* Buttons for Park Landing page */
+/* line 63, ../../sass/_park-landing.scss */
+.btn-search-park {
+  /*color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+  */
+  text-transform: uppercase;
+  margin-top: 12px;
+  border: 1px solid #d75124;
+  background: #e35121;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff6633), to(#e35121));
+  background: -webkit-linear-gradient(top, #ff6633, #e35121);
+  background: -moz-linear-gradient(top, #ff6633, #e35121);
+  background: -ms-linear-gradient(top, #ff6633, #e35121);
+  background: -o-linear-gradient(top, #ff6633, #e35121);
+  padding: 7.5px 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.18) 0 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.18) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 0.18) 0 1px 0;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+  font-family: "Open Sans";
+  font-weight: 700;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+
+/* line 97, ../../sass/_park-landing.scss */
+.btn-search:hover {
+  /*color:#be3507;*/
+  color: #ffffff;
+  /*text-shadow: rgba(255,255,255,.4) 0 1px 0;*/
+  text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+  background: #ff6633;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e35121), to(#ff6633));
+  background: -webkit-linear-gradient(top, #e35121, #ff6633);
+  background: -moz-linear-gradient(top, #e35121, #ff6633);
+  background: -ms-linear-gradient(top, #e35121, #ff6633);
+  background: -o-linear-gradient(top, #e35121, #ff6633);
+}
+
+/* Span */
+/* line 115, ../../sass/_park-landing.scss */
+span.blk {
+  display: block;
+}
+
+/* Links */
+/* line 121, ../../sass/_park-landing.scss */
+a.rd-more {
+  font-size: 0.875em;
+  color: #ff6633;
+  text-decoration: none;
+}
+
+/* line 126, ../../sass/_park-landing.scss */
+a.rd-more:hover {
+  text-decoration: underline;
+}
+
+/* Misc Div styles */
+/* line 133, ../../sass/_park-landing.scss */
+.rt-vrtDiv {
+  border-right: 1px solid #d7d7d7;
+}
+
+/* Images */
+/* line 140, ../../sass/_park-landing.scss */
+.parkPnlThumb {
+  width: 256px;
+  height: 120px;
+  border: 1px solid #d7d7d7;
+  background: url("/images/fall-highlights.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* Left Tabs */
+/* line 150, ../../sass/_park-landing.scss */
+.park-tab-content {
+  width: 113%;
+  min-height: 432px;
+  margin-left: 4%;
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 157, ../../sass/_park-landing.scss */
+ul.parkUlNav {
+  margin-left: 4%;
+  width: 150px;
+  height: auto;
+}
+
+/* line 164, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+/* line 168, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs > li {
+  float: none;
+}
+
+/* line 172, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs > li > a {
+  min-width: 100px;
+  height: 70px;
+  margin-right: 0;
+  margin-bottom: 3px;
+  text-align: center;
+  vertical-align: middle;
+  color: #000000;
+  background: #f7f7f7;
+}
+
+/* line 183, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+/* line 189, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+}
+
+/* line 194, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-left: 8px solid #ff6633;
+}
+
+/* line 200, ../../sass/_park-landing.scss */
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  background: #ffffff;
+  border-color: #ddd transparent #ddd #ddd;
+  border-left: 8px solid #ff6633;
+  *border-right-color: #ffffff;
+}
