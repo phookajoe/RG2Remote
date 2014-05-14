@@ -2,7 +2,9 @@
 /* @override 
 	http://localhost/RG2Remote/assets/css/custom.css */
 
-
+body{
+	background:#f9fbef;
+}
 /*Makes bootstrap menu drop on hover*/
 @media (min-width: 992px) {
 	ul.nav li.dropdown > ul.dropdown-menu {
@@ -2478,21 +2480,22 @@ color:#333;
 border-bottom:1px solid #ebebeb;
 }
 .profile-tabs li{
-background:#f2f2f2;
-color:#999999;
+background:#72bf66;
 padding:0px;
 margin:0px;
-border-bottom:1px solid #e6e6e6;
+border-bottom:1px solid #509146;
+border-top:1px solid #8CE77E;
 }
 .profile-tabs li a{
 width:100%;
 height:115px;
-color:#999999;
+color:#FFFFFF;
+font-weight: bold;
 padding-top:30px;
 text-align:center;
 }
 .profile-tabs li.active{
-background:#fff;
+background:#fdcd62;
 color:#333;
 border-bottom:1px solid #ffffff;
 }
@@ -2895,10 +2898,18 @@ a > span.search-icn{
 .availabilityTop{
 	margin:150px 0 0 0;
 	background: url(../../images/barsRandom/Mountaindrop-green.jpg) no-repeat #fff 0 -150px !important;
+	background-size: cover!important;
 	display:block;
 	
 }
+.blueMountainBg{
+	background: url(../../images/barsRandom/Mountaindrop.jpg) #fff 0 -150px no-repeat !important;
+	background-size: cover!important;
 
+}
+.midSectionHeight{
+	height:650px;
+}
 
 
 /*###############################
@@ -3006,7 +3017,7 @@ span.parkTab {
 /*Park Landing Page*/
 /* line 11, ../../sass/_images.scss */
 .mountain-biking {
-  background: url("/images/park/mountain-biking.jpg") center center;
+  background: url("../../images/park/mountain-biking.jpg") center center;
   display: block;
   width: 100%;
   height: 150px;
@@ -3016,7 +3027,7 @@ span.parkTab {
 
 /* line 15, ../../sass/_images.scss */
 .zipline {
-  background: url("/images/park/zipline.jpg") center center;
+  background: url("../../images/park/zipline.jpg") center center;
   display: block;
   width: 100%;
   height: 150px;
@@ -3026,7 +3037,7 @@ span.parkTab {
 
 /* line 19, ../../sass/_images.scss */
 .rafting {
-  background: url("/images/park/rafting.jpg") center center;
+  background: url("../../images/park/rafting.jpg") center center;
   display: block;
   width: 100%;
   height: 150px;
@@ -3036,7 +3047,7 @@ span.parkTab {
 
 /* line 23, ../../sass/_images.scss */
 .hiking {
-  background: url("/images/park/hiking.jpg") center center;
+  background: url("../../images/park/hiking.jpg") center center;
   display: block;
   width: 100%;
   height: 150px;
@@ -3046,7 +3057,7 @@ span.parkTab {
 
 /* line 27, ../../sass/_images.scss */
 .night-tour {
-  background: url("/images/park/night-tour.jpg") center bottom;
+  background: url("../../images/park/night-tour.jpg") center bottom;
   display: block;
   width: 100%;
   height: 150px;
@@ -3056,7 +3067,7 @@ span.parkTab {
 
 /* line 31, ../../sass/_images.scss */
 .rock-climbing {
-  background: url("/images/park/rock-climbing.jpg") left top;
+  background: url("../../images/park/rock-climbing.jpg") left top;
   display: block;
   width: 100%;
   height: 150px;
@@ -3067,7 +3078,7 @@ span.parkTab {
 /*Booking Page*/
 /* line 38, ../../sass/_images.scss */
 .acrylic {
-  background: url("/images/booking/acrylic.jpg") left top;
+  background: url("../../images/booking/acrylic.jpg") left top;
   display: block;
   width: 100%;
   height: 150px;
@@ -3077,7 +3088,7 @@ span.parkTab {
 
 /* line 43, ../../sass/_images.scss */
 .halfDome {
-  background: url("/images/booking/half-dome.jpg") center center;
+  background: url("../../images/booking/half-dome.jpg") center center;
   display: block;
   width: 100%;
   height: 150px;
@@ -3430,7 +3441,8 @@ div.tab-content-2-3 {
   height: 324px;
   width: 65%;
   margin-left: 3%;
-  background: #ffffff;
+  background: #72bf66;
+  border:1px solid #243D21;
   padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -3441,9 +3453,9 @@ div.tab-content-1-3 {
   width: 25%;
   float: right;
   margin-right: 3%;
-  background: #ffffff;
+
   padding: 30px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
 }
 
 /* line 68, ../../sass/_park-landing.scss */
@@ -3501,7 +3513,7 @@ a.rd-more:hover {
   width: 256px;
   height: 120px;
   border: 1px solid #d7d7d7;
-  background: url("/images/fall-highlights.jpg") no-repeat center center;
+  background: url("../../images/fall-highlights.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -3575,6 +3587,8 @@ ul.parkUlNav {
 /* line 178, ../../sass/_park-landing.scss */
 div.checklist {
   min-height: 110px;
+  background: url(../../images/barsRandom/Mountaindrop-green.jpg) no-repeat #fff 0 -150px;
+  color:#FFFFFF;
 }
 
 /* line 182, ../../sass/_park-landing.scss */
@@ -3618,7 +3632,7 @@ div.checklist {
 /* Wrapper Fix */
 /* line 210, ../../sass/_park-landing.scss */
 .cstyle03-park {
-  background: #fff;
+  /*background: #fff;*/
   height: 100%;
   margin-top: 600px;
   position: relative;
