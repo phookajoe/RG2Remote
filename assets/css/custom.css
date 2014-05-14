@@ -952,7 +952,8 @@ color:#fff;
 #myTab > li > a > span.hidetext{display:inline-block;}
 #myTab2 > li > a > span.hidetext{display:inline-block;}
 }
-.nav-tabs > li {background:#72bf66;}
+.nav-tabs > li {background:#72bf66; padding:15px;border-top: 1px solid #BFDBBA;
+border-bottom: 1px solid #339933;}
 
 
 
@@ -2912,6 +2913,16 @@ a > span.search-icn{
 	background-size: cover!important;
 
 }
+
+.blueMountainBg-Park{
+	background: url(../../images/barsRandom/Mountaindrop.jpg) #fff 0 -150px no-repeat !important;
+
+}
+.greenMountainBg{
+	background: url(../../images/barsRandom/Mountaindrop-green.jpg) #fff 0 -150px repeat-y !important;
+	background-size: cover!important;
+
+}
 .midSectionHeight{
 	height:650px;
 }
@@ -2924,6 +2935,13 @@ a > span.search-icn{
 
 .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
 	color:#fdcd62;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+	background:#fdcd62;
+	border-radius:0px;
+}
+.tabs-left>li{
+	margin-bottom:0px !important;
 }
 
 /*###############################
@@ -3757,7 +3775,7 @@ div.checklist {
 
 /* line 1, ../../sass/_booking.scss */
 .cstyle03-booking {
-  background: #bada9c;
+
   height: 100%;
   margin-top: 179px;
   position: relative;
