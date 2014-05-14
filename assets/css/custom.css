@@ -184,13 +184,13 @@ span.navsub {
 .lred{color:#ff9966;}
 .lred2{color:#ff5a00;}
 
-.orange{color:#ff9900;}
+.orange{color:#fdcd62;}
 a.orange{color:#ff6633;text-decoration:none;}
 a:hover.orange{color:#72bf66;text-decoration:none;}
 
 /*anchors*/
 a.dark{color:#333;text-decoration:none;}
-a:hover.dark{color:#ff9900;text-decoration:none;}
+a:hover.dark{color:#fdcd62;text-decoration:none;}
 
 a.grey{color:#999; font-weight:normal;}
 
@@ -1441,11 +1441,11 @@ button:hover.next2   img {width:14px;height:18px; display:block; background:url(
 
 .footer{text-align:center;color:#999; font-size:14px;}
 .footer a{color:#72BF66; font-size:14px; font-weight:normal;   -webkit-transition:.3s;-moz-transition:.3s;transition:.3s}
-.footer a:hover{color:#ff9900; font-size:14px; font-weight:normal; text-decoration:none;}
+.footer a:hover{color:#fdcd62; font-size:14px; font-weight:normal; text-decoration:none;}
 
 .scont{text-align:left;color:#999; font-size:14px;}
 .scont a{color:#72bf66; font-size:14px; font-weight:normal;   -webkit-transition:.3s;-moz-transition:.3s;transition:.3s}
-.scont a:hover{color:#ff9900; font-size:14px; font-weight:normal; text-decoration:none;}
+.scont a:hover{color:#fdcd62; font-size:14px; font-weight:normal; text-decoration:none;}
 
 ul.footerlist {padding-left:20px; list-style-image:url('../../images/li.png');}
 ul.footerlist li{line-height:24px; }
@@ -1481,7 +1481,7 @@ right:0px;
 overflow:hidden;
 }
 .btncustom:hover{
-background:url('../../images/arrow.png') #ff9900 37px -5px; 
+background:url('../../images/arrow.png') #fdcd62 37px -5px; 
 border:0px; 
 -webkit-border-radius: 0px;
 -moz-border-radius: 0px;
@@ -1959,8 +1959,8 @@ ul.hotelpreferences2 {margin: 0px;padding: 0px;list-style: none;}
 .hotelpreferences2 li{
 width:28px; 
 height:28px; 
-background:url('') #ff9900; 
-border:2px solid #ff9900;
+background:url('') #fdcd62; 
+border:2px solid #fdcd62;
 padding:5px;
 color:#999;
 -webkit-border-radius: 2px;
@@ -1971,52 +1971,52 @@ border-radius: 2px;
 margin-top:4px;
 }
 .hotelpreferences2 li:hover{}
-.hotelpreferences2 li.icohp-internet{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -3px no-repeat;}
-.hotelpreferences2 li:hover.icohp-internet{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -3px no-repeat;}
-.hotelpreferences2 li.icohp-air{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -33px no-repeat;}
-.hotelpreferences2 li:hover.icohp-air{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -33px no-repeat;}
-.hotelpreferences2 li.icohp-pool{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -63px no-repeat;}
-.hotelpreferences2 li:hover.icohp-pool{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -63px no-repeat;}
-.hotelpreferences2 li.icohp-childcare{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -93px no-repeat;}
-.hotelpreferences2 li:hover.icohp-childcare{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -93px no-repeat;}
-.hotelpreferences2 li.icohp-fitness{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -123px no-repeat;}
-.hotelpreferences2 li:hover.icohp-fitness{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -123px no-repeat;}
-.hotelpreferences2 li.icohp-breakfast{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -153px no-repeat;}
-.hotelpreferences2 li:hover.icohp-breakfast{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -153px no-repeat;}
-.hotelpreferences2 li.icohp-parking{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -183px no-repeat;}
-.hotelpreferences2 li:hover.icohp-parking{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -183px no-repeat;}
-.hotelpreferences2 li.icohp-pets{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -213px no-repeat;}
-.hotelpreferences2 li:hover.icohp-pets{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -213px no-repeat;}
-.hotelpreferences2 li.icohp-spa{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -243px no-repeat;}
-.hotelpreferences2 li:hover.icohp-spa{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -243px no-repeat;}
-.hotelpreferences2 li.icohp-hairdryer{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -273px no-repeat;}
-.hotelpreferences2 li:hover.icohp-hairdryer{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -273px no-repeat;}
-.hotelpreferences2 li.icohp-garden{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -303px no-repeat;}
-.hotelpreferences2 li:hover.icohp-garden{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -303px no-repeat;}
-.hotelpreferences2 li.icohp-grill{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -333px no-repeat;}
-.hotelpreferences2 li:hover.icohp-grill{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -333px no-repeat;}
-.hotelpreferences2 li.icohp-kitchen{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -363px no-repeat;}
-.hotelpreferences2 li:hover.icohp-kitchen{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -363px no-repeat;}
-.hotelpreferences2 li.icohp-bar{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -393px no-repeat;}
-.hotelpreferences2 li:hover.icohp-bar{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -393px no-repeat;}
-.hotelpreferences2 li.icohp-living{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -423px no-repeat;}
-.hotelpreferences2 li:hover.icohp-living{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -423px no-repeat;}
-.hotelpreferences2 li.icohp-tv{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -453px no-repeat;}
-.hotelpreferences2 li:hover.icohp-tv{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -453px no-repeat;}
-.hotelpreferences2 li.icohp-fridge{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -483px no-repeat;}
-.hotelpreferences2 li:hover.icohp-fridge{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -483px no-repeat;}
-.hotelpreferences2 li.icohp-microwave{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -513px no-repeat;}
-.hotelpreferences2 li:hover.icohp-microwave{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -513px no-repeat;}
-.hotelpreferences2 li.icohp-washing{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -543px no-repeat;}
-.hotelpreferences2 li:hover.icohp-washing{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -543px no-repeat;}
-.hotelpreferences2 li.icohp-roomservice{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -573px no-repeat;}
-.hotelpreferences2 li:hover.icohp-roomservice{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -573px no-repeat;}
-.hotelpreferences2 li.icohp-safe{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -603px no-repeat;}
-.hotelpreferences2 li:hover.icohp-safe{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -603px no-repeat;}
-.hotelpreferences2 li.icohp-playground{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -633px no-repeat;}
-.hotelpreferences2 li:hover.icohp-playground{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -633px no-repeat;}
-.hotelpreferences2 li.icohp-conferenceroom{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -3px -663px no-repeat;}
-.hotelpreferences2 li:hover.icohp-conferenceroom{background:url('../../images/hotelpref-ico-green.png') #ff9900 scroll -33px -663px no-repeat;}
+.hotelpreferences2 li.icohp-internet{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -3px no-repeat;}
+.hotelpreferences2 li:hover.icohp-internet{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -3px no-repeat;}
+.hotelpreferences2 li.icohp-air{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -33px no-repeat;}
+.hotelpreferences2 li:hover.icohp-air{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -33px no-repeat;}
+.hotelpreferences2 li.icohp-pool{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -63px no-repeat;}
+.hotelpreferences2 li:hover.icohp-pool{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -63px no-repeat;}
+.hotelpreferences2 li.icohp-childcare{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -93px no-repeat;}
+.hotelpreferences2 li:hover.icohp-childcare{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -93px no-repeat;}
+.hotelpreferences2 li.icohp-fitness{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -123px no-repeat;}
+.hotelpreferences2 li:hover.icohp-fitness{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -123px no-repeat;}
+.hotelpreferences2 li.icohp-breakfast{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -153px no-repeat;}
+.hotelpreferences2 li:hover.icohp-breakfast{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -153px no-repeat;}
+.hotelpreferences2 li.icohp-parking{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -183px no-repeat;}
+.hotelpreferences2 li:hover.icohp-parking{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -183px no-repeat;}
+.hotelpreferences2 li.icohp-pets{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -213px no-repeat;}
+.hotelpreferences2 li:hover.icohp-pets{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -213px no-repeat;}
+.hotelpreferences2 li.icohp-spa{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -243px no-repeat;}
+.hotelpreferences2 li:hover.icohp-spa{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -243px no-repeat;}
+.hotelpreferences2 li.icohp-hairdryer{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -273px no-repeat;}
+.hotelpreferences2 li:hover.icohp-hairdryer{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -273px no-repeat;}
+.hotelpreferences2 li.icohp-garden{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -303px no-repeat;}
+.hotelpreferences2 li:hover.icohp-garden{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -303px no-repeat;}
+.hotelpreferences2 li.icohp-grill{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -333px no-repeat;}
+.hotelpreferences2 li:hover.icohp-grill{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -333px no-repeat;}
+.hotelpreferences2 li.icohp-kitchen{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -363px no-repeat;}
+.hotelpreferences2 li:hover.icohp-kitchen{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -363px no-repeat;}
+.hotelpreferences2 li.icohp-bar{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -393px no-repeat;}
+.hotelpreferences2 li:hover.icohp-bar{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -393px no-repeat;}
+.hotelpreferences2 li.icohp-living{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -423px no-repeat;}
+.hotelpreferences2 li:hover.icohp-living{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -423px no-repeat;}
+.hotelpreferences2 li.icohp-tv{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -453px no-repeat;}
+.hotelpreferences2 li:hover.icohp-tv{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -453px no-repeat;}
+.hotelpreferences2 li.icohp-fridge{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -483px no-repeat;}
+.hotelpreferences2 li:hover.icohp-fridge{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -483px no-repeat;}
+.hotelpreferences2 li.icohp-microwave{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -513px no-repeat;}
+.hotelpreferences2 li:hover.icohp-microwave{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -513px no-repeat;}
+.hotelpreferences2 li.icohp-washing{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -543px no-repeat;}
+.hotelpreferences2 li:hover.icohp-washing{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -543px no-repeat;}
+.hotelpreferences2 li.icohp-roomservice{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -573px no-repeat;}
+.hotelpreferences2 li:hover.icohp-roomservice{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -573px no-repeat;}
+.hotelpreferences2 li.icohp-safe{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -603px no-repeat;}
+.hotelpreferences2 li:hover.icohp-safe{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -603px no-repeat;}
+.hotelpreferences2 li.icohp-playground{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -633px no-repeat;}
+.hotelpreferences2 li:hover.icohp-playground{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -633px no-repeat;}
+.hotelpreferences2 li.icohp-conferenceroom{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -3px -663px no-repeat;}
+.hotelpreferences2 li:hover.icohp-conferenceroom{background:url('../../images/hotelpref-ico-green.png') #fdcd62 scroll -33px -663px no-repeat;}
 
 
 ul.hpref-text {list-style:none; margin-top:-5px; padding-left:10px;}
@@ -2914,6 +2914,11 @@ a > span.search-icn{
 	height:350px;
 	overflow:hidden;
 	margin-top: 30px;
+	border:1px solid #448D0B;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+	color:#fdcd62;
 }
 
 /*###############################
