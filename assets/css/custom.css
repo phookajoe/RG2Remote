@@ -3648,7 +3648,8 @@ div.checklist {
 .cstyle03-park {
   background:#f9fbef;
   height: 100%;
-  margin-top: 600px;
+  margin-top: 180px;
+  border-top:1px solid #C9C9C9;
   position: relative;
   z-index: 100;
   display: block;
