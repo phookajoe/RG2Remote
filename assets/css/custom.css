@@ -2,7 +2,9 @@
 /* @override 
 	http://localhost/RG2Remote/assets/css/custom.css */
 
-
+body{
+	background:#f9fbef;
+}
 /*Makes bootstrap menu drop on hover*/
 @media (min-width: 992px) {
 	ul.nav li.dropdown > ul.dropdown-menu {
@@ -2895,6 +2897,7 @@ a > span.search-icn{
 .availabilityTop{
 	margin:150px 0 0 0;
 	background: url(../../images/barsRandom/Mountaindrop-green.jpg) no-repeat #fff 0 -150px !important;
+	background-size: cover!important;
 	display:block;
 	
 }
@@ -3628,7 +3631,7 @@ div.checklist {
 /* Wrapper Fix */
 /* line 210, ../../sass/_park-landing.scss */
 .cstyle03-park {
-  background: #fff;
+  /*background: #fff;*/
   height: 100%;
   margin-top: 600px;
   position: relative;
