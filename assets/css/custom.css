@@ -3109,7 +3109,7 @@ a.icons:hover .icon-share:hover {
 /*Park Landing Page*/
 /* line 11, ../../sass/_images.scss */
 .mountain-biking {
-  background: url("/images/park/mountain-biking.jpg") center center;
+  background: url("../../images/park/mountain-biking.jpg") center center;
   display: block;
   width: 100%;
   height: 150px;
@@ -3119,7 +3119,7 @@ a.icons:hover .icon-share:hover {
 
 /* line 15, ../../sass/_images.scss */
 .zipline {
-  background: url("/images/park/zipline.jpg") center center;
+  background: url("../../images/park/zipline.jpg") center center;
   display: block;
   width: 100%;
   height: 150px;
@@ -3129,7 +3129,7 @@ a.icons:hover .icon-share:hover {
 
 /* line 19, ../../sass/_images.scss */
 .rafting {
-  background: url("/images/park/rafting.jpg") center center;
+  background: url("../../images/park/rafting.jpg") center center;
   display: block;
   width: 100%;
   height: 150px;
@@ -3139,7 +3139,7 @@ a.icons:hover .icon-share:hover {
 
 /* line 23, ../../sass/_images.scss */
 .hiking {
-  background: url("/images/park/hiking.jpg") center center;
+  background: url("../../images/park/hiking.jpg") center center;
   display: block;
   width: 100%;
   height: 150px;
@@ -3149,7 +3149,7 @@ a.icons:hover .icon-share:hover {
 
 /* line 27, ../../sass/_images.scss */
 .night-tour {
-  background: url("/images/park/night-tour.jpg") center bottom;
+  background: url("../../images/park/night-tour.jpg") center bottom;
   display: block;
   width: 100%;
   height: 150px;
@@ -3159,7 +3159,7 @@ a.icons:hover .icon-share:hover {
 
 /* line 31, ../../sass/_images.scss */
 .rock-climbing {
-  background: url("/images/park/rock-climbing.jpg") left top;
+  background: url("../../images/park/rock-climbing.jpg") left top;
   display: block;
   width: 100%;
   height: 150px;
@@ -3170,7 +3170,7 @@ a.icons:hover .icon-share:hover {
 /*Booking Page*/
 /* line 38, ../../sass/_images.scss */
 .acrylic {
-  background: url("/images/booking/acrylic.jpg") left top;
+  background: url("../../images/booking/acrylic.jpg") left top;
   display: block;
   width: 100%;
   height: 150px;
@@ -3180,7 +3180,7 @@ a.icons:hover .icon-share:hover {
 
 /* line 43, ../../sass/_images.scss */
 .halfDome {
-  background: url("/images/booking/half-dome.jpg") center center;
+  background: url("../../images/booking/half-dome.jpg") center center;
   display: block;
   width: 100%;
   height: 150px;
@@ -3604,7 +3604,7 @@ a.rd-more:hover {
   width: 256px;
   height: 120px;
   border: 1px solid #d7d7d7;
-  background: url("/images/fall-highlights.jpg") no-repeat center center;
+  background: url("../../images/fall-highlights.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -3678,6 +3678,8 @@ ul.parkUlNav {
 /* line 176, ../../sass/_park-landing.scss */
 div.checklist {
   min-height: 110px;
+  background: url(../../images/barsRandom/Mountaindrop-green.jpg) no-repeat #fff 0 -150px !important;
+	background-size: cover!important;
 }
 
 /* line 180, ../../sass/_park-landing.scss */
