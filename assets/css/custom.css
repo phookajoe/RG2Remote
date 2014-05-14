@@ -112,6 +112,7 @@ span.navsub {
 .relative{position:relative;}
 .absolute{position:absolute;}
 .fixed{position:fixed!important;}
+.fixed-park{top: -2px;}
 .cpointer{cursor:pointer;}
 .cunvailable{cursor:not-allowed;}
 
@@ -2899,13 +2900,10 @@ a > span.search-icn{
 }
 
 
-<<<<<<< HEAD
 
 /*###############################
 	 	Mars Addition
 #################################*/
-=======
->>>>>>> cbffabd1ccbdbedd71b06664afcf62fca127f62e
 
 /*Colors*/
 /* Buttons for Park Landing page */
@@ -3407,7 +3405,7 @@ h1.interiorTitle {
   border-radius: 5px;
   line-height: 1.85em;
   position: absolute;
-  top: 200px;
+  top: 250px;
   left: 50px;
   color: white;
   font-size: 1.5em;
@@ -3715,5 +3713,3 @@ td[attr="button"] {
   height: 80px;
   margin-top: 20px;
 }
-
-
