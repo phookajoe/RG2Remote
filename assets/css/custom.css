@@ -2906,6 +2906,7 @@ a > span.search-icn{
 	background: url(../../images/barsRandom/Mountaindrop-green.jpg) no-repeat #fff 0 -150px !important;
 	background-size: cover!important;
 	display:block;
+	border-bottom: 1px solid #2B4D11;
 	
 }
 .blueMountainBg{
