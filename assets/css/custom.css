@@ -1118,7 +1118,7 @@ margin-top:100px;
 .lcfix.green{
 	background: url(../../images/barsRandom/Mountaindrop-green.jpg) #fff 0 -150px !important
 }
-.bgfix{background:#f2f2f2!important;}
+.bgfix{background:#f9fbef!important;}
 
 @media (min-width: 992px) {
 
@@ -2848,6 +2848,7 @@ padding-top:3px;
 }
 .masonry.home{
 	margin-top:200px;
+	background:#72bf66;
 }
 .yellow-btn{
 	background:#fdcd62;
@@ -3501,7 +3502,7 @@ span.parkTab {
 /* line 91, ../../sass/_park-landing.scss */
 a.rd-more {
   font-size: 0.875em;
-  color: #ff6633;
+  color: #fdcd62;
   text-decoration: none;
 }
 
