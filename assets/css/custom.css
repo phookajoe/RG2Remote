@@ -2900,6 +2900,8 @@ a > span.search-icn{
 }
 .blueMountainBg{
 	background: url(../../images/barsRandom/Mountaindrop.jpg) #fff 0 -150px no-repeat !important;
+	background-size: cover!important;
+
 }
 
 <<<<<<< HEAD
