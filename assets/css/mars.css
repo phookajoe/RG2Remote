@@ -88,12 +88,90 @@
   width: 100%;
 }
 
-/* line 1, ../../sass/_icons.scss */
+/* line 80, ../../sass/_buttons.scss */
+.btn-booking {
+  width: 50%;
+}
+
+/* line 2, ../../sass/_icons.scss */
 span.parkTab {
   width: 75px;
   height: 30px;
   display: block;
   margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-jhpx3v");
+  src: url("../fonts/icomoon.eot?#iefix-jhpx3v") format("embedded-opentype"), url("../fonts/icomoon.woff?-jhpx3v") format("woff"), url("../fonts/icomoon.ttf?-jhpx3v") format("truetype"), url("../fonts/icomoon.svg?-jhpx3v#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 20, ../../sass/_icons.scss */
+[data-icon] {
+  margin: 0 auto;
+  height: 30px;
+  width: 30px;
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 1.25em;
+  text-align: center;
+  transition: 0.35s ease-in-out;
+  color: #d7d7d7;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 42, ../../sass/_icons.scss */
+[data-icon]:hover {
+  text-decoration: none;
+}
+
+/* line 46, ../../sass/_icons.scss */
+a.icons {
+  text-decoration: none;
+}
+/* line 48, ../../sass/_icons.scss */
+a.icons .icon-heart {
+  content: "\e600";
+  padding: 8px 4px;
+}
+/* line 52, ../../sass/_icons.scss */
+a.icons .icon-info {
+  content: "\e601";
+  padding: 4px 8px;
+}
+/* line 56, ../../sass/_icons.scss */
+a.icons .icon-share {
+  content: "\e602";
+}
+
+/* line 60, ../../sass/_icons.scss */
+a.icons:hover {
+  text-decoration: none;
+}
+/* line 62, ../../sass/_icons.scss */
+a.icons:hover .icon-heart:hover {
+  color: red;
+  transition: 0.35s ease-in-out;
+}
+/* line 66, ../../sass/_icons.scss */
+a.icons:hover .icon-info:hover {
+  color: #172d3b;
+  transition: 0.35s ease-in-out;
+}
+/* line 70, ../../sass/_icons.scss */
+a.icons:hover .icon-share:hover {
+  color: #bada9c;
+  transition: 0.35s ease-in-out;
 }
 
 /*Park Landing Page*/
@@ -517,7 +595,7 @@ h3 {
   font-size: 24px;
 }
 
-/* line 52, ../../sass/_park-landing.scss */
+/* line 50, ../../sass/_park-landing.scss */
 div.tab-content-2-3 {
   float: left;
   height: 324px;
@@ -528,7 +606,7 @@ div.tab-content-2-3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 60, ../../sass/_park-landing.scss */
+/* line 58, ../../sass/_park-landing.scss */
 div.tab-content-1-3 {
   height: 324px;
   width: 25%;
@@ -539,7 +617,7 @@ div.tab-content-1-3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 68, ../../sass/_park-landing.scss */
+/* line 66, ../../sass/_park-landing.scss */
 div.tab-content-3-3 {
   height: 100%;
   width: 90%;
@@ -551,12 +629,12 @@ div.tab-content-3-3 {
 }
 
 /* Span */
-/* line 78, ../../sass/_park-landing.scss */
+/* line 76, ../../sass/_park-landing.scss */
 span.blk {
   display: block;
 }
 
-/* line 82, ../../sass/_park-landing.scss */
+/* line 80, ../../sass/_park-landing.scss */
 span.parkTab {
   width: 75px;
   height: 30px;
@@ -565,31 +643,31 @@ span.parkTab {
 }
 
 /* Links */
-/* line 91, ../../sass/_park-landing.scss */
+/* line 89, ../../sass/_park-landing.scss */
 a.rd-more {
   font-size: 0.875em;
   color: #ff6633;
   text-decoration: none;
 }
 
-/* line 96, ../../sass/_park-landing.scss */
+/* line 94, ../../sass/_park-landing.scss */
 a.rd-more:hover {
   text-decoration: underline;
 }
 
 /* Misc Div styles */
-/* line 102, ../../sass/_park-landing.scss */
+/* line 100, ../../sass/_park-landing.scss */
 .rt-vrtDiv {
   border-right: 1px solid #d7d7d7;
 }
 
-/* line 106, ../../sass/_park-landing.scss */
+/* line 104, ../../sass/_park-landing.scss */
 .contMrgBtm {
   margin-bottom: 80px;
 }
 
 /* Images */
-/* line 112, ../../sass/_park-landing.scss */
+/* line 110, ../../sass/_park-landing.scss */
 .parkPnlThumb {
   width: 256px;
   height: 120px;
@@ -599,7 +677,7 @@ a.rd-more:hover {
 }
 
 /* Left Tabs */
-/* line 122, ../../sass/_park-landing.scss */
+/* line 120, ../../sass/_park-landing.scss */
 .park-tab-content {
   width: 113%;
   min-height: 600px;
@@ -609,23 +687,23 @@ a.rd-more:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 129, ../../sass/_park-landing.scss */
+/* line 127, ../../sass/_park-landing.scss */
 ul.parkUlNav {
   width: 150px;
   height: auto;
 }
 
-/* line 134, ../../sass/_park-landing.scss */
+/* line 132, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs {
   border-bottom: 0;
 }
 
-/* line 138, ../../sass/_park-landing.scss */
+/* line 136, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li {
   float: none;
 }
 
-/* line 142, ../../sass/_park-landing.scss */
+/* line 140, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li > a {
   min-width: 100px;
   height: 70px;
@@ -637,24 +715,24 @@ ul.parkUlNav {
   background: #f7f7f7;
 }
 
-/* line 153, ../../sass/_park-landing.scss */
+/* line 151, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs {
   float: left;
   margin-right: 19px;
 }
 
-/* line 158, ../../sass/_park-landing.scss */
+/* line 156, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li > a {
   margin-right: -1px;
 }
 
-/* line 163, ../../sass/_park-landing.scss */
+/* line 161, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs > li > a:hover,
 .tabs-left > .nav-tabs > li > a:focus {
   border-left: 8px solid #ff6633;
 }
 
-/* line 169, ../../sass/_park-landing.scss */
+/* line 167, ../../sass/_park-landing.scss */
 .tabs-left > .nav-tabs .active > a,
 .tabs-left > .nav-tabs .active > a:hover,
 .tabs-left > .nav-tabs .active > a:focus {
@@ -665,12 +743,12 @@ ul.parkUlNav {
 }
 
 /* Tab One Content */
-/* line 178, ../../sass/_park-landing.scss */
+/* line 176, ../../sass/_park-landing.scss */
 div.checklist {
   min-height: 110px;
 }
 
-/* line 182, ../../sass/_park-landing.scss */
+/* line 180, ../../sass/_park-landing.scss */
 .trip-activity {
   margin: 5% 0;
   position: relative;
@@ -680,19 +758,19 @@ div.checklist {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 0;
 }
-/* line 188, ../../sass/_park-landing.scss */
+/* line 186, ../../sass/_park-landing.scss */
 .trip-activity div.trip-thumb {
   position: absolute;
   top: 0;
   right: 0;
 }
-/* line 192, ../../sass/_park-landing.scss */
+/* line 190, ../../sass/_park-landing.scss */
 .trip-activity div.trip-thumb a {
+  width: 30px;
+  height: 30px;
   float: right;
   width: 30px;
   height: 30px;
-  margin: 0;
-  padding: 0;
   background: #f7f7f7;
   border: 1px solid #f7f7f7;
 }
