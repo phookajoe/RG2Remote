@@ -2910,7 +2910,11 @@ a > span.search-icn{
 .midSectionHeight{
 	height:650px;
 }
-
+.carousel-avail{
+	height:350px;
+	overflow:hidden;
+	margin-top: 30px;
+}
 
 /*###############################
 	 	Mars Addition
