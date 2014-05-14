@@ -276,9 +276,9 @@ a:hover.flights2next   img {width:8px;height:14px; display:block; background:url
 		FLIGHTS
 #####################*/
 .fblueline{
-background:#006699;
-padding:3px 10px 3px 10px;
-color:#fff;
+background:#fdcd62;
+padding:10px;
+color:#666;
 }
 .fgreenline{
 background:#72bf66;
