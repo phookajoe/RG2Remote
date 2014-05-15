@@ -2937,6 +2937,17 @@ a > span.search-icn{
 	margin-top: 30px;
 	border:1px solid #448D0B;
 }
+.carousel .item {
+	height:350px!important;
+}
+
+.carousel-inner > .item > img {
+	min-width: 100% !important;
+	min-height: 100% !important;
+	height:350px !important;
+}
+
+
 
 .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
 	color:#fdcd62;
