@@ -3212,6 +3212,21 @@ a.icons:hover .icon-share:hover {
   backround-size: cover;
 }
 
+.listItemBooking {
+  background: none repeat scroll 0 0 #EFEFEF;
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+
+
+.listitem {
+    background: none repeat scroll 0 0 #EFEFEF;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
 /* line 43, ../../sass/_images.scss */
 .halfDome {
   background: url("../../images/booking/half-dome.jpg") center center;
