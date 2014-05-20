@@ -3823,7 +3823,8 @@ div.checklist {
 
 /* line 16, ../../sass/_booking.scss */
 .permitText {
-  width: 50%;
+  width: 43%;
+  
   display: inline-block;
 }
 
