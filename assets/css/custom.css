@@ -1410,7 +1410,8 @@ button:hover.next2   img {width:14px;height:18px; display:block; background:url(
 
 
 
-
+/*BOOKING CONFIRMATION PAGE*/
+.multiTextField{height:200px;}
 
 
 
@@ -3061,7 +3062,14 @@ a > span.search-icn{
 
 /* line 2, ../../sass/_icons.scss */
 span.parkTab {
-  width: 75px;
+  width:75px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}
+span.parkTab2 {
+  width:175px;
+  font-size:16px;
   height: 30px;
   display: block;
   margin: 0 auto;
@@ -3620,13 +3628,13 @@ span.blk {
   display: block;
 }
 
-/* line 80, ../../sass/_park-landing.scss */
+/* line 80, ../../sass/_park-landing.scss 
 span.parkTab {
   width: 75px;
   height: 30px;
   display: block;
   margin: 0 auto;
-}
+} */
 
 /* Links */
 /* line 89, ../../sass/_park-landing.scss */
@@ -3828,11 +3836,13 @@ div.checklist {
 
 /* line 16, ../../sass/_booking.scss */
 .permitText {
-  width: 43%;
-  
+  width: 43%;  
   display: inline-block;
 }
-
+.permitText60p {
+  width: 60%;  
+  display: inline-block;
+}
 /* line 21, ../../sass/_booking.scss */
 .permitImg {
   vertical-align: top;
