@@ -3,16 +3,17 @@
   <head>
   	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Recreation.gov - Explore Your America</title>
+	<title>Travel Agency - HTML5 Booking template</title>
 	
     <!-- Bootstrap -->
     <link href="dist/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="assets/css/custom.css" rel="stylesheet" media="screen">
-	
-    <!-- Updates -->
+    <link href="assets/css/custom.css" rel="stylesheet" media="screen">    
+<!-- Updates -->
     <link href="updates/update1/css/style01.css" rel="stylesheet" media="screen">
+	
 
-    <!-- Carousel -->
+
+
 	<link href="examples/carousel/carousel.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -27,48 +28,19 @@
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" media="screen" />
     <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="assets/css/font-awesome-ie7.css" media="screen" /><![endif]-->
 	
-    <!-- REVOLUTION BANNER CSS SETTINGS -->
-    <link rel="stylesheet" type="text/css" href="css/fullscreen.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+	<!-- Animo css-->
+	<link href="plugins/animo/animate+animo.css" rel="stylesheet" media="screen">
 
-    <!-- Picker UI-->	
-	<link rel="stylesheet" href="assets/css/jquery-ui.css" />		
+    <!-- Picker -->	
+	<link rel="stylesheet" href="assets/css/jquery-ui.css" />	
 	
-    <!-- jQuery -->	
-    <script src="assets/js/jquery.v2.0.3.js"></script>
-<!-- Masonry -->
-	<link href="updates/update1/css/masonry.css" rel="stylesheet">
-	<script src="updates/update1/js/masonry.pkgd.js"></script>
-	<script>
-	// http://masonry.desandro.com/masonry.pkgd.js added as external resource
+    <!-- jQuery -->		
+    <script src="assets/js/jquery.v2.0.3.js"></script>	
 
-	docReady( function() {
-
-	  var container = document.querySelector('.masonry');
-	  var button = document.querySelector('#toggle-button');
-	  var msnry = new Masonry( container, {
-		columnWidth: 2
-	  });
-
-	  var isActive = true;
-
-	  eventie.bind( button, 'click', function() {
-		if ( isActive ) {
-		  msnry.destroy();
-		} else {
-		  msnry = new Masonry( container );
-		}
-		isActive = !isActive;
-	  });
-
-	});
-	//@ sourceURL=pen.js
-	</script>
-
+	
   </head>
-  <body id="top">
-    
-	<!-- Top wrapper -->			  
+  <body id="top" class="">
+<!-- Top wrapper -->			  
 	<div class="navbar-wrapper2 navbar-fixed-top">
 		<div class="navbar helpnav">
 			<!-- Help Navigation Bar-->
@@ -80,8 +52,10 @@
 					<li>HELP</li>
 					<li>MY TRIPS</li>
 					<li>HI JOHN!</li>
-					<li><span class="avatar"></span></li>
-				</ul></nav>
+				</ul>
+</nav>
+				<div class="avatar"></div>
+			
 			</div>
 			<!-- /Navigation-->
 		</div>
@@ -98,7 +72,7 @@
 			  </div>
 			  <div class="navbar-collapse collapse">
 				<ul class="nav nav2 navlight navbar-nav navbar-left">
-               <li class="dropdown">
+  			<li class="dropdown">
 					<a data-toggle="dropdown" class="dropdown-toggle" href="index.html">Explore<br> <span class="navsub">Get more out of your parks and monuments </span><span class="badge indent0">13</span><b class="lightcaret mt-2"></b></a>
                     <ul class="dropdown-menu posright-0">
 					  <li>
@@ -121,8 +95,7 @@
 							</div>
 					  </li>
 					</ul>
-				  </li>
-				  <li class="dropdown">
+				  </li>				  <li class="dropdown">
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">Recreate <br> <span class="navsub">Try something you never knew you could do </span><span class="badge indent0">14</span><b class="lightcaret mt-2"></b></a>
 					<ul class="dropdown-menu posright-0">
 					  <li>
@@ -193,466 +166,668 @@
 					  </li>
 					</ul>
                     </li>
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#"><span class="search-icn"></span></a></li>
-        				<li><a href="#"><span class="facebook-icn"></span></a></li>
-      				</ul>
-
+				<!--  <li><a href="#">Hotels</a></li>
+				  <li><a href="#">Flights</a></li>
+				  <li><a href="#">Vacations</a></li>
+				  <li><a href="#">Cars</a></li>			  
+				  <li><a href="#">Cruises</a></li>			  
+				  <li><a href="#">Last minute</a></li>			  
+				  <li><a href="#">Early booking</a></li>			  
+				  <li class="dropdown">
+					<a data-toggle="dropdown" class="dropdown-toggle" href="#">Deals<b class="lightcaret mt-2"></b></a>
+					<ul class="dropdown-menu">
+					  <li class="dropdown-header">Aligned Right Dropdown</li>	
+					  <li><a href="#">Sample Link 1</a></li>
+					  <li><a href="#">Sample Link 2</a></li>
+					</ul>
+				  </li>	-->	
 				</ul>
-
 			  </div>
 			</div>
 			  <!-- /Navigation-->
         </div>
     </div>
-	<!-- /Top wrapper -->	<!--
-	#################################
-		- THEMEPUNCH BANNER -
-	#################################
-	-->
-	<div id="dajy" class="fullscreen-container mtslide sliderbg fixed">
-			<div class="fullscreenbanner">
-				<ul>
-
-					<!-- papercut fade turnoff flyin slideright slideleft slideup slidedown-->
-				
-					<!-- FADE -->
-					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
-						<img src="images/slider/zakynthos.jpg" alt=""/>
-						<div class="tp-caption scrolleffect sft"
-							 data-x="center"
-							 data-y="120"
-							 data-speed="1000"
-							 data-start="800"
-							 data-easing="easeOutExpo"  >
-							 <div class="sboxpurple textcenter">
-								<span class="lato size28 slim caps white">Momentum River Expeditions</span><br/><br/><br/>
-								<span class="lato size100 slim caps white">Oregon</span><br/>
-								<span class="lato size20 normal caps white">from</span><br/><br/>
-								<span class="lato size48 slim uppercase yellow">$1500</span><br/>
-							 </div>
-						</div>	
-					</li>
-				
-					<!-- FADE -->
-					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
-						<img src="images/slider/santorini.jpg" alt=""/>
-						<div class="tp-caption scrolleffect sft"
-							 data-x="center"
-							 data-y="120"
-							 data-speed="1000"
-							 data-start="800"
-							 data-easing="easeOutExpo"  >
-							 <div class="sboxpurple textcenter">
-								<span class="lato size28 slim caps white">Hike the plains</span><br/><br/><br/>
-								<span class="lato size100 slim caps white">UTAH</span><br/>
-								<span class="lato size20 normal caps white">from</span><br/><br/>
-								<span class="lato size48 slim uppercase yellow">June 29 - Sept 18</span><br/>
-							 </div>
-						</div>	
-					</li>
-
-					<!-- FADE -->
-					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
-						<img src="images/slider/rome.jpg" alt=""/>
-						<div class="tp-caption scrolleffect sft"
-							 data-x="center"
-							 data-y="120"
-							 data-speed="1000"
-							 data-start="800"
-							 data-easing="easeOutExpo"  >
-							 <div class="sboxpurple textcenter">
-								<span class="lato size28 slim caps white">Finding Old Faithful</span><br/><br/><br/>
-								<span class="lato size100 slim caps white">Yellowstone</span><br/>
-								<span class="lato size20 normal caps white">guided adventures</span><br/><br/>
-								<span class="lato size48 slim uppercase yellow">all year round</span><br/>
-							 </div>
-						</div>	
-					</li>	
-
-					<!-- FADE -->
-					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
-						
-						<img src="images/slider/paris.jpg" alt=""/>
-						<div class="tp-caption scrolleffect sft"
-							 data-x="center"
-							 data-y="120"
-							 data-speed="1000"
-							 data-start="800"
-							 data-easing="easeOutExpo"  >
-							 <div class="sboxpurple textcenter">
-								<span class="lato size28 slim caps white">Arch Rock</span><br/><br/><br/>
-								<span class="lato size100 slim caps white">Nevada</span><br/>
-								<span class="lato size20 normal caps white">connect</span><br/><br/>
-								<span class="lato size48 slim uppercase yellow">all year round</span><br/>
-							 </div>
-						</div>	
-					</li>	
-					<!-- FADE -->
-					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
-						
-						<img src="images/slider/rocks.jpg" alt=""/>
-						<div class="tp-caption scrolleffect sft"
-							 data-x="center"
-							 data-y="120"
-							 data-speed="1000"
-							 data-start="800"
-							 data-easing="easeOutExpo"  >
-							 <div class="sboxpurple textcenter">
-								<span class="lato size28 slim caps white">Climb</span><br/><br/><br/>
-								<span class="lato size100 slim caps white">Yosemite National Park</span><br/>
-								<span class="lato size20 normal caps white">Group Booking</span><br/><br/>
-								<span class="lato size48 slim uppercase yellow">Free with your season pass</span><br/>
-							 </div>
-						</div>	
-					</li>	
-				</ul>
-				<div class="tp-bannertimer none"></div>
+	<!-- /Top wrapper -->	
+	
+<--	<div class="container breadcrub">
+	 <!--   <div>
+			<a class="homebtn left" href="#"></a>
+			<div class="left">
+				<ul class="bcrumbs">
+					<li>/</li>
+					<li><a href="#" class="active">About us</a></li>					
+				</ul>				
 			</div>
-		</div>
-
-		<!--
-		##############################
-		 - ACTIVATE THE BANNER HERE -
-		##############################
-		-->
-		<script type="text/javascript">
-
-			var tpj=jQuery;
-			tpj.noConflict();
-
-			tpj(document).ready(function() {
-
-			if (tpj.fn.cssOriginal!=undefined)
-				tpj.fn.css = tpj.fn.cssOriginal;
-
-				tpj('.fullscreenbanner').revolution(
-					{
-						delay:9000,
-						startwidth:1170,
-						startheight:600,
-
-						onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
-
-						thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
-						thumbHeight:50,
-						thumbAmount:3,
-
-						hideThumbs:0,
-						navigationType:"bullet",				// bullet, thumb, none
-						navigationArrows:"solo",				// nexttobullets, solo (old name verticalcentered), none
-
-						navigationStyle:false,				// round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
-
-
-						navigationHAlign:"left",				// Vertical Align top,center,bottom
-						navigationVAlign:"bottom",					// Horizontal Align left,center,right
-						navigationHOffset:30,
-						navigationVOffset:30,
-
-						soloArrowLeftHalign:"left",
-						soloArrowLeftValign:"center",
-						soloArrowLeftHOffset:20,
-						soloArrowLeftVOffset:0,
-
-						soloArrowRightHalign:"right",
-						soloArrowRightValign:"center",
-						soloArrowRightHOffset:20,
-						soloArrowRightVOffset:0,
-
-						touchenabled:"on",						// Enable Swipe Function : on/off
-
-
-						stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
-						stopAfterLoops:-1,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
-
-						hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
-						hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
-						hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
-
-
-						fullWidth:"on",							// Same time only Enable FullScreen of FullWidth !!
-						fullScreen:"off",						// Same time only Enable FullScreen of FullWidth !!
-
-
-						shadow:0								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
-
-					});
-
-
-		});
-		</script> 
+			<a class="backbtn right" href="#"></a>
 		
+		<div class="clearfix"></div> </div> -->
+	</div>	
+
+
+	<!-- CONTENT -->
+
 
 		
+		<div class="container mt25 offset-0">
+        
+        <!-- RIGHT CONTENT -->
+			<div class="col-md-2">
+            <img src="images/planner_short_2col.jpg" alt="Gazing at mountain top"/>
+            
+           </div>
+            
+          <!-- END OF RIGHT CONTENT -->
+          
+          
+			<!-- LEFT CONTENT -->	
+			<div class="col-md-10 pagecontainer2">
+            
+              <div class="row">
+  				   <div class="col-md-12 margtop10">
+    					<p class="lato size30 slim green2">Summer Reunion (ABCD1234)</p>
+   					<div class="row">
+      				<div class="col-md-6">
+        				<p><strong>From:</strong> San Francisco<br/>
+						<strong>To:</strong> Yosemite National Park<br/>
+                      Campsite: -<br/>
+ 						In: 00/00/00   Out: 00/00/00</p>
+     				 </div>
+                     
+      				 <div class="row">
+                     <div class="col-md-3">
+                     <p><strong>Your Group</strong></p>
+                       <div class="col-md-3 text-left">
+        				   <span class="glyphicon glyphicon-user" style="font-size:2.3em"></span>
+                       </div>
+                       <div class="col-md-9 text-left">
+                         <p>00 Kids<br/>
+                   		 00 Adults<br/>
+                   		 00 Pets</p>
+                       </div>
+      				  </div>
+                      
+                  <div class="row">
+                     <div class="col-md-3">
+                     <p><strong>Pass/License</strong></p>
+                       <div class="col-md-3 text-left">
+        				   <span class="glyphicon glyphicon-barcode" style="font-size:2.3em"></span>
+                       </div>
+                       <div class="col-md-9 text-left">
+                         <p>00 Passes<br/>
+                   		 00 Licenses</p>
+                       </div>
+      				  </div>
+                 </div>
+    			  </div>
+ 				</div>
+             </div>
+           </div>
+             
+             <div class="row margtop15 margbtm10">
+               <div class="col-md-12">
+               <div class="row">
+                 <div class="col-md-6">
+                    <button type="submit" class="bluebtn">Share</button>
+                    <button type="submit" class="bluebtn">Email</button>
+                    <button type="submit" class="bluebtn">Print</button>
+                 </div>
+                 <div class="col-md-6 text-right">
+                 <button type="submit" class="bluebtn">Edit Trip</button>
+                 </div>
+               </div>
+             </div>
+            
 
-
-
-	<!-- / WRAP -->
-	<div class="wrap bgfix cstyle03">
-		
-		<div class="container dropdowns z-index100">		
-
-		  <div class="row">
-		  	<div class="col-md-3">
-		  	<div class="ctitle">What?</div>
-
-				<div class="dropdown">
- 					<button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">Select an Activity<span class="glyphicon glyphicon-chevron-down"></span></button>
-		 			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-		 			</ul>
-				</div>
-		  	</div>
-		  	<div class="col-md-3">
-		  	<div class="ctitle">Where?</div>
-				<div class="dropdown">
- 					<button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu2" data-toggle="dropdown">Select a Location<span class="glyphicon glyphicon-chevron-down"></span></button>
-		 			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
-		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-		 			</ul>
-				</div>
-				<!--<div class="col-md-12"><a href="#">Map View</a></div>-->
-		  	</div>
-		  	<div class="col-md-3">
-		  		<div class="ctitle">When?</div>	
-		  		<input class="btn when sr-only" type="date"/>
-		  	</div>
-		  	<div class="col-md-3">
-		  	<div class="ctitle"> </div>	
-		  	<button class="ctitle yellow-btn sr-only btn">Let's Get Started<img src="images/spacer.png" alt=""/></button>	
-		  	</div>
-		  </div>
-		</div>
-		 
-		<div class="lastminute lcfix">
-			<div class="container lmc">	
-
-			</div>
-		</div>
-		<div class="masonry home">
-			<div class="item wt2 ht2">
-				<div class="msbox2"><a href="#"><img src="updates/update1/img/pic01.jpg" class="fhimg2 left" alt=""></a></div>
-			</div>
-			<div class="item ht2">
-				<div class="msbox2">
-				<a href="#"><img src="updates/update1/img/pic02.jpg" class="fhimg" alt=""></a>
-					<p class="msctext padding20">
-						<span class="newstitle"><a href="#">The View is Absolutely Amazing!!</a></span><br/><br/>
-						Sed auctor erat sit amet lorem venenatis, in feugiat nisl fermentum. Nam luctus adipiscing dapibus. Nunc leo felis, ornare non commodo a, elementum a risus. 
-					</p>
-				</div>
-			</div>
-			<div class="item ">
-				<div class="msbox"><a href="#"><img src="updates/update1/img/pic03.jpg" class="fhimg" alt=""></a></div>
-			</div>
-			<div class="item ht2">
-				<div class="msbox2"><a href="#"><img src="updates/update1/img/pic04.jpg" class="fhimg" alt=""></a>
-					<p class="msctext padding20">
-						<span class="newstitle"><a href="#">I never even knew people did this! I can't wait to try it!</a></span>
-						<span class="glyphicon glyphicon-star lblue"></span>
-						<span class="glyphicon glyphicon-star lblue"></span>
-						<span class="glyphicon glyphicon-star lblue"></span>
-						<span class="glyphicon glyphicon-star lblue"></span>
-						<span class="glyphicon glyphicon-star lblue"></span>
-						<br/><br/>
-						Sed auctor erat sit amet lorem venenatis, in feugiat nisl fermentum. Nam luctus adipiscing dapibus. Nunc leo felis, ornare non commodo a, elementum a risus. 
-					</p>
-				</div>
-			</div>		
-			<div class="item wt2">
-				<div class="msbox">
-					<div class="w50percent msctext padding20 left">
-						<span class="newstitle"><a href="#">My son said this was the best day he ever had :)</a></span><br/><br/>
-						Sed auctor erat sit amet lorem venenatis, in feugiat nisl fermentum. Nam luctus adipiscing dapibus. Nunc leo felis, ornare non commodo a.
-					</div>		
-					<div class="w50percentlast right">
-						<a href="#"><img src="updates/update1/img/pic06.jpg" class="fwimg " alt=""></a>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="msbox"><a href="#"><img src="updates/update1/img/pic05.jpg" class="fhimg" alt=""></a></div>
-			</div>
+              </div></div>
+              					
+   		 <!-- END OF LEFT CONTENT -->	
 			
-		</div>		
+     </div>
+     
 		
-		<div class="container cstyle07 mt25">	
+<!-- NEW TABBED AREA -->		
+<div class="container mt25 margtop25">
 
-
-			  <div class="col-md-4">
-				<div class="boxshadow center">
-					<a href="list4.html"><img src="images/botswana.jpg" alt="" class="fwimg"/></a>
-					<div class="bscontainer">
-						<h4 class="lato bold caps">platte river kayak tours starting in june – reserve your spot now</h4>
-						<hr>
-						<p class="textleft grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis enim et mauris bibendum lobortis eget non eros. Nulla facilisi. Nulla facilisi.</p>
-						<br/>
-						<form action="list2.html">
-							<button class="roundbtn" type="submit">More</button>
-						</form>
-					</div>
-				</div>
-			  </div>
-			  <div class="col-md-4">
-				<div class="boxshadow center">
-					<a href="list4.html"><img src="images/egypt.jpg" alt="" class="fwimg"/>	</a>		
-					<div class="bscontainer">
-						<h4 class="lato bold caps">guided fly fishing services available at shenandoah</h4>
-						<hr>
-						<p class="textleft grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis enim et mauris bibendum lobortis eget non eros. Nulla facilisi. Nulla facilisi.</p>
-						<br/>
-						<form action="list2.html">
-							<button class="roundbtn" type="submit">More</button>
-						</form>
-					</div>
-				</div>
-			  </div>
-			  <div class="col-md-4">
-				<div class="boxshadow center">
-					<a href="list4.html"><img src="images/machu_picchu.jpg" alt="" class="fwimg"/></a>		
-					<div class="bscontainer">
-						<h4 class="lato bold caps">new campsites available at yosemite – amazing views!</h4>
-						<hr>
-						<p class="textleft grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis enim et mauris bibendum lobortis eget non eros. Nulla facilisi. Nulla facilisi.</p>
-						<br/>
-						<form action="list2.html">
-							<button class="roundbtn" type="submit">More</button>
-						</form>
-					</div>
-				</div>
-			  </div>		  
-			  
 		
-
-		</div>
-		
-		
-		
-		<!-- FOOTER -->
-		<div class="footerbg lcfix">
-			<div class="container">		
+		<div class="container mt25 contMrgBtm offset-0">
+			
+			
+			<!-- CONTENT -->
+			<div class="col-md-12 pagecontainer2 offset-0">
 				
-				<div class="col-md-3">
-					<span class="ftitle">Let's socialize</span>
-					<div class="scont">
-						<a href="#" class="social1b"><img src="images/icon-facebook.png" alt=""/></a>
-						<a href="#" class="social2b"><img src="images/icon-twitter.png" alt=""/></a>
-						<a href="#" class="social3b"><img src="images/icon-gplus.png" alt=""/></a>
-						<a href="#" class="social4b"><img src="images/icon-youtube.png" alt=""/></a>
-						<br/><br/><br/>
-						<img src="images/logosmal.png" alt="" /><br/>
-						&copy; 2013  |  <a href="#">Privacy Policy</a><br/>
-						All Rights Reserved 
-						<br/><br/>
-						
-					</div>
-				</div>
-				<!-- End of column 1-->
-				
-				<div class="col-md-3">
-					<span class="ftitle">Quick Links</span>
-					<br/><br/>
-					<ul class="footerlist">
-						<li><a href="#">View Our Maps</a></li>
-						<li><a href="#">Book a Tour</a></li>
-						<li><a href="#">Get a Permit</a></li>
-						<li><a href="#">Annual Passes</a></li>
-						<li><a href="#">Download Our Mobile App</a></li>
-						<li><a href="#">Sign Up for Email Updates</a></li>
+				<!-- LEFT MENU -->
+				<div class="col-md-2 offset-0">
+					<!-- Nav tabs -->
+					<ul class="nav profile-tabs">
+					  <li class="active">
+						<a href="#activities" data-toggle="tab">
+						<h4><strong>Itinerary</strong></h4></a><p class="text-center">08 Humans + 02 Pets</p></li>
+					  <li>
+						  <a href="#bookings" data-toggle="tab" onclick="mySelectUpdate()">
+						<h4><strong>Your Group</strong></h4>
+						  </a></li>
+					  <li>
+						  <a href="#wishlist" data-toggle="tab" onclick="mySelectUpdate()">
+						<h4><strong>Recipts</strong></h4>
+						  </a></li>
+					  <li>
+						  <a href="#settings" data-toggle="tab" onclick="mySelectUpdate()">
+						  <h4><strong>Safety &amp; Tips</strong></h4>							  
+						  </a></li>
+				     <li>
+						  <a href="#history" data-toggle="tab" onclick="mySelectUpdate()">
+						  <h4><strong>Stories</strong></h4>
+						  </a></li>
 					</ul>
-				</div>
-				<!-- End of column 2-->		
+					<div class="clearfix"></div>
+			  </div>
+				<!-- LEFT MENU -->
+					
+				<!-- RIGHT CONTENT -->
+				<div class="col-md-10 offset-0">
+					<!-- Tab panes from left menu -->
+					<div class="tab-content5">
+					
+						<!-- TAB 1 -->
+						<div class="tab-pane padding20 active" id="activities">
+						<div>
+						
+							<span class="dark size18">History</span>
+							<div class="line4"></div>
+							
+							<br/>
+							
+							<div class="col-md-3 bold">Date</div>
+							<div class="col-md-3 bold">Destination</div>
+							<div class="col-md-3 bold">Service</div>
+							<div class="col-md-3 bold textright">Action</div>
+							<div class="clearfix"></div>
+							<div class="line4"></div>
+							
+							<div class="col-md-3">01.05.09</div>
+							<div class="col-md-3">Grece - Zakynthos</div>
+							<div class="col-md-3">Hotel</div>
+							<div class="col-md-3 textright"><button type="submit" class="btn-search5"><span class="glyphicon glyphicon-plus"></span></button></div>
+							<div class="clearfix"></div>
+							
+							<div class="line4"></div>
+							<div class="col-md-3">17.07.10</div>
+							<div class="col-md-3">Spain - Malaga</div>
+							<div class="col-md-3">Flight Tickets</div>
+							<div class="col-md-3 textright"><button type="submit" class="btn-search5"><span class="glyphicon glyphicon-plus"></span></button></div>
+							<div class="clearfix"></div>
+							
+							<div class="line4"></div>
+							<div class="col-md-3">01.05.09</div>
+							<div class="col-md-3">Bulgary - Sunny Beach</div>
+							<div class="col-md-3">Flight Tickets</div>
+							<div class="col-md-3 textright"><button type="submit" class="btn-search5"><span class="glyphicon glyphicon-plus"></span></button></div>
+							<div class="clearfix"></div>
+							
+							<div class="line4"></div>
+							<div class="col-md-3">01.05.09</div>
+							<div class="col-md-3">France - Paris</div>
+							<div class="col-md-3">Rent a car</div>
+							<div class="col-md-3 textright"><button type="submit" class="btn-search5"><span class="glyphicon glyphicon-plus"></span></button></div>
+							<div class="clearfix"></div>
+							
+							<div class="line4"></div>
+							<div class="col-md-3">15.03.11</div>
+							<div class="col-md-3">U.A.E. - Dubai</div>
+							<div class="col-md-3">Car + Hotel + Flight</div>
+							<div class="col-md-3 textright"><button type="submit" class="btn-search5"><span class="glyphicon glyphicon-plus"></span></button></div>
+							<div class="clearfix"></div>
+							
+							<div class="line4"></div>
+							<div class="col-md-3">15.06.12</div>
+							<div class="col-md-3">Grand Britain - London</div>
+							<div class="col-md-3">Car + Hotel + Flight</div>
+							<div class="col-md-3 textright"><button type="submit" class="btn-search5"><span class="glyphicon glyphicon-plus"></span></button></div>
+							<div class="clearfix"></div>
+							
+						</div>
+					  </div>
+					<!-- END OF TAB 1 -->		
+
+					  
+					  
+					  <!-- TAB 2 -->					  
+					  <div class="tab-pane" id="bookings">
+						<div class="padding40">
+						
+							<div class="col-md-4 offset-0">
+								<span class="dark size18">Places</span>
+								<div class="line4"></div>
+								<ul class="blogcat">
+									<li><a href="#">Rome</a> <span class="badge indent0">3</span></li>
+									<li><a href="#">Malaga</a> <span class="badge indent0">1</span></li>
+									<li><a href="#">Marbella</a> <span class="badge indent0">1</span></li>
+									<li><a href="#">Gibraltar</a> <span class="badge indent0">1</span></li>
+									<li><a href="#">Zakynthos</a> <span class="badge indent0">2</span></li>
+									<li><a href="#">Thasos</a> <span class="badge indent0">1</span></li>
+									<li><a href="#">Santorini</a> <span class="badge indent0">1</span></li>
+									<li><a href="#">Golden Sands</a> <span class="badge indent0">1</span></li>
+									<li><a href="#">Sunny Beach</a> <span class="badge indent0">1</span></li>
+								</ul>
+							</div>
+							<div class="col-md-4 offset-0">
+								<span class="dark size18">Trips</span>
+								<div class="line4"></div>
+								<ul class="blogcat">
+									<li><a href="#">Italy</a> <span class="badge indent0">2</span></li>
+									<li><a href="#">England</a> <span class="badge indent0">1</span></li>
+									<li><a href="#">Greece</a> <span class="badge indent0">2</span></li>
+									<li><a href="#">Spain</a> <span class="badge indent0">1</span></li>
+									<li><a href="#">Bulgary</a> <span class="badge indent0">1</span></li>
+								</ul>
+							</div>							
+							<div class="col-md-4 offset-0">
+								<span class="dark size18">Countries</span>
+								<div class="line4"></div>
+								<ul class="blogcat">
+									<li><img src="images/flags/IT.png" class="right" alt=""/><a href="#">Italy</a></li>
+									<li><img src="images/flags/GB.png" class="right" alt=""/><a href="#">England</a></li>
+									<li><img src="images/flags/GR.png" class="right" alt=""/><a href="#">Greece</a></li>
+									<li><img src="images/flags/ES.png" class="right" alt=""/><a href="#">Spain</a></li>
+									<li><img src="images/flags/BG.png" class="right" alt=""/><a href="#">Bulgary</a></li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>							
+							<br/>
+							<br/>
+							<br/>
+							
+							<table class="table table-bordered  mt-10">
+							<tr class="grey opensans">
+								<td class="center"><span class="size30 slim lh4 dark">10</span><br/><span class="size12">Trips</span></td>
+								<td class="center"><span class="size30 slim lh4 dark">20</span><br/><span class="size12">Places</span></td>
+								<td class="center"><span class="size30 slim lh4 dark">14</span><br/><span class="size12">Days away</span></td>
+								<td class="center"><span class="size30 slim lh4 dark">5</span><br/><span class="size12">Countries</span></td>
+							</tr>
+							</table>
+							
+							<br/>
+							<br/>
+							
+							<span class="dark size18">Your latest bookings</span>
+							<div class="right mt-5">
+								<select class="form-control mySelectBoxClass hasCustomSelect cpwidth">
+								  <option value="">All time</option>
+								  <option value="">Countries</option>
+								  <option value="">Date</option>
+								</select>
+							</div>		
+							<div class="right mr20 mt-5">
+								<select class="form-control mySelectBoxClass hasCustomSelect cpwidth2">
+								  <option value="">5/page</option>
+								  <option value="">15/page</option>
+								  <option value="">20/page</option>
+								</select>
+							</div>								
+							<div class="line4"></div>
+							<br/>
+							
+							<div class="col-md-4 offset-0">
+								<a href="#"><img alt="" class="left mr20" src="images/smallthumb-1.jpg"></a>
+								<a class="dark" href="#"><b>Hotel Dany</b></a> /
+								<span class="dark size12">Greece - Zakynthos</span><br>
+								<span class="opensans green bold size14">$36-$160</span> <span class="grey">avg/night</span><br>
+								<img alt="" src="images/filter-rating-5.png"><br/>
+							</div>
+							<div class="col-md-7">
+								<span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus, quam vel interdum lacinia, lacus justo rutrum lorem, in fermentum ligula est a diam. Nam aliquet arcu est, a malesuada odio laoreet non.</span>
+							</div>
+							<div class="col-md-1 offset-0">
+								<button onclick="errorMessage()" type="submit" class="btn-search5 right">More</button>
+							</div>
+							<div class="clearfix"></div>
+							<div class="line4"></div>
+							
+							<div class="col-md-4 offset-0">
+								<a href="#"><img alt="" class="left mr20" src="images/smallthumb-2.jpg"></a>
+								<a class="dark" href="#"><b>Hotel Dany</b></a> /
+								<span class="dark size12">Greece - Zakynthos</span><br>
+								<span class="opensans green bold size14">$36-$160</span> <span class="grey">avg/night</span><br>
+								<img alt="" src="images/filter-rating-5.png"><br/>
+							</div>
+							<div class="col-md-7">
+								<span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus, quam vel interdum lacinia, lacus justo rutrum lorem, in fermentum ligula est a diam. Nam aliquet arcu est, a malesuada odio laoreet non.</span>
+							</div>
+							<div class="col-md-1 offset-0">
+								<button onclick="errorMessage()" type="submit" class="btn-search5 right">More</button>
+							</div>
+							<div class="clearfix"></div>
+							<div class="line4"></div>
+							
+							<div class="col-md-4 offset-0">
+								<a href="#"><img alt="" class="left mr20" src="images/smallthumb-3.jpg"></a>
+								<a class="dark" href="#"><b>Hotel Dany</b></a> /
+								<span class="dark size12">Greece - Zakynthos</span><br>
+								<span class="opensans green bold size14">$36-$160</span> <span class="grey">avg/night</span><br>
+								<img alt="" src="images/filter-rating-5.png"><br/>
+							</div>
+							<div class="col-md-7">
+								<span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus, quam vel interdum lacinia, lacus justo rutrum lorem, in fermentum ligula est a diam. Nam aliquet arcu est, a malesuada odio laoreet non.</span>
+							</div>
+							<div class="col-md-1 offset-0">
+								<button onclick="errorMessage()" type="submit" class="btn-search5 right">More</button>
+							</div>
+							<div class="clearfix"></div>
+							<div class="line4"></div>
+							
+							<div class="col-md-4 offset-0">
+								<a href="#"><img alt="" class="left mr20" src="images/smallthumb-1.jpg"></a>
+								<a class="dark" href="#"><b>Hotel Dany</b></a> /
+								<span class="dark size12">Greece - Zakynthos</span><br>
+								<span class="opensans green bold size14">$36-$160</span> <span class="grey">avg/night</span><br>
+								<img alt="" src="images/filter-rating-5.png"><br/>
+							</div>
+							<div class="col-md-7">
+								<span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus, quam vel interdum lacinia, lacus justo rutrum lorem, in fermentum ligula est a diam. Nam aliquet arcu est, a malesuada odio laoreet non.</span>
+							</div>
+							<div class="col-md-1 offset-0">
+								<button onclick="errorMessage()" type="submit" class="btn-search5 right">More</button>
+							</div>
+							<div class="clearfix"></div>
+							<div class="line4"></div>
+							
+							<div class="col-md-4 offset-0">
+								<a href="#"><img alt="" class="left mr20" src="images/smallthumb-2.jpg"></a>
+								<a class="dark" href="#"><b>Hotel Dany</b></a> /
+								<span class="dark size12">Greece - Zakynthos</span><br>
+								<span class="opensans green bold size14">$36-$160</span> <span class="grey">avg/night</span><br>
+								<img alt="" src="images/filter-rating-5.png"><br/>
+							</div>
+							<div class="col-md-7">
+								<span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus, quam vel interdum lacinia, lacus justo rutrum lorem, in fermentum ligula est a diam. Nam aliquet arcu est, a malesuada odio laoreet non.</span>
+							</div>
+							<div class="col-md-1 offset-0">
+								<button onclick="errorMessage()" type="submit" class="btn-search5 right">More</button>
+							</div>
+							<div class="clearfix"></div>
 				
-				<div class="col-md-3">
-					<span class="ftitle"></span>
-					<br/><br/>
-					<ul class="footerlist">
-						<li><a href="#">Water Activities</a></li>
-						<li><a href="#">National Trails</a></li>
-						<li><a href="#">Camping and  Backpacking</a></li>
-						<li><a href="#">Historical Sites</a></li>
-						<li><a href="#">Become a Volunteer</a></li>
-						<li><a href="#">Off the Beaten Path</a></li>
-					</ul>				
-				</div>
-				<!-- End of column 3-->		
+							<div class="line4"></div>
+							<ul class="pagination right paddingbtm20">
+							  <li class="disabled"><a href="#">«</a></li>
+							  <li><a href="#">1</a></li>
+							  <li><a href="#">2</a></li>
+							  <li><a href="#">3</a></li>
+							  <li><a href="#">»</a></li>
+							</ul>
+							
+							
+						
+						</div>
+					  </div>
+					  <!-- END OF TAB 2 -->	
+					  
+					  <!-- TAB 3 -->					  
+					  <div class="tab-pane" id="wishlist">
+						<div class="padding40">
+						
+
+							<input type="text" placeholder="Make new category" class="form-control wh80percent left">
+							<button type="submit" class="btn-search5 right"><span class="glyphicon glyphicon-plus"></span>Add new</button>
+
+							<div class="clearfix"></div>
+							<br/>
+							
+							<ul class="blogcat">
+								<li><a href="#">Incredible places</a> <span class="badge indent0">3</span></li>
+								<li><a href="#">My next places</a> <span class="badge indent0">1</span></li>
+								<li><a href="#">Europe</a> <span class="badge indent0">1</span></li>
+							</ul>
+						
+							<br/>
+							<br/>
+							
+							<span class="dark size18">Favourites list</span>
+							<div class="right mt-5">
+								<select class="form-control mySelectBoxClass hasCustomSelect cpwidth2">
+								  <option value="">5/page</option>
+								  <option value="">15/page</option>
+								  <option value="">20/page</option>
+								</select>
+							</div>								
+							<div class="line4"></div>
+							<br/>
+							
+							<div>
+								<div class="col-md-4 offset-0">
+									<a href="#"><img alt="" class="left mr20" src="images/smallthumb-1.jpg"></a>
+									<a class="dark" href="#"><b>Hotel Dany</b></a> /
+									<span class="dark size12">Greece - Zakynthos</span><br>
+									<span class="opensans green bold size14">$36-$160</span> <span class="grey">avg/night</span><br>
+									<img alt="" src="images/filter-rating-5.png"><br/>
+								</div>
+								<div class="col-md-7">
+									<span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus, quam vel interdum lacinia, lacus justo rutrum lorem, in fermentum ligula est a diam. Nam aliquet arcu est, a malesuada odio laoreet non.</span>
+								</div>
+								<div class="col-md-1 offset-0">
+									<button onclick="errorMessage()" type="submit" class="btn-search5 right"><span class="glyphicon glyphicon-heart dark"></span></button>
+								</div>
+								<button aria-hidden="true" data-dismiss="alert" class="close mr20 mt10" type="button">×</button>	
+								<div class="clearfix"></div>
+								<div class="line6"></div>
+							</div>
+							
+							<div>
+								<div class="col-md-4 offset-0">
+									<a href="#"><img alt="" class="left mr20" src="images/smallthumb-2.jpg"></a>
+									<a class="dark" href="#"><b>Hotel Dany</b></a> /
+									<span class="dark size12">Greece - Zakynthos</span><br>
+									<span class="opensans green bold size14">$36-$160</span> <span class="grey">avg/night</span><br>
+									<img alt="" src="images/filter-rating-5.png"><br/>
+								</div>
+								<div class="col-md-7">
+									<span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus, quam vel interdum lacinia, lacus justo rutrum lorem, in fermentum ligula est a diam. Nam aliquet arcu est, a malesuada odio laoreet non.</span>
+								</div>
+								<div class="col-md-1 offset-0">
+									<button onclick="errorMessage()" type="submit" class="btn-search5 right"><span class="glyphicon glyphicon-heart dark"></span></button>
+								</div>
+								<button aria-hidden="true" data-dismiss="alert" class="close mr20 mt10" type="button">×</button>
+								<div class="clearfix"></div>
+								<div class="line6"></div>
+							</div>
+							
+							<div>
+								<div class="col-md-4 offset-0">
+									<a href="#"><img alt="" class="left mr20" src="images/smallthumb-3.jpg"></a>
+									<a class="dark" href="#"><b>Hotel Dany</b></a> /
+									<span class="dark size12">Greece - Zakynthos</span><br>
+									<span class="opensans green bold size14">$36-$160</span> <span class="grey">avg/night</span><br>
+									<img alt="" src="images/filter-rating-5.png"><br/>
+								</div>
+								<div class="col-md-7">
+									<span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus, quam vel interdum lacinia, lacus justo rutrum lorem, in fermentum ligula est a diam. Nam aliquet arcu est, a malesuada odio laoreet non.</span>
+								</div>
+								<div class="col-md-1 offset-0">
+									<button onclick="errorMessage()" type="submit" class="btn-search5 right"><span class="glyphicon glyphicon-heart"></span></button>
+								</div>
+								<button aria-hidden="true" data-dismiss="alert" class="close mr20 mt10" type="button">×</button>									
+								<div class="clearfix"></div>
+								<div class="line6"></div>
+							</div>
+							
+							<div>
+								<div class="col-md-4 offset-0">
+									<a href="#"><img alt="" class="left mr20" src="images/smallthumb-1.jpg"></a>
+									<a class="dark" href="#"><b>Hotel Dany</b></a> /
+									<span class="dark size12">Greece - Zakynthos</span><br>
+									<span class="opensans green bold size14">$36-$160</span> <span class="grey">avg/night</span><br>
+									<img alt="" src="images/filter-rating-5.png"><br/>
+								</div>
+								<div class="col-md-7">
+									<span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus, quam vel interdum lacinia, lacus justo rutrum lorem, in fermentum ligula est a diam. Nam aliquet arcu est, a malesuada odio laoreet non.</span>
+								</div>
+								<div class="col-md-1 offset-0">
+									<button onclick="errorMessage()" type="submit" class="btn-search5 right"><span class="glyphicon glyphicon-heart dark"></span></button>
+								</div>
+								<button aria-hidden="true" data-dismiss="alert" class="close mr20 mt10" type="button">×</button>									
+								<div class="clearfix"></div>
+								<div class="line6"></div>
+							</div>
+							
+							<div>
+								<div class="col-md-4 offset-0">
+									<a href="#"><img alt="" class="left mr20" src="images/smallthumb-2.jpg"></a>
+									<a class="dark" href="#"><b>Hotel Dany</b></a> /
+									<span class="dark size12">Greece - Zakynthos</span><br>
+									<span class="opensans green bold size14">$36-$160</span> <span class="grey">avg/night</span><br>
+									<img alt="" src="images/filter-rating-5.png"><br/>
+								</div>
+								<div class="col-md-7">
+									<span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus, quam vel interdum lacinia, lacus justo rutrum lorem, in fermentum ligula est a diam. Nam aliquet arcu est, a malesuada odio laoreet non.</span>
+								</div>
+								<div class="col-md-1 offset-0">
+									<button onclick="errorMessage()" type="submit" class="btn-search5 right"><span class="glyphicon glyphicon-heart"></span></button>
+								</div>
+								<button aria-hidden="true" data-dismiss="alert" class="close mr20 mt10" type="button">×</button>									
+								<div class="clearfix"></div>
+							</div>
 				
-				<div class="col-md-3 grey">
-					<span class="ftitle">Newsletter</span>
-					<div class="relative">
-						<input type="email" class="form-control fccustom" id="exampleInputEmail1" placeholder="Enter email">
-						<button type="submit" class="btn btn-default btncustom">Submit<img src="images/arrow.png" alt=""/></button>
+							<div class="line4"></div>
+							<ul class="pagination right paddingbtm20">
+							  <li class="disabled"><a href="#">«</a></li>
+							  <li><a href="#">1</a></li>
+							  <li><a href="#">2</a></li>
+							  <li><a href="#">»</a></li>
+							</ul>
+							
+							
+						
+						
+						
+						
+						</div>
+					  </div>
+					  <!-- END OF TAB 3 -->	
+					  	
+					  
+					  
 					</div>
-					<br/><br/>
-					<span class="ftitle">Visitor support</span><br/>
-					<span class="pnr">1-866-599-6674</span><br/>
-					info@recreation.gov
-				</div>			
-				<!-- End of column 4-->			
+					<!-- End of Tab panes from left menu -->	
+					
+				</div>
+				<!-- END OF RIGHT CPNTENT -->
 			
-			
-
-				
-				
-			</div>	
-		</div>
-		
-		<div class="footerbg2">
-			<div class="container center grey"> 
-			<a href="#">Home</a> | 
-			<a href="#">About</a> | 
-			<a href="#">Last minute</a> | 
-			<a href="#">Early booking</a> | 
-			<a href="#">Special offers</a> | 
-			<a href="#">Blog</a> | 
-			<a href="#">Contact</a>
-			<a href="#top" class="gotop scroll"><img src="images/spacer.png" alt=""/></a>
+			<div class="clearfix"></div><br/><br/>
 			</div>
+			<!-- END CONTENT -->			
+			
+
+			
 		</div>
 		
+		
+	</div>	
+	<!-- END OF CONTENT -->
+	
 
+	
+	
+	<!-- FOOTER -->
+	
+	<div class="footerbgblack">
+		<div class="container">		
+			
+			<div class="col-md-3">
+				<span class="ftitleblack">Let's socialize</span>
+				<div class="scont">
+					<a href="#" class="social1b"><img src="images/icon-facebook.png" alt=""/></a>
+					<a href="#" class="social2b"><img src="images/icon-twitter.png" alt=""/></a>
+					<a href="#" class="social3b"><img src="images/icon-gplus.png" alt=""/></a>
+					<a href="#" class="social4b"><img src="images/icon-youtube.png" alt=""/></a>
+					<br/><br/><br/>
+					<a href="#"><img src="images/logosmal2.png" alt="" /></a><br/>
+					<span class="grey2">&copy; 2013  |  <a href="#">Privacy Policy</a><br/>
+					All Rights Reserved </span>
+					<br/><br/>
+					
+				</div>
+			</div>
+			<!-- End of column 1-->
+			
+			<div class="col-md-3">
+				<span class="ftitleblack">Travel Specialists</span>
+				<br/><br/>
+				<ul class="footerlistblack">
+					<li><a href="#">Golf Vacations</a></li>
+					<li><a href="#">Ski & Snowboarding</a></li>
+					<li><a href="#">Disney Parks Vacations</a></li>
+					<li><a href="#">Disneyland Vacations</a></li>
+					<li><a href="#">Disney World Vacations</a></li>
+					<li><a href="#">Vacations As Advertised</a></li>
+				</ul>
+			</div>
+			<!-- End of column 2-->		
+			
+			<div class="col-md-3">
+				<span class="ftitleblack">Travel Specialists</span>
+				<br/><br/>
+				<ul class="footerlistblack">
+					<li><a href="#">Weddings</a></li>
+					<li><a href="#">Accessible Travel</a></li>
+					<li><a href="#">Disney Parks</a></li>
+					<li><a href="#">Cruises</a></li>
+					<li><a href="#">Round the World</a></li>
+					<li><a href="#">First Class Flights</a></li>
+				</ul>				
+			</div>
+			<!-- End of column 3-->		
+			
+			<div class="col-md-3 grey">
+				<span class="ftitleblack">Newsletter</span>
+				<div class="relative">
+					<input type="email" class="form-control fccustom2black" id="exampleInputEmail1" placeholder="Enter email">
+					<button type="submit" class="btn btn-default btncustom">Submit<img src="images/arrow.png" alt=""/></button>
+				</div>
+				<br/><br/>
+				<span class="ftitleblack">Customer support</span><br/>
+				<span class="pnr">1-866-599-6674</span><br/>
+				<span class="grey2">office@travel.com</span>
+			</div>			
+			<!-- End of column 4-->			
 		
-		
+			
+		</div>	
+	</div><!-- end footer bg black -->
+	
+	<div class="footerbg3black">
+		<div class="container center grey"> 
+		<a href="#">Home</a> | 
+		<a href="#">About</a> | 
+		<a href="#">Last minute</a> | 
+		<a href="#">Early booking</a> | 
+		<a href="#">Special offers</a> | 
+		<a href="#">Blog</a> | 
+		<a href="#">Contact</a>
+		<a href="#top" class="gotop scroll"><img src="images/spacer.png" alt=""/></a>
+		</div>
 	</div>
-	<!-- / WRAP -->
 	
 	
+	<!-- Javascript  -->
+	<script src="assets/js/js-payment.js"></script>
 	
-    <!-- Javascript -->
-	
-    <!-- This page JS -->
-	<script src="assets/js/js-index3.js"></script>	
+    <!-- Nicescroll  -->	
+	<script src="assets/js/jquery.nicescroll.min.js"></script>
 	
     <!-- Custom functions -->
     <script src="assets/js/functions.js"></script>
 	
-    <!-- Picker UI-->	
-	<script src="assets/js/jquery-ui.js"></script>		
-	
-	<!-- Easing -->
-    <script src="assets/js/jquery.easing.js"></script>
-	
-    <!-- jQuery KenBurn Slider  -->
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-	
-   <!-- Nicescroll  -->	
-	<script src="assets/js/jquery.nicescroll.min.js"></script>
-	
-    <!-- CarouFredSel -->
-    <script src="assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
-    <script src="assets/js/helper-plugins/jquery.touchSwipe.min.js"></script>
-	<script type="text/javascript" src="assets/js/helper-plugins/jquery.mousewheel.min.js"></script>
-	<script type="text/javascript" src="assets/js/helper-plugins/jquery.transit.min.js"></script>
-	<script type="text/javascript" src="assets/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
-	
     <!-- Custom Select -->
-	<script type='text/javascript' src='assets/js/jquery.customSelect.js'></script>	
+	<script type='text/javascript' src='assets/js/jquery.customSelect.js'></script>
+	
+	<!-- Load Animo -->
+	<script src="plugins/animo/animo.js"></script>
 
+    <!-- Picker -->	
+	<script src="assets/js/jquery-ui.js"></script>	
+
+    <!-- Picker -->	
+    <script src="assets/js/jquery.easing.js"></script>	
+	
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="dist/js/bootstrap.min.js"></script>
   </body>
