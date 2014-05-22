@@ -3884,3 +3884,5 @@ td[attr="button"] {
   height: 80px;
   margin-top: 20px;
 }
+.modal-dialog {padding-top:25%;}
+.modal-body2 {padding: 20px 0px 20px 60px;}
