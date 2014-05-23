@@ -392,13 +392,10 @@
 	<div class="wrap bgfix cstyle03">
 		
 		<div class="container dropdowns z-index100">		
-
-		  <div class="row">
 		  	<div class="col-md-3">
 		  	<div class="ctitle">What?</div>
-
 				<div class="dropdown">
- 					<button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">Select an Activity<span class="glyphicon glyphicon-chevron-down"></span></button>
+ 					<button class="dropdownHome btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">Select an Activity<span class="glyphicon glyphicon-chevron-down"></span></button>
 		 			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
 		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
 		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
@@ -409,7 +406,7 @@
 		  	<div class="col-md-3">
 		  	<div class="ctitle">Where?</div>
 				<div class="dropdown">
- 					<button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu2" data-toggle="dropdown">Select a Location<span class="glyphicon glyphicon-chevron-down"></span></button>
+ 					<button class="dropdownHome btn dropdown-toggle sr-only" type="button" id="dropdownMenu2" data-toggle="dropdown">Select a Location<span class="glyphicon glyphicon-chevron-down"></span></button>
 		 			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
 		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
 		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
@@ -420,14 +417,15 @@
 		  	</div>
 		  	<div class="col-md-3">
 		  		<div class="ctitle">When?</div>	
-		  		<input class="btn when sr-only" type="date"/>
+		  		 <input type="text" class="form-control mySelectCalendar" id="datepicker" placeholder="mm/dd/yyyy"/>
+		  		<!--<input class="btn when sr-only" type="date"/>-->
 		  	</div>
 		  	<div class="col-md-3">
 		  	<div class="ctitle"> </div>	
-		  	<button class="ctitle yellow-btn sr-only btn">Let's Get Started<img src="images/spacer.png" alt=""/></button>	
-		  	</div>
-		  </div>
+		  	<button class="ctitle yellow-btn sr-only btn homeBtn">Let's Get Started<img src="images/spacer.png" alt=""/></button>	
+		  	</div>	
 		</div>
+		
 		 
 		<div class="lastminute lcfix">
 			<div class="container lmc">	

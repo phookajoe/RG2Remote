@@ -1614,8 +1614,11 @@ border-radius: 2px;
 
 .mySelectCalendar {
 background:url('../../images/calendar.png') #fff no-repeat right;
-background-position:98% 1px;
-	font-size: 10px;
+background-position: 98% 7px;
+font-size: 10px;
+padding: 21px 10px 20px 20px;
+border-radius:0px;
+border:1px solid #021F53;
 }
 .mySelectCalendar2 {
 background:url('../../images/calendar2.png') #fff no-repeat right;
@@ -1628,7 +1631,17 @@ background-position:98% 1px;
 }
 
 
+.dropdownHome{
+	border:1px solid #021F53;
+	border-radius:0px;
+	height:42px;
+	background:#EEEEEE;
 
+}
+
+.dropdownHome span{color:#1E54B6;	margin-left: 70px}
+
+.homeBtn{height:42px; font-size: 1.3em; padding:0px;}
 
 
 .boxshadow{
@@ -2891,7 +2904,8 @@ padding-top:3px;
 }
 .masonry.home{
 	margin-top:200px;
-	background:#72bf66;
+	background: url(../../images/barsRandom/Mountaindrop-green.jpg) no-repeat #fff 0 -150px !important;
+	background-size:cover;
 }
 .yellow-btn{
 	background:#fdcd62;
