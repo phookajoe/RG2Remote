@@ -1636,6 +1636,8 @@ background-position:98% 1px;
 	border-radius:0px;
 	height:42px;
 	background:#EEEEEE;
+	width: 98%;
+	position: static;
 
 }
 
