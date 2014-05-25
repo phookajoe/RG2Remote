@@ -68,7 +68,7 @@
 		];
 
 		
-		var myLatlng = new google.maps.LatLng(36.5068, -4.8825);
+		var myLatlng = new google.maps.LatLng(37.865101,-119.538329);
 
 
 	  // Create a new StyledMapType object, passing it the array of styles,
