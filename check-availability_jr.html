@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Recreation.gov - Explore Your America</title>
+	
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="assets/css/custom.css" rel="stylesheet" media="screen">
+	
+    <!-- Updates -->
+    <link href="updates/update1/css/style01.css" rel="stylesheet" media="screen">
+
+    <!-- Carousel -->
+	<link href="examples/carousel/carousel.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+	
+    <!-- Fonts -->	
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400,300,300italic' rel='stylesheet' type='text/css'>	
+	<!-- Font-Awesome -->
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" media="screen" />
+    <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="assets/css/font-awesome-ie7.css" media="screen" /><![endif]-->
+	
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="css/fullscreen.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+    <!-- Picker UI-->	
+	<link rel="stylesheet" href="assets/css/jquery-ui.css" />		
+	
+    <!-- jQuery -->	
+    <script src="assets/js/jquery.v2.0.3.js"></script>
+<!-- Masonry -->
+	<link href="updates/update1/css/masonry.css" rel="stylesheet">
+	<script src="updates/update1/js/masonry.pkgd.js"></script>
+	<script>
+	// http://masonry.desandro.com/masonry.pkgd.js added as external resource
+
+	docReady( function() {
+
+	  var container = document.querySelector('.masonry');
+	  var button = document.querySelector('#toggle-button');
+	  var msnry = new Masonry( container, {
+		columnWidth: 2
+	  });
+
+	  var isActive = true;
+
+	  eventie.bind( button, 'click', function() {
+		if ( isActive ) {
+		  msnry.destroy();
+		} else {
+		  msnry = new Masonry( container );
+		}
+		isActive = !isActive;
+	  });
+
+	});
+	//@ sourceURL=pen.js
+	</script>
+
+  </head>
+  <body id="top">
+    
+	<!-- Top wrapper -->			  
+	<div class="navbar-wrapper2 navbar-fixed-top">
+		<div class="navbar helpnav">
+			<!-- Help Navigation Bar-->
+			<div class="container">
+			
+			<nav>
+				<ul class="rightHelperNav lato bold right">
+					<li >1-877-447-6667</li>
+					<li>HELP</li>
+					<li>MY TRIPS</li>
+					<li>HI JOHN!</li>
+					<li><span class="avatar"></span></li>
+				</ul></nav>
+			</div>
+			<!-- /Navigation-->
+		</div>
+		<div class="navbar">
+			<!-- Navigation-->
+		<div class="top container">
+			  <div class="navbar-header">
+				<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				<a href="index.html" class="navbar-brand"><img src="updates/update1/img/logo.png" alt="Travel Agency Logo" class="logo2"/></a>
+			  </div>
+			  <div class="navbar-collapse collapse">
+				<ul class="nav nav2 navlight navbar-nav navbar-left">
+               <li class="dropdown">
+					<a data-toggle="dropdown" class="dropdown-toggle" href="index.html">Explore<br> <span class="navsub">Get more out of your parks and monuments </span><span class="badge indent0">13</span><b class="lightcaret mt-2"></b></a>
+                    <ul class="dropdown-menu posright-0">
+					  <li>
+							<div class="row dropwidth03">
+								<ul class="droplist col-md-12">
+ 								  <li><a href="index.html">Home Page</a></li>
+                               	  <li><a href="search-results.html">Search Results</a></li>
+								  <li><a href="park-landing.html">Park Landing Page</a></li>
+								  <li><a href="check-Availability.html">Campground Availability</a></li>
+								  <li><a href="login.html">Login Page</a></li>
+								  <li><a href="booking.html">Booking Page</a></li>
+								  <li><a href="checkout.html">Checkout</a></li>
+								  <li><a href="confirmation.html">Confirmation</a></li>
+								  <li><a href="trip-planner-create.html">Trip Planner - Create</a></li>
+                                  <li><a href="trip-planner-add.html">Trip Planner - Add Item</a></li>
+								  <li><a href="ranger-portal.html">Ranger Portal</a></li>
+								  <li><a href="inventory-mgt.html">Inventory Management</a></li>
+								  <li><a href="reporting.html">Reporting</a></li>								  
+								</ul>
+							</div>
+					  </li>
+					</ul>
+				  </li>
+				  <li class="dropdown">
+					<a data-toggle="dropdown" class="dropdown-toggle" href="#">Recreate <br> <span class="navsub">Try something you never knew you could do </span><span class="badge indent0">14</span><b class="lightcaret mt-2"></b></a>
+					<ul class="dropdown-menu posright-0">
+					  <li>
+							<div class="row dropwidth01">
+								<ul class="droplist col-md-4">
+								  <li class="dropdown-header">Inner pages</li>	
+								  <li><a href="list.html">List page 1</a></li>
+								  <li><a href="list2.html">List page 2</a></li>
+								  <li><a href="list3.html">List page 3</a></li>
+								  <li><a href="list4.html">List page 4</a></li>
+								  <li><a href="details.html">Details page</a></li>
+								  <li><a href="payment.html">Payment</a></li>
+								  <li><a href="blog.html">Blog page</a></li>
+								  <li><a href="blog-details.html">Blog details</a></li>	
+								  <li><a href="about.html">About</a></li>								  
+								  <li><a href="contact.html">Contact</a></li>
+								  <li><a href="profile.html">User Profile</a>  <span class="glyphicon glyphicon-star lblue"></span></li>
+								  <li><a href="login.html">Login</a></li>
+								  <li><a href="dashboard/index.html">Dashboard</a>  <span class="glyphicon glyphicon-star lblue"></span></li>								  
+
+						  
+								</ul>	
+								<ul class="droplist col-md-4">
+								  <li class="dropdown-header">Update - <span class="green">14 New Pages</span></li>	
+								  <li><a href="z-new-homepage.html">New Homepage</a>  <span class="glyphicon glyphicon-star lblue"></span></li>
+								  <li><a href="z-flights-list.html">Flights list</a>  <span class="glyphicon glyphicon-star lblue"></span></li>
+								  <li><a href="z-flights-payment.html">Flights payment</a></li>
+								  <li><a href="z-cruise-list.html">Cruise list</a></li>
+								  <li><a href="z-cruise-payment.html">Cruise payment</a></li>
+								  <li><a href="z-rentacar-list.html">Rent a car list</a></li>
+								  <li><a href="z-rentacar-details.html">Rent a car details</a></li>
+								  <li><a href="z-rentacar-payment.html">Rent a car payment</a></li>
+								  <li><a href="z-transfers-list.html">Transfers list</a></li>
+								  <li><a href="z-transfers-payment.html">Transfers payment</a></li>
+								  <li><a href="z-activities-list.html">Activities list</a></li>
+								  <li><a href="z-activities-details.html">Activities details</a></li>
+								  <li><a href="z-activities-payment.html">Activities payment</a></li>
+								  <li><a href="z-wearesearching.html">Loading page</a></li>
+								</ul>								
+								<ul class="droplist col-md-4">
+								  <li class="dropdown-header">Bootstrap Shortcodes</li>	
+								  <li ><a href="http://getbootstrap.com/components/" target="_blank">Components</a></li>								  
+								  <li ><a href="http://getbootstrap.com/javascript/" target="_blank">Javascript</a></li>								  
+								  <li ><a href="http://getbootstrap.com/css/" target="_blank">Css</a></li>
+								</ul>
+							</div>
+					  </li>
+					</ul>
+				  </li>
+                   <li class="dropdown">
+					<a data-toggle="dropdown" class="dropdown-toggle" href="#">Plan<br> <span class="navsub">Inspire yourself with some great suggested ideas </span><span class="badge indent0">07</span><b class="lightcaret mt-2"></b></a>
+                    <ul class="dropdown-menu posright-0">
+					  <li>
+							<div class="row dropwidth03">
+								<ul class="droplist">
+								  <li class="dropdown-header">Homepages</li>	
+								  <li><a href="index.html">Home 1 minimal</a></li>
+								  <li><a href="index2.html">Home 2 offers</a></li>
+								  <li><a href="index3.html">Home 3 full search</a></li>
+								  <li><a href="index4.html">Home 4 presentation</a></li>
+								  <li><a href="index5.html">Home 5 footer2</a></li>
+								  <li><a href="index6.html">Home 6 full</a></li>
+								  <li><a href="index7.html">Home 7 </a></li>
+								  <li><a href="z-new-homepage.html">New Homepage</a> <span class="green">new</span></li>									  
+								</ul>
+								
+							</div>
+					  </li>
+					</ul>
+                    </li>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="search-icn"></span></a></li>
+        				<li><a href="#"><span class="facebook-icn"></span></a></li>
+      				</ul>
+
+				</ul>
+
+			  </div>
+			</div>
+			  <!-- /Navigation-->
+        </div>
+    </div>
+	<!-- /Top wrapper -->	<!--
+	#################################
+		- THEMEPUNCH BANNER -
+	#################################
+	-->
+	<div id="dajy" class="fullscreen-container mtslide sliderbg fixed">
+			<div class="fullscreenbanner">
+				<ul>
+
+					<!-- papercut fade turnoff flyin slideright slideleft slideup slidedown-->
+				
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
+						<img src="images/slider/zakynthos.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo"  >
+							 <div class="sboxpurple textcenter">
+								<span class="lato size28 slim caps white">Momentum River Expeditions</span><br/><br/><br/>
+								<span class="lato size100 slim caps white">Oregon</span><br/>
+								<span class="lato size20 normal caps white">from</span><br/><br/>
+								<span class="lato size48 slim uppercase yellow">$1500</span><br/>
+							 </div>
+						</div>	
+					</li>
+				
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
+						<img src="images/slider/santorini.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo"  >
+							 <div class="sboxpurple textcenter">
+								<span class="lato size28 slim caps white">Hike the plains</span><br/><br/><br/>
+								<span class="lato size100 slim caps white">UTAH</span><br/>
+								<span class="lato size20 normal caps white">from</span><br/><br/>
+								<span class="lato size48 slim uppercase yellow">June 29 - Sept 18</span><br/>
+							 </div>
+						</div>	
+					</li>
+
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
+						<img src="images/slider/rome.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo"  >
+							 <div class="sboxpurple textcenter">
+								<span class="lato size28 slim caps white">Finding Old Faithful</span><br/><br/><br/>
+								<span class="lato size100 slim caps white">Yellowstone</span><br/>
+								<span class="lato size20 normal caps white">guided adventures</span><br/><br/>
+								<span class="lato size48 slim uppercase yellow">all year round</span><br/>
+							 </div>
+						</div>	
+					</li>	
+
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
+						
+						<img src="images/slider/paris.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo"  >
+							 <div class="sboxpurple textcenter">
+								<span class="lato size28 slim caps white">Arch Rock</span><br/><br/><br/>
+								<span class="lato size100 slim caps white">Nevada</span><br/>
+								<span class="lato size20 normal caps white">connect</span><br/><br/>
+								<span class="lato size48 slim uppercase yellow">all year round</span><br/>
+							 </div>
+						</div>	
+					</li>	
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
+						
+						<img src="images/slider/rocks.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo"  >
+							 <div class="sboxpurple textcenter">
+								<span class="lato size28 slim caps white">Climb</span><br/><br/><br/>
+								<span class="lato size100 slim caps white">Yosemite National Park</span><br/>
+								<span class="lato size20 normal caps white">Group Booking</span><br/><br/>
+								<span class="lato size48 slim uppercase yellow">Free with your season pass</span><br/>
+							 </div>
+						</div>	
+					</li>	
+				</ul>
+				<div class="tp-bannertimer none"></div>
+			</div>
+		</div>
+
+		<!--
+		##############################
+		 - ACTIVATE THE BANNER HERE -
+		##############################
+		-->
+		<script type="text/javascript">
+
+			var tpj=jQuery;
+			tpj.noConflict();
+
+			tpj(document).ready(function() {
+
+			if (tpj.fn.cssOriginal!=undefined)
+				tpj.fn.css = tpj.fn.cssOriginal;
+
+				tpj('.fullscreenbanner').revolution(
+					{
+						delay:9000,
+						startwidth:1170,
+						startheight:600,
+
+						onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+
+						thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+						thumbHeight:50,
+						thumbAmount:3,
+
+						hideThumbs:0,
+						navigationType:"bullet",				// bullet, thumb, none
+						navigationArrows:"solo",				// nexttobullets, solo (old name verticalcentered), none
+
+						navigationStyle:false,				// round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+
+						navigationHAlign:"left",				// Vertical Align top,center,bottom
+						navigationVAlign:"bottom",					// Horizontal Align left,center,right
+						navigationHOffset:30,
+						navigationVOffset:30,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+
+						touchenabled:"on",						// Enable Swipe Function : on/off
+
+
+						stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+						stopAfterLoops:-1,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+
+						hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+						hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
+						hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+
+						fullWidth:"on",							// Same time only Enable FullScreen of FullWidth !!
+						fullScreen:"off",						// Same time only Enable FullScreen of FullWidth !!
+
+
+						shadow:0								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+
+					});
+
+
+		});
+		</script> 
+		
+
+		
+
+
+
+	<!-- / WRAP -->
+	<div class="wrap bgfix cstyle03">
+		
+		<div class="container dropdowns z-index100">		
+		  	<div class="col-md-3">
+		  	<div class="ctitle">What?</div>
+				<div class="dropdown">
+ 					<button class="dropdownHome btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">Select an Activity<span class="glyphicon glyphicon-chevron-down"></span></button>
+		 			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+		 			</ul>
+				</div>
+		  	</div>
+
+		  	<div class="col-md-3">
+		  		<div class="ctitle">Where?</div>
+				<div class="dropdown">
+ 					<button class="dropdownHome btn dropdown-toggle " type="button" id="dropdownMenu2" data-toggle="dropdown">Select a Location<span class="glyphicon glyphicon-chevron-down"></span></button>
+		 			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+		 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+		 			</ul>
+				</div>
+		  	</div>
+
+		  	<div class="col-md-3">
+		  		<div class="ctitle">When?</div>	
+		  		 <input type="text" class="form-control mySelectCalendar " id="datepicker" placeholder="mm/dd/yyyy"/>
+		  		<!--<input class="btn when sr-only" type="date"/>-->
+		  	</div>
+		  	<div class="col-md-3">
+		  	<div class="ctitle"> </div>	
+		  	<button class="ctitle yellow-btn sr-only btn homeBtn">Let's Get Started<img src="images/spacer.png" alt=""/></button>	
+		  	</div>	
+		</div>
+		
+		 
+		<div class="lastminute lcfix">
+			<div class="container lmc">	
+
+			</div>
+		</div>
+		<div class="masonry home">
+			<div class="item wt2 ht2">
+				<div class="msbox2"><a href="#"><img src="updates/update1/img/pic01.jpg" class="fhimg2 left" alt=""></a></div>
+			</div>
+			<div class="item ht2">
+				<div class="msbox2">
+				<a href="#"><img src="updates/update1/img/pic02.jpg" class="fhimg" alt=""></a>
+					<p class="msctext padding20">
+						<span class="newstitle"><a href="#">The View is Absolutely Amazing!!</a></span><br/><br/>
+						Sed auctor erat sit amet lorem venenatis, in feugiat nisl fermentum. Nam luctus adipiscing dapibus. Nunc leo felis, ornare non commodo a, elementum a risus. 
+					</p>
+				</div>
+			</div>
+			<div class="item ">
+				<div class="msbox"><a href="#"><img src="updates/update1/img/pic03.jpg" class="fhimg" alt=""></a></div>
+			</div>
+			<div class="item ht2">
+				<div class="msbox2"><a href="#"><img src="updates/update1/img/pic04.jpg" class="fhimg" alt=""></a>
+					<p class="msctext padding20">
+						<span class="newstitle"><a href="#">I never even knew people did this! I can't wait to try it!</a></span>
+						<span class="glyphicon glyphicon-star lblue"></span>
+						<span class="glyphicon glyphicon-star lblue"></span>
+						<span class="glyphicon glyphicon-star lblue"></span>
+						<span class="glyphicon glyphicon-star lblue"></span>
+						<span class="glyphicon glyphicon-star lblue"></span>
+						<br/><br/>
+						Sed auctor erat sit amet lorem venenatis, in feugiat nisl fermentum. Nam luctus adipiscing dapibus. Nunc leo felis, ornare non commodo a, elementum a risus. 
+					</p>
+				</div>
+			</div>		
+			<div class="item wt2">
+				<div class="msbox">
+					<div class="w50percent msctext padding20 left">
+						<span class="newstitle"><a href="#">My son said this was the best day he ever had :)</a></span><br/><br/>
+						Sed auctor erat sit amet lorem venenatis, in feugiat nisl fermentum. Nam luctus adipiscing dapibus. Nunc leo felis, ornare non commodo a.
+					</div>		
+					<div class="w50percentlast right">
+						<a href="#"><img src="updates/update1/img/pic06.jpg" class="fwimg " alt=""></a>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="msbox"><a href="#"><img src="updates/update1/img/pic05.jpg" class="fhimg" alt=""></a></div>
+			</div>
+			
+		</div>		
+		
+		<div class="container cstyle07 mt25">	
+
+
+			  <div class="col-md-4">
+				<div class="boxshadow center">
+					<a href="list4.html"><img src="images/botswana.jpg" alt="" class="fwimg"/></a>
+					<div class="bscontainer">
+						<h4 class="lato bold caps">platte river kayak tours starting in june – reserve your spot now</h4>
+						<hr>
+						<p class="textleft grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis enim et mauris bibendum lobortis eget non eros. Nulla facilisi. Nulla facilisi.</p>
+						<br/>
+						<form action="list2.html">
+							<button class="roundbtn" type="submit">More</button>
+						</form>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-md-4">
+				<div class="boxshadow center">
+					<a href="list4.html"><img src="images/egypt.jpg" alt="" class="fwimg"/>	</a>		
+					<div class="bscontainer">
+						<h4 class="lato bold caps">guided fly fishing services available at shenandoah</h4>
+						<hr>
+						<p class="textleft grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis enim et mauris bibendum lobortis eget non eros. Nulla facilisi. Nulla facilisi.</p>
+						<br/>
+						<form action="list2.html">
+							<button class="roundbtn" type="submit">More</button>
+						</form>
+					</div>
+				</div>
+			  </div>
+			  <div class="col-md-4">
+				<div class="boxshadow center">
+					<a href="list4.html"><img src="images/machu_picchu.jpg" alt="" class="fwimg"/></a>		
+					<div class="bscontainer">
+						<h4 class="lato bold caps">new campsites available at yosemite – amazing views!</h4>
+						<hr>
+						<p class="textleft grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis enim et mauris bibendum lobortis eget non eros. Nulla facilisi. Nulla facilisi.</p>
+						<br/>
+						<form action="list2.html">
+							<button class="roundbtn" type="submit">More</button>
+						</form>
+					</div>
+				</div>
+			  </div>		  
+			  
+		
+
+		</div>
+		
+		
+		
+		<!-- FOOTER -->
+		<div class="footerbg lcfix">
+			<div class="container">		
+				
+				<div class="col-md-3">
+					<span class="ftitle">Let's socialize</span>
+					<div class="scont">
+						<a href="#" class="social1b"><img src="images/icon-facebook.png" alt=""/></a>
+						<a href="#" class="social2b"><img src="images/icon-twitter.png" alt=""/></a>
+						<a href="#" class="social3b"><img src="images/icon-gplus.png" alt=""/></a>
+						<a href="#" class="social4b"><img src="images/icon-youtube.png" alt=""/></a>
+						<br/><br/><br/>
+						<img src="images/logosmal.png" alt="" /><br/>
+						&copy; 2013  |  <a href="#">Privacy Policy</a><br/>
+						All Rights Reserved 
+						<br/><br/>
+						
+					</div>
+				</div>
+				<!-- End of column 1-->
+				
+				<div class="col-md-3">
+					<span class="ftitle">Quick Links</span>
+					<br/><br/>
+					<ul class="footerlist">
+						<li><a href="#">View Our Maps</a></li>
+						<li><a href="#">Book a Tour</a></li>
+						<li><a href="#">Get a Permit</a></li>
+						<li><a href="#">Annual Passes</a></li>
+						<li><a href="#">Download Our Mobile App</a></li>
+						<li><a href="#">Sign Up for Email Updates</a></li>
+					</ul>
+				</div>
+				<!-- End of column 2-->		
+				
+				<div class="col-md-3">
+					<span class="ftitle"></span>
+					<br/><br/>
+					<ul class="footerlist">
+						<li><a href="#">Water Activities</a></li>
+						<li><a href="#">National Trails</a></li>
+						<li><a href="#">Camping and  Backpacking</a></li>
+						<li><a href="#">Historical Sites</a></li>
+						<li><a href="#">Become a Volunteer</a></li>
+						<li><a href="#">Off the Beaten Path</a></li>
+					</ul>				
+				</div>
+				<!-- End of column 3-->		
+				
+				<div class="col-md-3 grey">
+					<span class="ftitle">Newsletter</span>
+					<div class="relative">
+						<input type="email" class="form-control fccustom" id="exampleInputEmail1" placeholder="Enter email">
+						<button type="submit" class="btn btn-default btncustom">Submit<img src="images/arrow.png" alt=""/></button>
+					</div>
+					<br/><br/>
+					<span class="ftitle">Visitor support</span><br/>
+					<span class="pnr">1-866-599-6674</span><br/>
+					info@recreation.gov
+				</div>			
+				<!-- End of column 4-->			
+			
+			
+
+				
+				
+			</div>	
+		</div>
+		
+		<div class="footerbg2">
+			<div class="container center grey"> 
+			<a href="#">Home</a> | 
+			<a href="#">About</a> | 
+			<a href="#">Last minute</a> | 
+			<a href="#">Early booking</a> | 
+			<a href="#">Special offers</a> | 
+			<a href="#">Blog</a> | 
+			<a href="#">Contact</a>
+			<a href="#top" class="gotop scroll"><img src="images/spacer.png" alt=""/></a>
+			</div>
+		</div>
+		
+
+		
+		
+	</div>
+	<!-- / WRAP -->
+	
+	
+	
+    <!-- Javascript -->
+	
+    <!-- This page JS -->
+	<script src="assets/js/js-index3.js"></script>	
+	
+    <!-- Custom functions -->
+    <script src="assets/js/functions.js"></script>
+	
+    <!-- Picker UI-->	
+	<script src="assets/js/jquery-ui.js"></script>		
+	
+	<!-- Easing -->
+    <script src="assets/js/jquery.easing.js"></script>
+	
+    <!-- jQuery KenBurn Slider  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	
+   <!-- Nicescroll  -->	
+	<script src="assets/js/jquery.nicescroll.min.js"></script>
+	
+    <!-- CarouFredSel -->
+    <script src="assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script src="assets/js/helper-plugins/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" src="assets/js/helper-plugins/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="assets/js/helper-plugins/jquery.transit.min.js"></script>
+	<script type="text/javascript" src="assets/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
+	
+    <!-- Custom Select -->
+	<script type='text/javascript' src='assets/js/jquery.customSelect.js'></script>	
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
