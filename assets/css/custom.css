@@ -1126,7 +1126,7 @@ margin-top:100px;
 
 	/*Last minute*/
 	.lastminute{
-	height:277px;
+	height:222px;
 	width:100%;
 	background:#f2f2f2;
 	padding-top:110px;
@@ -2885,9 +2885,13 @@ padding-top:3px;
 	padding:0px 0px 30px 0;	
 }
 .masonry.home{
-	margin-top:200px;
+	margin-top:15px;
 	background: url(../../images/barsRandom/Mountaindrop-green.jpg) no-repeat #fff 0 -150px !important;
 	background-size:cover;
+}
+.homeTitle{
+	margin-top:55px;
+
 }
 .yellow-btn{
 	background:#fdcd62;
@@ -2900,7 +2904,9 @@ padding-top:3px;
 	color:#15262f;
 	border-radius:0px;
 }
-
+.partners{
+	margin-top:7px;
+}
 
 .rightHelperNav{
 	height:43px
@@ -2946,6 +2952,10 @@ a > span.search-icn{
 
 .marginTop{
 	margin-top:70px;
+}
+
+.marginBottom{
+	margin-bottom:70px;
 }
 
 .availabilityTop{
