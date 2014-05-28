@@ -679,41 +679,6 @@ z-index:100;
 	background: -o-linear-gradient(top, #339933, #72bf66);
 }
 
-.greybtn {
-	text-transform:uppercase;
-	border: 1px solid #999999;
-	background: #696969;
-	background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#999999));
-	background: -webkit-linear-gradient(top, #cccccc, #999999);
-	background: -moz-linear-gradient(top, #cccccc, #999999);
-	background: -ms-linear-gradient(top, #cccccc, #999999);
-	background: -o-linear-gradient(top, #cccccc, #999999);
-	padding: 7.5px 20px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	box-shadow: rgba(0,0,0,0.3) 0 3px 5px;
-	color:#fff;
-	font-size: 14px;
-	font-family: Helvetica, Arial, Sans-Serif;
-	text-decoration: none;
-	vertical-align: middle;
-	font-family:"Open Sans";
-	font-weight:700;
-	text-transform:uppercase;
-    -webkit-transition:.3s;-moz-transition:.3s;transition:.3s
-}
-.greybtn:hover{
-	color:#fff;
-	border: 1px solid #999999;	
-	background: #1d7db7;
-	background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#3994d4));
-	background: -webkit-linear-gradient(top, #999999, #cccccc);
-	background: -moz-linear-gradient(top, #999999, #cccccc);
-	background: -ms-linear-gradient(top, #999999, #cccccc);
-	background: -o-linear-gradient(top, #999999, #cccccc);
-}
-
 
 
 a.add2fav{
@@ -2929,6 +2894,14 @@ padding-top:3px;
 	color:#15262f;
 	border-radius:0px;
 }
+
+.grey-btn{
+	background:#b3b3b3;
+	color:#15262f;
+	border-radius:0px;
+}
+
+
 .rightHelperNav{
 	height:43px
 }
