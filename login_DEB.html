@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Travel Agency - HTML5 Booking template</title>
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Recreation.Gov - Yosemite National Park</title>
 	
-	<!-- Bootstrap -->
+    <!-- Bootstrap -->
     <link href="dist/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="assets/css/custom.css" rel="stylesheet" media="screen">
 	
     <!-- Updates -->
     <link href="updates/update1/css/style01.css" rel="stylesheet" media="screen">
 
-	<!-- Animo css-->
-	<link href="plugins/animo/animate+animo.css" rel="stylesheet" media="screen">
-	
+    <!-- Carousel -->
 	<link href="examples/carousel/carousel.css" rel="stylesheet">
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	  <script src="assets/js/html5shiv.js"></script>
-	  <script src="assets/js/respond.min.js"></script>
-	<![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
 	
-	<!-- Fonts -->	
+    <!-- Fonts -->	
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400,300,300italic' rel='stylesheet' type='text/css'>	
 	<!-- Font-Awesome -->
-	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" media="screen" />
-	<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="assets/css/font-awesome-ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" media="screen" />
+    <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="assets/css/font-awesome-ie7.css" media="screen" /><![endif]-->
 	
-	<!-- Load jQuery -->
-	<script src="assets/js/jquery.v2.0.3.js"></script>
-
+    <!-- Picker UI-->	
+	<link rel="stylesheet" href="assets/css/jquery-ui.css" />		
+	
+    <!-- jQuery -->	
+    <script src="assets/js/jquery.v2.0.3.js"></script>
 
 	
-
   </head>
-  <body>
-<!-- Top wrapper -->			  
+  <body id="top">
+	<!-- Top wrapper -->			  
 	<div class="navbar-wrapper2 navbar-fixed-top">
 		<div class="navbar helpnav">
 			<!-- Help Navigation Bar-->
@@ -49,16 +48,14 @@
 					<li>HELP</li>
 					<li>MY TRIPS</li>
 					<li>HI JOHN!</li>
-				</ul>
-</nav>
-				<div class="avatar"></div>
-			
+					<li><span class="avatar"></span></li>
+				</ul></nav>
 			</div>
 			<!-- /Navigation-->
 		</div>
 		<div class="navbar">
 			<!-- Navigation-->
-<div class="top container">
+		<div class="top container">
 			  <div class="navbar-header">
 				<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
 				  <span class="icon-bar"></span>
@@ -69,14 +66,14 @@
 			  </div>
 			  <div class="navbar-collapse collapse">
 				<ul class="nav nav2 navlight navbar-nav navbar-left">
-  			<li class="dropdown">
+               <li class="dropdown">
 					<a data-toggle="dropdown" class="dropdown-toggle" href="index.html">Explore<br> <span class="navsub">Get more out of your parks and monuments </span><span class="badge indent0">13</span><b class="lightcaret mt-2"></b></a>
                     <ul class="dropdown-menu posright-0">
 					  <li>
 							<div class="row dropwidth03">
-								<ul class="droplist">
- 									<li><a href="index.html">Home Page</a></li>
-                               <li><a href="search-results.html">Search Results</a></li>
+								<ul class="droplist col-md-12">
+ 								  <li><a href="index.html">Home Page</a></li>
+                               	  <li><a href="search-results.html">Search Results</a></li>
 								  <li><a href="park-landing.html">Park Landing Page</a></li>
 								  <li><a href="check-Availability.html">Campground Availability</a></li>
 								  <li><a href="login.html">Login Page</a></li>
@@ -92,7 +89,8 @@
 							</div>
 					  </li>
 					</ul>
-				  </li>				  <li class="dropdown">
+				  </li>
+				  <li class="dropdown">
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">Recreate <br> <span class="navsub">Try something you never knew you could do </span><span class="badge indent0">14</span><b class="lightcaret mt-2"></b></a>
 					<ul class="dropdown-menu posright-0">
 					  <li>
@@ -163,80 +161,240 @@
 					  </li>
 					</ul>
                     </li>
-				<!--  <li><a href="#">Hotels</a></li>
-				  <li><a href="#">Flights</a></li>
-				  <li><a href="#">Vacations</a></li>
-				  <li><a href="#">Cars</a></li>			  
-				  <li><a href="#">Cruises</a></li>			  
-				  <li><a href="#">Last minute</a></li>			  
-				  <li><a href="#">Early booking</a></li>			  
-				  <li class="dropdown">
-					<a data-toggle="dropdown" class="dropdown-toggle" href="#">Deals<b class="lightcaret mt-2"></b></a>
-					<ul class="dropdown-menu">
-					  <li class="dropdown-header">Aligned Right Dropdown</li>	
-					  <li><a href="#">Sample Link 1</a></li>
-					  <li><a href="#">Sample Link 2</a></li>
-					</ul>
-				  </li>	-->	
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="search-icn"></span></a></li>
+        				<li><a href="#"><span class="facebook-icn"></span></a></li>
+      				</ul>
+
 				</ul>
+
 			  </div>
 			</div>
 			  <!-- /Navigation-->
         </div>
     </div>
 	<!-- /Top wrapper -->	
-    
-	<!-- 100% Width & Height container  -->
-	<div class="login-fullwidith">
+
+
 		
-		<!-- Login Wrap  -->
-		<div class="login-wrap">
-			<img src="images/logo.png" class="login-img" alt="logo"/><br/>
-			<div class="login-c1">
-				<div class="cpadding50">
-					<input type="text" class="form-control logpadding" placeholder="Username">
-					<br/>
-					<input type="text" class="form-control logpadding" placeholder="Password">
-				</div>
-			</div>
-			<div class="login-c2">
-				<div class="logmargfix">
-					<div class="chpadding50">
-							<div class="alignbottom">
-								<button class="btn-search4"  type="submit" onclick="errorMessage()">Submit</button>							
+
+
+
+	<!-- WRAP -->
+	<div class=" cstyle03-park">
+	<div class="blueMountainBg padding30 ">
+		<div class="container margtop30 z-index100">		
+		    <div class="row margtop30 ">
+				<div class="col-md-12">
+					<div class="bs-example bs-example-tabs cstyle04">
+						<div class="col-md-9 greenBg">
+							<div class="col-md-12 opensans white">
+								<div class="col-md-6 opensans white rt-vrtDiv">
+								<h3>Park Alerts & News</h3>
+									<time>October 13, 2014</time>
+									<p class="dark">
+										A road collapse south of Page has closed US-89 until further notice.
+										<br/>
+										<a href="#" class="rd-more">More &#10095;</a>
+									</p>
+									<time>Coming up: October 08, 2014</time><br/>
+									<h4>Acrylic Course</h4>
+									<p class="dark">
+										Capture your memories in the painting class
+										<br/>
+										<a href="#" class="rd-more">More &#10095;</a>
+									</p>
+								</div>
+								<div class="col-md-6 opensans ehite">
+									<div class="parkPnlThumb"></div>
+									<h3>Fall Highlights</h3>
+									<p class="dark">
+										Explore guided tours and recommended activities in the fall season.
+									</p>
+									<br/>
+									<button type="submit" class="yellow-btn btn">
+										Explore &#10095;
+									</button>
+								</div>
 							</div>
-							<div class="alignbottom2">
-							  <div class="checkbox">
-								<label>
-								  <input type="checkbox">Remember
-								</label>
-							  </div>
+						</div><!--end md-10-->
+						<div class="col-md-3">
+							<div class="col-md-12">
+								<form action="#">
+									<span class="opensans size24 slim">Find Place & Activities</span>
+												<div class="dropdown">
+ 													<button class="dropdownHome btn dropdown-toggle sr-only" type="button" id="dropdownMenu2" data-toggle="dropdown">Select a Region<span class="glyphicon glyphicon-chevron-down"></span></button>
+		 											<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+		 											  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+		 											  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+		 											  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+		 											</ul>
+												</div>
+												<br/>
+												<div class="dropdown">
+ 													<button class="dropdownHome btn dropdown-toggle sr-only" type="button" id="dropdownMenu2" data-toggle="dropdown">Select an Activity<span class="glyphicon glyphicon-chevron-down"></span></button>
+		 											<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+		 											  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+		 											  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+		 											  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+		 											</ul>
+												</div>
+												<br/>
+									<button type="submit" class="ctitle yellow-btn btn homeBtn">Explore &#10095;</button>
+								</form>
 							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="login-c3">
-				<div class="left"><a href="#" class="whitelink"><span></span>Website</a></div>
-				<div class="right"><a href="#" class="whitelink">Lost password?</a></div>
-			</div>			
+		    </div>
 		</div>
-		<!-- End of Login Wrap  -->
-	
-	</div>	
-	<!-- End of Container  -->
+		</div>
+    
+		<!-- CONTENT -->
+	<div class="container">
 
-	<!-- Javascript  -->
-	<script src="assets/js/initialize-loginpage.js"></script>
-	<script src="assets/js/jquery.easing.js"></script>
-	<!-- Load Animo -->
-	<script src="plugins/animo/animo.js"></script>
-	<script>
-	function errorMessage(){
-		$('.login-wrap').animo( { animation: 'tada' } );
-	}
-	</script>
+		
+		<div class="container mt25 contMrgBtm offset-0">
+			
+			
+			<!-- CONTENT -->
+			
+			<!-- END CONTENT -->			
+			
+
+			
+		</div>
+		
+		
+	</div>
+	<!-- END OF CONTENT -->
+		
+		
+
+		
+		
+	</div>
+	<!-- END OF WRAP -->
 	
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="dist/js/bootstrap.min.js"></script>
+		<!-- FOOTER -->
+		<div class="footerbg lcfix">
+			<div class="container">		
+				
+				<div class="col-md-3">
+					<span class="ftitle">Let's socialize</span>
+					<div class="scont">
+						<a href="#" class="social1b"><img src="images/icon-facebook.png" alt=""/></a>
+						<a href="#" class="social2b"><img src="images/icon-twitter.png" alt=""/></a>
+						<a href="#" class="social3b"><img src="images/icon-gplus.png" alt=""/></a>
+						<a href="#" class="social4b"><img src="images/icon-youtube.png" alt=""/></a>
+						<br/><br/><br/>
+						<img src="images/logosmal.png" alt="" /><br/>
+						&copy; 2013  |  <a href="#">Privacy Policy</a><br/>
+						All Rights Reserved 
+						<br/><br/>
+						
+					</div>
+				</div>
+				<!-- End of column 1-->
+				
+				<div class="col-md-3">
+					<span class="ftitle">Quick Links</span>
+					<br/><br/>
+					<ul class="footerlist">
+						<li><a href="#">View Our Maps</a></li>
+						<li><a href="#">Book a Tour</a></li>
+						<li><a href="#">Get a Permit</a></li>
+						<li><a href="#">Annual Passes</a></li>
+						<li><a href="#">Download Our Mobile App</a></li>
+						<li><a href="#">Sign Up for Email Updates</a></li>
+					</ul>
+				</div>
+				<!-- End of column 2-->		
+				
+				<div class="col-md-3">
+					<span class="ftitle"></span>
+					<br/><br/>
+					<ul class="footerlist">
+						<li><a href="#">Water Activities</a></li>
+						<li><a href="#">National Trails</a></li>
+						<li><a href="#">Camping and  Backpacking</a></li>
+						<li><a href="#">Historical Sites</a></li>
+						<li><a href="#">Become a Volunteer</a></li>
+						<li><a href="#">Off the Beaten Path</a></li>
+					</ul>				
+				</div>
+				<!-- End of column 3-->		
+				
+				<div class="col-md-3 grey">
+					<span class="ftitle">Newsletter</span>
+					<div class="relative">
+						<input type="email" class="form-control fccustom" id="exampleInputEmail1" placeholder="Enter email">
+						<button type="submit" class="btn btn-default btncustom">Submit<img src="images/arrow.png" alt=""/></button>
+					</div>
+					<br/><br/>
+					<span class="ftitle">Visitor support</span><br/>
+					<span class="pnr">1-866-599-6674</span><br/>
+					info@recreation.gov
+				</div>			
+				<!-- End of column 4-->			
+			
+			
+
+				
+				
+			</div>	
+		</div>
+
+
+
+
+
+		
+		<div class="footerbg2">
+			<div class="container center grey"> 
+			<a href="#">Home</a> | 
+			<a href="#">About</a> | 
+			<a href="#">Last minute</a> | 
+			<a href="#">Early booking</a> | 
+			<a href="#">Special offers</a> | 
+			<a href="#">Blog</a> | 
+			<a href="#">Contact</a>
+			<a href="#top" class="gotop scroll"><img src="images/spacer.png" alt=""/></a>
+			</div>
+		</div>
+	
+	
+
+	
+    <!-- This page JS -->
+	<script src="assets/js/js-index.js"></script>	
+	
+	<!-- Googlemap -->	
+	<script src="assets/js/initialize-google-map-contact.js"></script>
+	
+    <!-- Custom functions -->
+    <script src="assets/js/functions.js"></script>
+	
+    <!-- Picker UI-->	
+	<script src="assets/js/jquery-ui.js"></script>		
+	
+	<!-- Easing -->
+    <script src="assets/js/jquery.easing.js"></script>
+	
+    <!-- Nicescroll  -->	
+	<script src="assets/js/jquery.nicescroll.min.js"></script>
+	
+    <!-- CarouFredSel -->
+    <script src="assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script src="assets/js/helper-plugins/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" src="assets/js/helper-plugins/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="assets/js/helper-plugins/jquery.transit.min.js"></script>
+	<script type="text/javascript" src="assets/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
+	
+    <!-- Custom Select -->
+	<script type='text/javascript' src='assets/js/jquery.customSelect.js'></script>	
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/bootstrap.min.js"></script>
   </body>
 </html>
