@@ -240,8 +240,6 @@
 		    <span class="glyphicon glyphicon-chevron-right"></span>
 		  </a>
 		</div>
-		</div>
-		<div class="clearFix"></div>
 		<div class="container dropdownsAvail">		
 			<div class="row">
 			  	<div class="col-md-3">
@@ -271,23 +269,28 @@
 					</div>
 			  	</div>
 
-			  	<div class="col-md-3">
-			  		<div class="ctitle"># of Rooms</div>
-					<div class="dropdown">
-	 					<button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu2" data-toggle="dropdown">Select a Location          <span class="glyphicon glyphicon-chevron-down"></span></button>
-			 			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
-			 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-			 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-			 			  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-			 			</ul>
-					</div>
-					<!--<div class="col-md-12"><a href="#">Map View</a></div>-->
-			  	</div>
+			<div class="col-md-2">
+		  		<div class="ctitle">When?</div>	
+		  		 <input type="text" class="form-control mySelectCalendar " id="datepicker" placeholder="mm/dd/yyyy"/>
+		  		<!--<input class="btn when sr-only" type="date"/>-->
+		  	</div>
 
-			  	<div class="col-md-3">
+				<div class="col-md-2">
+			  		<div class="ctitle"></div>	
+			  		<div class="dropdown">
+	 						<button class="dropdownHome btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"># Nights      <span class="glyphicon glyphicon-chevron-down"></span></button>
+			 				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+			 				  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+			 				  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+			 				  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+			 				</ul>
+			 		</div>
+				</div>
+
+				<div class="col-md-2">
 			  		<div class="ctitle">Who?</div>	
 			  		<div class="dropdown">
-	 						<button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu2" data-toggle="dropdown">2 Adults          <span class="glyphicon glyphicon-chevron-down"></span></button>
+	 						<button class="dropdownHome btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown">2 Adults        <span class="glyphicon glyphicon-chevron-down"></span></button>
 			 				<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
 			 				  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
 			 				  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
@@ -298,10 +301,13 @@
 
 			  	<div class="col-md-3">
 			  		<div class="ctitle"> </div>	
-			  		<button class="ctitle yellow-btn sr-only btn">Show Availability<span clas="glyphicon glyphicon-chevron-right"></span></button>	
+			  		<button class="ctitle yellow-btn sr-only btn homeBtn">Show Availability<span clas="glyphicon glyphicon-chevron-right"></span></button>	
 			  	</div>
 			</div>
 		</div>
+		</div>
+
+		
 	</div><!-- end availabilityTop-->
 		
 		<div class="container">
@@ -872,11 +878,13 @@
 
 
                   </div>
-                  <div class="tab-pane" id="settings">
+                  <div class="tab-pane noPadding " id="settings">
                   	<div id="maps">
-						<div class="hpadding20">
-							<div id="map-canvas"></div>
-						</div>
+						
+					
+							<div id="map-canvas2" class="canvasAvail" style="height:425px"></div>
+
+					
 					</div>
                   </div>
                    <div class="tab-pane" id="reviews">
@@ -1318,6 +1326,8 @@
     <!-- This page JS -->
     	<script src="assets/js/js-details.js"></script>
 	<script src="assets/js/js-index3.js"></script>	
+
+
 	
     <!-- Custom functions -->
     <script src="assets/js/functions.js"></script>
@@ -1345,11 +1355,12 @@
 	
 	    <!-- Carousel-->	
     <script src="assets/js/initialize-carousel-detailspage.js"></script>	
-	<!-- Googlemap -->	
-	<script src="assets/js/initialize-google-map-contact.js"></script>
+
 	
     <!-- Custom Select -->
 	<script type='text/javascript' src='assets/js/jquery.customSelect.js'></script>	
+			<!--Map-->
+	<script src="assets/js/initialize-google-map-contact.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="dist/js/bootstrap.min.js"></script>

@@ -3010,6 +3010,10 @@ a > span.search-icn{
 	margin-top: 30px;
 	border:1px solid #448D0B;
 }
+
+#map-canvas2.canvasAvail{
+	top:0px;
+}
 .carousel .item {
 	height:350px!important;
 }
