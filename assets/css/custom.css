@@ -3283,6 +3283,56 @@ a.icons:hover .icon-share:hover {
   backround-size: cover;
 }
 
+.food-wine {
+  background: url("../../images/park/food-wine.jpg") center center;
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+.gallery {
+  background: url("../../images/park/gallery.jpg") center center;
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+.history {
+  background: url("../../images/park/history.jpg") center center;
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+.kids-pgm {
+  background: url("../../images/park/kids-pgm.jpg") center center;
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+.music-fest {
+  background: url("../../images/park/music-fest.jpg") center center;
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+.sesame-st {
+  background: url("../../images/park/sesame-st.jpg") center center;
+  display: block;
+  width: 100%;
+  height: 150px;
+  background-repeat: no-repeat;
+  backround-size: cover;
+}
+
+
 /*Booking Page*/
 /* line 38, ../../sass/_images.scss */
 .acrylic {
