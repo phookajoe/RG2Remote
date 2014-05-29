@@ -81,7 +81,7 @@ ul.droplist li:hover.inactive{background:#fff; }
 /* Richard SMith Custm Add*/
 span.navsub {
 	font-size: .8em;
-	width: 60%;
+	width: 70%;
 	display: block;
 	line-height: 1.2em;
 	color: #8f8d8d;
@@ -4021,3 +4021,5 @@ td[attr="button"] {
 }
 .modal-dialog {padding-top:25%;}
 .modal-body2 {padding: 20px 0px 20px 60px;}
+.dropdown-toggle{width:200px;}
+.widthNav{width:125px;}
