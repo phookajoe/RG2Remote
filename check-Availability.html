@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Recreation.gov - Explore Your America</title>
 	
-    <!-- Bootstrap -->
+     <!-- Bootstrap -->
     <link href="dist/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="assets/css/custom.css" rel="stylesheet" media="screen">
 	
     <!-- Updates -->
     <link href="updates/update1/css/style01.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="assets/css/bootstrap.vertical-tabs.css">
+     <link rel="stylesheet" href="assets/css/bootstrap.vertical-tabs.css">
 
     <!-- Carousel -->
 	<link href="examples/carousel/carousel.css" rel="stylesheet">
@@ -31,22 +31,41 @@
     <!-- REVOLUTION BANNER CSS SETTINGS -->
     <link rel="stylesheet" type="text/css" href="css/fullscreen.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
-    <script src="assets/js/jquery.v2.0.3.js"></script>
+
     <!-- Picker UI-->	
 	<link rel="stylesheet" href="assets/css/jquery-ui.css" />		
-	<!-- bin/jquery.slider.min.css -->
-
-	<script type="text/javascript" src="plugins/jslider/js/jshashtable-2.1_src.js"></script>
-	<script type="text/javascript" src="plugins/jslider/js/jquery.numberformatter-1.2.3.js"></script>
-	<script type="text/javascript" src="plugins/jslider/js/tmpl.js"></script>
-	<script type="text/javascript" src="plugins/jslider/js/jquery.dependClass-0.1.js"></script>
-	<script type="text/javascript" src="plugins/jslider/js/draggable-0.1.js"></script>
-	<script type="text/javascript" src="plugins/jslider/js/jquery.slider.js"></script>
-	<!-- end -->
-	<link rel="stylesheet" href="plugins/jslider/css/jslider.css" type="text/css">
-	<link rel="stylesheet" href="plugins/jslider/css/jslider.round-blue.css" type="text/css">
+	
     <!-- jQuery -->	
+    <script src="assets/js/jquery.v2.0.3.js"></script>
+<!-- Masonry -->
+	<link href="updates/update1/css/masonry.css" rel="stylesheet">
+	<script src="updates/update1/js/masonry.pkgd.js"></script>
+	<script>
+	// http://masonry.desandro.com/masonry.pkgd.js added as external resource
 
+
+	docReady( function() {
+
+	  var container = document.querySelector('.masonry');
+	  var button = document.querySelector('#toggle-button');
+	  var msnry = new Masonry( container, {
+		columnWidth: 2
+	  });
+
+	  var isActive = true;
+
+	  eventie.bind( button, 'click', function() {
+		if ( isActive ) {
+		  msnry.destroy();
+		} else {
+		  msnry = new Masonry( container );
+		}
+		isActive = !isActive;
+	  });
+
+	});
+	//@ sourceURL=pen.js
+	</script>
 
   </head>
   <body id="top">
@@ -64,6 +83,9 @@
 					<li>MY TRIPS</li>
 					<li>HI JOHN!</li>
 					<li><span class="avatar"></span></li>
+					<li><a href="#"><span class="search-icn"></span></a></li>
+        			<li><a href="#"><span class="facebook-icn"></span></a></li>
+      			
 				</ul></nav>
 			</div>
 			<!-- /Navigation-->
@@ -176,10 +198,28 @@
 					  </li>
 					</ul>
                     </li>
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#"><span class="search-icn"></span></a></li>
-        				<li><a href="#"><span class="facebook-icn"></span></a></li>
-      				</ul>
+                    <!--<li class="dropdown">
+					<a data-toggle="dropdown" class="dropdown-toggle" href="#">Find<br> <span class="navsub">Inspire yourself with some great suggested ideas </span><span class="badge indent0">07</span><b class="lightcaret mt-2"></b></a>
+                    <ul class="dropdown-menu posright-0">
+					  <li>
+							<div class="row dropwidth03">
+								<ul class="droplist">
+								  <li class="dropdown-header">Homepages</li>	
+								  <li><a href="index.html">Home 1 minimal</a></li>
+								  <li><a href="index2.html">Home 2 offers</a></li>
+								  <li><a href="index3.html">Home 3 full search</a></li>
+								  <li><a href="index4.html">Home 4 presentation</a></li>
+								  <li><a href="index5.html">Home 5 footer2</a></li>
+								  <li><a href="index6.html">Home 6 full</a></li>
+								  <li><a href="index7.html">Home 7 </a></li>
+								  <li><a href="z-new-homepage.html">New Homepage</a> <span class="green">new</span></li>									  
+								</ul>
+								
+							</div>
+					  </li>
+					</ul>
+                    </li>-->
+			
 
 				</ul>
 
@@ -193,56 +233,183 @@
 		- THEMEPUNCH BANNER -
 	#################################
 	-->
-	<div class="availabilityTop mt25 padding30">
-		<div class="container">
-		<div class="col-md-12"><h3 class="white">NORTH PINES CAMPGROUND</h3></div>
-		<div id="carouselTop" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-		  </ol>
-		
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner carousel-avail">
-		    <div class="item active">
-		     <img src="images/camping/camping-slider1.jpg" alt=""/>
-		     <div class="carousel-caption">
-	       	   <p>Caption line 1</p>
-		     </div>
-		    </div>
-            
-		     <div class="item">
-		     <img src="images/camping/camping-slider2.jpg" alt=""/>
-		     <div class="carousel-caption">
-		       	<p>Caption line 1</p>
-		     </div>
-		     </div>
+	<div id="dajy" class="fullscreen-container mtslide sliderbg fixed">
+			<div class="fullscreenbanner">
+				<ul>
 
-		     <div class="item">
-		     <img src="images/camping/camping-slider3.jpg" alt=""/>
-		     <div class="carousel-caption">
-		       	<p>Caption line 1</p>
-		     </div>
-		     </div>
+					<!-- papercut fade turnoff flyin slideright slideleft slideup slidedown-->
+				
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
+						<img src="images/slider/zakynthos.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo"  >
+							 <div class="sboxpurple textcenter">
+								<span class="lato size28 slim caps white">Momentum River Expeditions</span><br/><br/><br/>
+								<span class="lato size100 slim caps white">Oregon</span><br/>
+								<span class="lato size20 normal caps white">from</span><br/><br/>
+								<span class="lato size48 slim uppercase yellow">$1500</span><br/>
+							 </div>
+						</div>	
+					</li>
+				
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
+						<img src="images/slider/santorini.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo"  >
+							 <div class="sboxpurple textcenter">
+								<span class="lato size28 slim caps white">Hike the plains</span><br/><br/><br/>
+								<span class="lato size100 slim caps white">UTAH</span><br/>
+								<span class="lato size20 normal caps white">from</span><br/><br/>
+								<span class="lato size48 slim uppercase yellow">June 29 - Sept 18</span><br/>
+							 </div>
+						</div>	
+					</li>
 
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
+						<img src="images/slider/rome.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo"  >
+							 <div class="sboxpurple textcenter">
+								<span class="lato size28 slim caps white">Finding Old Faithful</span><br/><br/><br/>
+								<span class="lato size100 slim caps white">Yellowstone</span><br/>
+								<span class="lato size20 normal caps white">guided adventures</span><br/><br/>
+								<span class="lato size48 slim uppercase yellow">all year round</span><br/>
+							 </div>
+						</div>	
+					</li>	
 
-		    </div>
-	       </div>
-           
-		
-		  <!-- Controls -->
-		  <a class="left carousel-control" href="#carouselTop" data-slide="prev">
-		    <span class="glyphicon glyphicon-chevron-left"></span>
-		  </a>
-		  <a class="right carousel-control" href="#carouselTop" data-slide="next">
-		    <span class="glyphicon glyphicon-chevron-right"></span>
-		  </a>
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
+						
+						<img src="images/slider/paris.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo"  >
+							 <div class="sboxpurple textcenter">
+								<span class="lato size28 slim caps white">Arch Rock</span><br/><br/><br/>
+								<span class="lato size100 slim caps white">Nevada</span><br/>
+								<span class="lato size20 normal caps white">connect</span><br/><br/>
+								<span class="lato size48 slim uppercase yellow">all year round</span><br/>
+							 </div>
+						</div>	
+					</li>	
+					<!-- FADE -->
+					<li data-transition="fade" data-slotamount="1" data-masterspeed="300"> 										
+						
+						<img src="images/slider/rocks.jpg" alt=""/>
+						<div class="tp-caption scrolleffect sft"
+							 data-x="center"
+							 data-y="120"
+							 data-speed="1000"
+							 data-start="800"
+							 data-easing="easeOutExpo"  >
+							 <div class="sboxpurple textcenter">
+								<span class="lato size28 slim caps white">Climb</span><br/><br/><br/>
+								<span class="lato size100 slim caps white">Yosemite National Park</span><br/>
+								<span class="lato size20 normal caps white">Group Booking</span><br/><br/>
+								<span class="lato size48 slim uppercase yellow">Free with your season pass</span><br/>
+							 </div>
+						</div>	
+					</li>	
+				</ul>
+				<div class="tp-bannertimer none"></div>
+			</div>
 		</div>
-		<div class="container dropdownsAvail">		
-			<div class="row">
-			  	<div class="col-md-3">
+
+		<!--
+		##############################
+		 - ACTIVATE THE BANNER HERE -
+		##############################
+		-->
+		<script type="text/javascript">
+
+			var tpj=jQuery;
+			tpj.noConflict();
+
+			tpj(document).ready(function() {
+
+			if (tpj.fn.cssOriginal!=undefined)
+				tpj.fn.css = tpj.fn.cssOriginal;
+
+				tpj('.fullscreenbanner').revolution(
+					{
+						delay:9000,
+						startwidth:1170,
+						startheight:600,
+
+						onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+
+						thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+						thumbHeight:50,
+						thumbAmount:3,
+
+						hideThumbs:0,
+						navigationType:"bullet",				// bullet, thumb, none
+						navigationArrows:"solo",				// nexttobullets, solo (old name verticalcentered), none
+
+						navigationStyle:false,				// round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+
+						navigationHAlign:"left",				// Vertical Align top,center,bottom
+						navigationVAlign:"bottom",					// Horizontal Align left,center,right
+						navigationHOffset:30,
+						navigationVOffset:30,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+
+						touchenabled:"on",						// Enable Swipe Function : on/off
+
+
+						stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+						stopAfterLoops:-1,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+
+						hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+						hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
+						hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+
+						fullWidth:"on",							// Same time only Enable FullScreen of FullWidth !!
+						fullScreen:"off",						// Same time only Enable FullScreen of FullWidth !!
+
+
+						shadow:0								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+
+					});
+
+
+		});
+		</script> 
+		
+	<!-- / WRAP -->
+	<div class="wrap bgfix cstyle03">	
+		<div class="container dropdowns z-index100">		
+			<div class="col-md-3">
 			  		<div class="ctitle">What?</div>
 			  		<div class="row">
 			  			<div class="col-md-4">
@@ -303,10 +470,14 @@
 			  		<div class="ctitle"> </div>	
 			  		<button class="ctitle yellow-btn sr-only btn homeBtn">Show Availability<span class="glyphicon glyphicon-chevron-right"></span></button>	
 			  	</div>
+		</div>
+		
+		 
+		<div class="lastminute lcfix green">
+			<div class="container lmc">	
+
 			</div>
 		</div>
-		</div><!-- end availabilityTop-->
-		
 		<div class="container">
 		<div class="row clearContent">
         <div class="col-md-12 ">
@@ -322,129 +493,62 @@
                 </ul>
             </div>
 
+            <!-- START OF CONTENT AREA -->
             <div class="col-md-9">
                 <!-- Tab panes -->
                 <div class="tab-content">
                   <div class="tab-pane active" id="home">
-                  		<div id="summary">
-						<p class="hpadding20">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor aliquam felis, sit amet tempus nibh ullamcorper nec. Maecenas suscipit dolor at blandit congue. Sed adipiscing, odio feugiat pellentesque tincidunt, est leo vestibulum erat, ac pharetra massa justo ac lorem. 
-						</p>
-						<div class="line4"></div>
-						
-						<!-- Collapse 1 -->	
-						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse1">
-						  Malaga <span class="collapsearrow"></span>
-						</button>
-						
-						<div id="collapse1" class="collapse in">
-							<div class="hpadding20">
-								Situated near the sea, this hotel is close to Centre de Arte Contemporaneo, Malaga Cathedral, and Malaga Amphitheatre. Also nearby are Alcazaba and Picasso's Birthplace.
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<!-- End of collapse 1 -->	
-						
-						<div class="line4"></div>						
-						
-						<!-- Collapse 2 -->	
-						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse2">
-						  2 restaurants, a bar/lounge <span class="collapsearrow"></span>
-						</button>
-						
-						<div id="collapse2" class="collapse in">
-							<div class="hpadding20">
-								Situated near the sea, this hotel is close to Centre de Arte Contemporaneo, Malaga Cathedral, and Malaga Amphitheatre. Also nearby are Alcazaba and Picasso's Birthplace.
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<!-- End of collapse 2 -->	
-						
-						<div class="line4"></div>						
-						
-						<!-- Collapse 3 -->	
-						<button type="button" class="collapsebtn2 collapsed" data-toggle="collapse" data-target="#collapse3">
-						  Complimentary Wi-Fi <span class="collapsearrow"></span>
-						</button>
-						
-						<div id="collapse3" class="collapse">
-							<div class="hpadding20">
-								Yes
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<!-- End of collapse 3 -->	
-						
-						<div class="line4"></div>							
-						
-						<!-- Collapse 4 -->	
-						<button type="button" class="collapsebtn2 collapsed" data-toggle="collapse" data-target="#collapse4">
-						  Internet <span class="collapsearrow"></span>
-						</button>
-						
-						<div id="collapse4" class="collapse">
-							<div class="hpadding20">
-								Yes
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<!-- End of collapse 4 -->		
+                  		<div id="summary" class="row">
+                          <div class="col-md-12">
+                            <div class="col-md-8">
+						<h3 class="bold">Details</h3>
+						<p>North Pine Campground is located in breathtaking Yosemite National Park in Central California's rugged Sierra Nevada Mountain Range at an elevation of 8,600 feet.</p>
+ 
+<p>The site is situated along the scenic Tioga Road just five miles from the Tioga Pass Entrance Station. Within Yosemite, visitors can gaze upon waterfalls, sheer granite cliffs, deep valleys, grand meadows, ancient giant sequoias, vast wilderness areas, and so much more.</p>
 
-						<div class="line4"></div>								
+<h3 class="bold">Booking Window</h3>
+						<p class="size16">Oct 24 2013 - Mar 14 2014</p>
+ 
+<p>Reservations must be made 1 day(s) ahead of arrival and can be made up to 5 month(s) in advance.</p>
 
-						<!-- Collapse 5 -->	
-						<button type="button" class="collapsebtn2 collapsed" data-toggle="collapse" data-target="#collapse5">
-						  Parking <span class="collapsearrow"></span>
-						</button>
-						
-						<div id="collapse5" class="collapse">
-							<div class="hpadding20">
-								Yes
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<!-- End of collapse 5 -->				
-
-						<div class="line4"></div>								
-
-						<!-- Collapse 6 -->	
-						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse6">
-						  Room Amenities <span class="collapsearrow"></span>
-						</button>
-						
-						<div id="collapse6" class="collapse in">
-							<div class="hpadding20">
-								<div class="col-md-4">
-									<ul class="checklist">
-										<li>Climate control</li>
-										<li>Air conditioning</li>
-										<li>Direct-dial phone</li>
-										<li>Minibar</li>
-									</ul>
-								</div>
-								<div class="col-md-4">
-									<ul class="checklist">
-										<li>Wake-up calls</li>
-										<li>Daily housekeeping</li>
-										<li>Private bathroom</li>
-										<li>Hair dryer</li>	
-									</ul>									
-								</div>	
-								<div class="col-md-4">
-									<ul class="checklist">								
-										<li>Makeup/shaving mirror</li>
-										<li>Shower/tub combination</li>
-										<li>Satellite TV service</li>
-										<li>Electronic/magnetic keys</li>	
-									</ul>									
-								</div>									
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<!-- End of collapse 6 -->								
+<h3 class="bold">Fees & Cancelation</h3>
+						<p class="size14 bold">Site Type</p>
+                      <p>Tents $20.00<br/>
+                      RV $50.00<br/>
+                      Cabin $70.00 - 90.00
+                      </p>  
+ 
+<h3 class="bold size12">Changes and Cancellations</h3>
+<p>A $10.00 service fee will apply if you change or cancel your reservation. Late cancellations are subject to additional fees.</p>
+					
+                     </div>
+                     
+                     <div class="col-md-4 table-bordered">
+						<h4 class="bold">Season Dates</h4>
+                      <hr>
+						<p>Apr 03, 2014 - Nov 03, 2014</p>
+ 
+						<p class="bold"><span class="glyphicon glyphicon-ok"></span> &nbsp;We are open now!</p>
+                      <h4 class="bold">Contact</h4>
+                      <p>North Pines, Street, Adress<br/>
+                         Phone: 703.123.4567</p>
+                      <p>online now</p>
+                      <hr>
+                      <h4 class="bold">Map:</h4>
+                      <img src="images/thumbs/campground_map.jpg" alt="Campground Map"/>
+                      <br/>
+                      
+                      <h4 class="bold margtop20">Additional Links</h4>
+                      <p><a href="#">California Road Conditions</a>&nbsp;<span class="glyphicon glyphicon-log-in"></span></p>
+                      <p><a href="#">National Weather Service</a>&nbsp;<span class="glyphicon glyphicon-log-in"></span></p>
+                      <p><a href="#">California State Tourism</a>&nbsp;<span class="glyphicon glyphicon-log-in"></span></p>
+                     </div>
+                     </div>
 				
 					</div>
                   </div>
+                  
+                  <!-- START OF TAB TWO CONTENT -->
                   <div class="tab-pane" id="profile">
                   	<div id="roomrates" class="tab-pane fade active in">
 					    <div class="hpadding20">
@@ -1219,13 +1323,15 @@
 
 
      <div class="clearfix"></div>
-     <div class="marginTop ">
- 
-
 
 		
+
+	
+
+		
+		
 		<!-- FOOTER -->
-		<div class="footerbg lcfix">
+		<div class="footerbg lcfix marginTop">
 			<div class="container">		
 				
 				<div class="col-md-3">
@@ -1291,12 +1397,7 @@
 				
 				
 			</div>	
-		</div><!--end footer-->
-
-
-
-
-
+		</div>
 		
 		<div class="footerbg2">
 			<div class="container center grey"> 
@@ -1314,16 +1415,16 @@
 
 		
 		
+	</div>
+	<!-- / WRAP -->
+	
 	
 	
 	
     <!-- Javascript -->
 	
     <!-- This page JS -->
-    	<script src="assets/js/js-details.js"></script>
 	<script src="assets/js/js-index3.js"></script>	
-
-
 	
     <!-- Custom functions -->
     <script src="assets/js/functions.js"></script>
@@ -1346,17 +1447,11 @@
 	<script type="text/javascript" src="assets/js/helper-plugins/jquery.mousewheel.min.js"></script>
 	<script type="text/javascript" src="assets/js/helper-plugins/jquery.transit.min.js"></script>
 	<script type="text/javascript" src="assets/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
-	    <!-- Counter -->	
-    <script src="assets/js/counter.js"></script>	
-	
-	    <!-- Carousel-->	
-    <script src="assets/js/initialize-carousel-detailspage.js"></script>	
-
 	
     <!-- Custom Select -->
-	<script type='text/javascript' src='assets/js/jquery.customSelect.js'></script>	
-			<!--Map-->
-	<script src="assets/js/initialize-google-map-contact.js"></script>
+	<script type='text/javascript' src='assets/js/jquery.customSelect.js'></script>
+				<!--Map-->
+	<script src="assets/js/initialize-google-map-contact.js"></script>	
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="dist/js/bootstrap.min.js"></script>
