@@ -2886,7 +2886,7 @@ padding-top:3px;
 }
 .masonry.home{
 	margin-top:15px;
-	background: url(../../images/barsRandom/Mountaindrop-green.jpg) no-repeat #fff 0 -150px !important;
+	background: url(../../images/barsRandom/Mountaindrop-green.jpg) repeat #fff 0 -150px !important;
 	background-size:cover;
 }
 .homeTitle{
@@ -2970,6 +2970,18 @@ a > span.search-icn{
 	background: url(../../images/barsRandom/Mountaindrop.jpg) #fff 0 -150px no-repeat !important;
 	background-size: cover!important;
 
+}
+
+.msbox.blueMountainBg{
+	background: url(../../images/barsRandom/Mountaindrop.jpg) #fff 0 -150px no-repeat !important;
+	color:#FFFFFF;
+
+
+}
+
+.padding15{
+	padding:10px 5px 0 5px;
+	font-size:1em;
 }
 
 .blueMountainBg-Park{
