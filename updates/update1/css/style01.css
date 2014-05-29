@@ -884,6 +884,11 @@ margin-top:-48px;
 height:100%!important;
 }
 
+#dajy_short{
+height:450px!important;
+margin-top:-48px;
+}
+
 /*if you change the margin-top you must change it also in js-new-homepage.js*/
 .cst03{background:#fff; margin-top:900px; position:relative;  z-index:100; display:block;}
 
