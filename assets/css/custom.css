@@ -2343,7 +2343,8 @@ margin-top:22px;
 /* Styles */
 .cstyle01{display: inline-block; width: 100%;  font-size:13px}
 .cstyle02{position:absolute; background:#f7f7f7; width:100%; margin-left:-20px; padding:20px;}
-.cstyle03{background:#fff; margin-top:490px; position:relative; z-index:100; display:block;}
+.cstyle03{background:#fff; margin-top:800px; position:relative; z-index:100; display:block;}
+.cstyle03-a{background:#fff; margin-top:490px; position:relative; z-index:100; display:block;}
 .cstyle04{position:relative; top:-41px;
 	background-color: #ffffff;
 }
