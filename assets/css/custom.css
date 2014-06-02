@@ -2981,7 +2981,7 @@ a > span.search-icn{
 
 }
 
-.msbox.blueMountainBg{
+.msbox.blueMountainBg,  .bookfilters{
 	background: url(../../images/barsRandom/Mountaindrop.jpg) #fff 0 -150px no-repeat !important;
 	color:#FFFFFF;
 
