@@ -3016,6 +3016,11 @@ a > span.search-icn{
 	background-size: cover!important;
 
 }
+
+.whiteMountainBg{
+	background:url(../../images/barsRandom/whiteMountaindrop.jpg) #FFF 0 0px repeat;
+		background-size: cover!important;
+}
 .greenMountainBg{
 	background: url(../../images/barsRandom/Mountaindrop-green.jpg) #fff 0 -150px no-repeat !important;
 	background-size: cover!important;
