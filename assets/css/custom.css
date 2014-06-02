@@ -2906,6 +2906,8 @@ padding-top:3px;
 	background:#fdcd62;
 	color:#15262f;
 	border-radius:0px;
+	border: 1px solid #A7940D;
+
 }
 
 .grey-btn{
@@ -3885,10 +3887,10 @@ div.checklist {
 .trip-activity {
   margin: 5% 0;
   position: relative;
-  height: 330px;
+  height: 380px;
   background: #ffffff;
   padding: 30px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #31660E;
   padding: 0;
 }
 /* line 186, ../../sass/_park-landing.scss */
