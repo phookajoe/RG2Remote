@@ -8,6 +8,7 @@
     <!-- Bootstrap -->
     <link href="dist/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="assets/css/custom.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.modaldrawer.css">
 	
     <!-- Updates -->
     <link href="updates/update1/css/style01.css" rel="stylesheet" media="screen">
@@ -32,20 +33,6 @@
 	
     <!-- jQuery -->	
     <script src="assets/js/jquery.v2.0.3.js"></script>
-    
-    <style>.flyout{
-position:absolute;
-width:1000px;
-height:450px;
-background:#fff;
-overflow: hidden;
-z-index:10000;
-}
-.hidden{
-display:none;
-}
-</style>
-
 	
   </head>
   <body id="top">
@@ -316,31 +303,13 @@ The permit is valid for a year.</p>
 								<td colspan="4"></td>
 								<td>
                             <!-- Button trigger modal -->
-                            <button class="grey-btn btn" data-toggle="modal" data-target="#mytrips">ADD TRIPS</button>
+                            <a data-toggle="modal" href="#mytrips" class="grey-btn btn">ADD TRIPS</a>
                             </td>
 								<td attr="button"><button class="yellow-btn btn">CHECKOUT</button></td>
 							</tr>
 						</tbody>
 					</table>
 
-<!-- MODAL -->
-<div class="modal fade" id="mytrips" tabindex="-1" role="dialog" aria-labelledby="mytripsLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="mytripsLabel">My Trips</h4>
-      </div>
-      <div class="modal-body">
-       <img src="images/booking/hunting.png"/>
-       <img src="images/booking/backpacking2.png"/>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>    <!-- END OF MODAL -->
  
 				</div>
            </div>
@@ -352,6 +321,27 @@ The permit is valid for a year.</p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
+                
+                <!-- MODAL -->
+<div class="modal" id="mytrips">
+	<div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title bold">My Trips</h4>
+        </div><div class="container"></div>
+        <div class="modal-body center">
+          <img src="images/booking/hunting.png" width="240" height="150" alt=""/>
+          <img src="images/booking/backpacking2.png" width="240" height="150" alt=""/>
+          <button type="button" class="grey-btn btn margtop25">ADD TRIP</button>
+        </div>
+        <div class="modal-footer">
+          <a href="#" data-dismiss="modal" class="btn">Close</a>
+        </div>
+      </div>
+    </div>
+</div>
+    <!-- END OF MODAL -->
                 
 				
 
@@ -691,17 +681,7 @@ The permit is valid for a year.</p>
 			<a href="#top" class="gotop scroll"><img src="images/spacer.png" alt=""/></a>
 			</div>
 		</div>
-	
-	
-	
 
-	
-    <!--  JEFF JAVASCRIPT FOR SLIDEOUT -->
-    <script>
-		$('#openBtn').click(function(){
-	$('#mytrips').modal({show:true})
-});
-	</script>
 
 <!-- This page JS -->
 	<script src="assets/js/js-index.js"></script>	
@@ -733,5 +713,11 @@ The permit is valid for a year.</p>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="dist/js/bootstrap.min.js"></script>
+    
+        <!--  JEFF JAVASCRIPT FOR DRAWER -->
+    <script>$('#openBtn').click(function(){
+	$('#mytrips').modal({show:true})
+});
+	</script>
   </body>
 </html>
