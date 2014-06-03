@@ -32,6 +32,19 @@
 	
     <!-- jQuery -->	
     <script src="assets/js/jquery.v2.0.3.js"></script>
+    
+    <style>.flyout{
+position:absolute;
+width:1000px;
+height:450px;
+background:#fff;
+overflow: hidden;
+z-index:10000;
+}
+.hidden{
+display:none;
+}
+</style>
 
 	
   </head>
@@ -301,11 +314,33 @@ The permit is valid for a year.</p>
 
 							<tr>
 								<td colspan="4"></td>
-								<td attr="button"><button class="grey-btn btn">ADD TO TRIP</button></td>
+								<td>
+                            <!-- Button trigger modal -->
+                            <button class="grey-btn btn" data-toggle="modal" data-target="#mytrips">ADD TRIPS</button>
+                            </td>
 								<td attr="button"><button class="yellow-btn btn">CHECKOUT</button></td>
 							</tr>
 						</tbody>
 					</table>
+
+<!-- MODAL -->
+<div class="modal fade" id="mytrips" tabindex="-1" role="dialog" aria-labelledby="mytripsLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="mytripsLabel">My Trips</h4>
+      </div>
+      <div class="modal-body">
+       <img src="images/booking/hunting.png"/>
+       <img src="images/booking/backpacking2.png"/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>    <!-- END OF MODAL -->
  
 				</div>
            </div>
@@ -661,7 +696,14 @@ The permit is valid for a year.</p>
 	
 
 	
-    <!-- This page JS -->
+    <!--  JEFF JAVASCRIPT FOR SLIDEOUT -->
+    <script>
+		$('#openBtn').click(function(){
+	$('#mytrips').modal({show:true})
+});
+	</script>
+
+<!-- This page JS -->
 	<script src="assets/js/js-index.js"></script>	
 	
 	<!-- Googlemap -->	
