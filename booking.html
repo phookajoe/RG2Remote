@@ -208,28 +208,19 @@
 				</div>
 				<div class="line3"></div>
 				
-				<div class="hpadding50c">
-					
-					<table class="table">
-						<thead>
-							<th><span class="size18">North Pine Campsite</span><br/>Yosemite National Park</th>
-							<th><span class="size18">Tent</span></th>
-							<th>July 16-18, 2014</th>
-							<th>2 persons</th>
-							<th>2 nights</th>
-							<th>$70.00</th>
-						</thead>
-						<tr>
-							<td colspan="2"></td>
-                         <td>Tent only<br/>Nonelectronic</td>
-							<td>$35.00/night</td>
-                         <td colspan="2">&nbsp;</td>
-						</tr>
-					</table>
-
-				</div>
-
-				<div class="line4-booking mB3"></div>
+				<div class="wh100percent padding15">
+                        <div class="wh20percent left size14 dark"><span class="size20">North Pine Campsite</span><br />Yosemite National Park</div>
+						<div class="wh20percent left center size18 bold dark">Tent</div>
+						<div class="wh20percent left center size14 dark">July 16-18, 2014</div>
+                        <div class="wh10percent left center size14 dark">2 Persons</div>
+                        <div class="wh10percent left center size14 dark">2 Nights</div>
+                        <div class="wh10percent left center size14 bold dark">$70.00</div>
+                        <div class="wh10percent right"><button class="btn btn-default btn-sm" type="button">
+						<span class="glyphicon glyphicon-pencil"></span></button>&nbsp;<button class="btn btn-default btn-sm" type="button">
+						<span class="glyphicon glyphicon-remove"></span></button></div>
+						<div class="clearfix"></div>
+                        
+				<div class="line4-booking mB3 margtop15"></div>
 				<div class="clearfix"></div>
                 
 				<!-- FIRST CONTENT AREA -->
@@ -261,7 +252,7 @@ The permit is valid for a year.</p>
 					         			<div class="listItemBooking"><img src="images/booking/acrylic.png" width="247" height="150" alt=""/></div>
 					         			<h3 class="textleft margleft15">Acrylic Course</h3>
 					         			<p class="trip pB5">Capture your memories in the painting class</p>
-					         			<button class="yellow-btn btn">ADD TO TRIP</button>
+					         			<a data-toggle="modal" href="#myModal" class="yellow-btn btn">ADD TO TRIP</a>
 					         		</div>
 								</div>
 							</div>
@@ -286,7 +277,7 @@ The permit is valid for a year.</p>
 				<div class="col-md-8">&nbsp;</div>
 				<div class="col-md-4">
                 <div class="hpadding50c">
-					<table class="table">
+					<table class="table" style="color:#000;">
 						<tr attr="priceRow">
 							<td colspan="4"></td>
 							<td class="textleft totalTitle">2 nights<br/>Tax(10%)</td>
@@ -303,7 +294,7 @@ The permit is valid for a year.</p>
 								<td colspan="4"></td>
 								<td>
                             <!-- Button trigger modal -->
-                            <a data-toggle="modal" href="#mytrips" class="grey-btn btn">ADD TRIPS</a>
+                            <a data-toggle="modal" href="#myModal" class="grey-btn btn">ADD TO TRIP</a>
                             </td>
 								<td attr="button"><button class="yellow-btn btn">CHECKOUT</button></td>
 							</tr>
@@ -320,23 +311,65 @@ The permit is valid for a year.</p>
             
 					</div>
 				</div>
+             </div>
 				<div class="clearfix"></div>
                 
                 <!-- MODAL -->
-<div class="modal" id="mytrips">
+<div class="modal" id="myModal">
 	<div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-          <h4 class="modal-title bold">My Trips</h4>
-        </div><div class="container"></div>
+          <h4 class="modal-title bold">My Trips</h4></div>
+          <div class="container">&nbsp;</div>
         <div class="modal-body center">
-          <img src="images/booking/hunting.png" width="240" height="150" alt=""/>
-          <img src="images/booking/backpacking2.png" width="240" height="150" alt=""/>
-          <button type="button" class="grey-btn btn margtop25">ADD TRIP</button>
+        <div class="col-md-12">
+          <!-- COLUMN ONE AREA -->
+              <div class="col-md-4">
+							<div class=" center">
+								<div class="bs-container">
+									<div class="trip-activity" style="height:250px;">
+					         			<div class="trip-thumb">
+					         			</div>
+					         			<div class="listItemBooking"><img src="images/booking/half-dome247x150.png" width="247" height="150" alt=""/></div>
+					         			<h3 class="textleft margleft15">Roadtrip Califiornia</h3>
+					         		</div>
+								</div>
+							</div>
+						</div>
+           <!-- END OF FIRST COLUMN AREA -->
+          <!-- COLUMN TWO AREA -->
+           <div class="col-md-4">
+							<div class=" center">
+								<div class="bs-container">
+									<div class="trip-activity" style="height:250px;">
+					         			<div class="trip-thumb">
+					         			</div>
+					         			<div class="listItemBooking"><img src="images/booking/backpacking2.png" width="247" height="150" alt=""/></div>
+					         			<h3 class="textleft margleft15">Camping Zion National Park</h3>
+					         		</div>
+								</div>
+							</div>
+						</div>
+           <!-- END OF SECOND COLUMN AREA -->
+           
+           <!-- COLUMN THREE AREA -->
+           <div class="col-md-4">
+							<div class=" center">
+								<div class="bs-container">
+									<div class="trip-activity" style="height:250px; background-color:#666;">
+					         			<button type="button" class="btn btn-default btn-lg margtop40">
+  <span class="glyphicon glyphicon-plus"></span> ADD TRIP
+</button>
+					         		</div>
+								</div>
+							</div>
+						</div>
+           <!-- END OF THIRD COLUMN AREA -->
         </div>
         <div class="modal-footer">
-          <a href="#" data-dismiss="modal" class="btn">Close</a>
+          &nbsp;
+        </div>
         </div>
       </div>
     </div>
@@ -716,7 +749,7 @@ The permit is valid for a year.</p>
     
         <!--  JEFF JAVASCRIPT FOR DRAWER -->
     <script>$('#openBtn').click(function(){
-	$('#mytrips').modal({show:true})
+	$('#myModal').modal({show:true})
 });
 	</script>
   </body>

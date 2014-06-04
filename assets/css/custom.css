@@ -3089,6 +3089,18 @@ a > span.search-icn{
 }
 
 /*###############################
+	 	Jeff Modal Additions
+#################################*/
+#myModal .modal-content {
+	max-height: 800px;
+	width:900px;
+}
+#myModal {
+	margin: -300px 0 0 -280px; /* PLAY THE WITH THE VALUES TO SEE GET THE DESIRED EFFECT */
+}
+
+
+/*###############################
 	 	Mars Addition
 #################################*/
 
