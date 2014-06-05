@@ -223,7 +223,7 @@
 		<div class="container mt25 offset-0">
         <div class="col-md-12 ">
 				<div class="pagecontainer2 hpadding30">
-					<div class="padding20 ">
+					<div class="margtop15">
 						<p class="lato size30 slim green2">Checkout</p>
  					</div>
 					<div class="line3"></div>
@@ -249,8 +249,8 @@
 					  <div class="wh20percent left size14 dark">Tent only,<br />non-electric</div>
 						<div class="wh20percent left size14 dark">$35.00/night</div>
                       <div class="wh40percent margbottom20">&nbsp;</div>
-                        <div class="clearfix"></div><br />
-                        <div class="fline2px mt8"></div><br />
+                        <div class="clearfix"></div>
+                        <div class="fline2px mt8 margbtm10"></div>
                      </div>
                     <!--END OF FIRST ROW-->
                     
@@ -271,8 +271,8 @@
                       <div class="wh20percent left size18 dark">&nbsp;</div>
 					  <div class="wh20percent left size14 dark">Standard room,<br />2 persons</div>
 						<div class="wh20percent left size14 dark">$80.00/night</div>
-                      <div class="wh40percent margbtm10">&nbsp;</div>                     <div class="clearfix"></div><br />
-                        <div class="fline2px mt8"></div><br />
+                      <div class="wh40percent margbtm10">&nbsp;</div>                     								          					<div class="clearfix"></div>
+                        <div class="fline2px mt8 margbtm10"></div>
                     <!--END OF 2nd ROW -->
                     
                     <!-- THIRD ROW-->
@@ -295,8 +295,8 @@
 					  <div class="wh20percent left size14 dark">Tent only,<br />non-electric</div>
 						<div class="wh20percent left size14 dark">$35.00/night</div>
                       <div class="wh40percent margbottom20">&nbsp;</div>
-                        <div class="clearfix"></div><br />
-                        <div class="fline2px mt8"></div><br />
+                        <div class="clearfix"></div>
+                        <div class="fline2px mt8 margbtm10"></div>
                      </div>
                     <!--END OF THIRD ROW-->
                     
@@ -321,27 +321,27 @@
                         <div class="wh40percent fline2px margtop15"></div>
                     <!--END OF FOURTH ROW-->
                     
-                   <!-- TOTALS ROW-->
-                        <div class="wh30percent container" style="float:right !important;">
-                        <div class="hpadding3c">
-					<table class="table" style="color:#000;">
+                    <!-- TOTALS ROW-->
+					<div class="wh35percent margright20" style="float:right;">
+                    <table class="table" style="color:#000;">
 						<tr attr="priceRow">
 							<td colspan="4"></td>
 							<td class="textleft totalTitle">3 nights<br/>Tax(10%)</td>
-							<td class="textright totalPrice">$220.00<br/>$22.00</td>
+							<td class="textright totalPrice">$308.00<br/>$30.80</td>
 						</tr>
 						<tbody>
 							<tr attr="costRow">
 								<td colspan="4"></td>
 								<td attr="totalAmount" class="size18 bold">Total</td>
-								<td class="size18 totalCost textright bold">$242.00</td>
+								<td class="size18 totalCost textright bold">$338.80</td>
 							</tr>
 						</tbody>
-					</table>
-                 </div>
-				</div>
+					  </table>
+                  </div>
+                   <div class="clearfix"></div>	
                     <!--END OF TOTALS ROW-->
 
+                    
 					</div>
 				  </div>
 				</div>
@@ -356,7 +356,7 @@
 				<div class="padding30 grey blueMountainBg-checkout">
 				
 				
-					<span class="opensans size18 white bold">Personal Info or <a href="#">Login</a></span>
+					<span class="opensans size18 white bold">Personal Info or <a href="#" class="yellow">Login</a></span>
 					<div class="clearfix"></div>
 					<div class="line4"></div>
 					
@@ -430,26 +430,36 @@
 	<div class="padding30 grey greenMountainBg">
 				
 				
-				  <span class="opensans size18 dark bold">Payment Information</span>
+				  <span class="opensans size18 white bold">Payment Information</span>
 					<div class="clearfix"></div>
-	  <div class="line4"></div>
+	  					<div class="line4"></div>
 					
 					<!-- ROW -->
-				<div class="row">
-                <div class="col-md-12">
-							<span class="size13 dark">Payment Type</span>  </div><br />
-			</div><!--end row-->
-        <div class="col-md-2"><div class="fblueline size12">Visa</div><span class="radio center radiomargin0"> <label>
-										<input type="radio" checked="" value="option1" id="optionsRadios1" name="paymentVISA">
-									  </label></span></div><div class="col-md-2">
-									    <div class="fblueline size12">Master</div>
-									    <span class="radio center radiomargin0"> <label>
-										<input type="radio" checked="" value="option1" id="optionsRadios1" name="paymentVISA">
-									  </label></span></div><div class="col-md-2">
-									    <div class="fblueline size12">PayPal</div>
-									    <span class="radio center radiomargin0"> <label>
-										<input type="radio" checked="" value="option1" id="optionsRadios1" name="paymentVISA">
-									  </label></span></div>
+                   <div class="col-md-12">
+					   <p><span class="size13 white">Payment Type</span></p>
+                   </div>
+                  <div class="row" style="margin-bottom:20px;">
+                   <div class="col-md-9">
+               <!-- RADIO BUTTONS -->
+               <div class="col-md-3">
+               <div class="fblueline size12">Visa</div>
+               <span class="radio center radiomargin0">
+               <label> <input type="radio" checked="" value="option1" id="visa" name="paymentVISA"></label></span></div>
+               
+               <div class="col-md-3">
+				 <div class="fblueline size12">Master</div>
+				  <span class="radio center radiomargin0"><label>
+				<input type="radio" checked="" value="option1" id="optionsRadios1" name="paymentVISA">
+				</label></span></div>
+                
+                <div class="col-md-3">
+				  <div class="fblueline size12">PayPal</div>
+				  <span class="radio center radiomargin0"> <label>
+				   <input type="radio" checked="" value="option1" id="optionsRadios1" name="paymentVISA">
+				</label></span></div>
+               <!-- END OF RADIO BUTTONS -->
+               </div>
+              </div>
             <div class="clearfix"></div>
 
 					<!-- Tab panes -->
@@ -460,25 +470,25 @@
 					<div class="row">
 
 					  <div class="col-md-12">
-							<span class="size13 dark">Cardholder's Name</span>
+							<span class="size13 white">Cardholder's Name</span>
 							<input type="text" class="form-control " placeholder="">
 					  </div><br />
                       					<div class="col-md-12">
-					  <span class="size13 dark">Credit Card Number</span>
+					  <span class="size13 white">Credit Card Number</span>
 					  <input type="text" class="form-control " placeholder="">
    					  </div><br />
 
                        <div class="col-md-3">
-							<span class="size13 dark">Expiration Date</span>
+							<span class="size13 white">Expiration Date</span>
 							<input type="text" class="form-control " placeholder="">
 					  </div>
                        <div class="col-md-3">
-							<span class="size13 dark">&nbsp;</span>
+							<span class="size13 white">&nbsp;</span>
 							<input type="text" class="form-control " placeholder="">
 					  </div><br />
                       <div class="clearfix"></div><br />
                                       <div class="col-md-3">
-							<span class="size13 dark">CSC</span>
+							<span class="size13 white">CSC</span>
 							<input type="text" class="form-control " placeholder="">
 					  </div>
                       
