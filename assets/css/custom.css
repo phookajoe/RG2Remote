@@ -3018,7 +3018,7 @@ a > span.search-icn{
 }
 
 .whiteMountainBg{
-	background:url(../../images/barsRandom/indexBg.png) #FFF 0 0px repeat;
+	background:url(../../images/barsRandom/indexBg.png) #FFF -160px 0px repeat;
 		background-size: cover!important;
 }
 .greenMountainBg{

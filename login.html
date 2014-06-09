@@ -36,7 +36,7 @@
 	
 
   </head>
-  <body>
+  <body class="modal-open">
 
 	<!-- Top wrapper -->			  
 	<div class="navbar-wrapper2 navbar-fixed-top">
@@ -198,6 +198,30 @@
         </div>
     </div>
 	<!-- /Top wrapper -->	
+
+
+
+
+
+
+
+<!-- Button to trigger modal -->
+<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+ 
+<!-- Modal -->
+<div id="myModal" class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn">Close</a>
+    <a href="#" class="btn btn-primary">Save changes</a>
+  </div>
+</div>
 	<!-- 100% Width & Height container  -->
 	<div class="login-fullwidith whiteMountainBg">
 		
@@ -333,7 +357,7 @@
 		$('.login-wrap').animo( { animation: 'tada' } );
 	}
 	</script>
-	
+
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="dist/js/bootstrap.min.js"></script>
   </body>
